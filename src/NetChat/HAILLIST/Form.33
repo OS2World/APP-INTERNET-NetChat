@@ -1,0 +1,4 @@
+/* Code sections - Window structure members */
+
+INT mode;
+HWND hwnd;

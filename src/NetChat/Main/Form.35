@@ -1,0 +1,231 @@
+/* Code sections - Application initialization */
+
+argcnt = argc;
+argL = FALSE;
+argM = FALSE;
+argMC = FALSE;
+
+// ncRunning();
+
+switch( argcnt )
+   {
+   case 1 :
+      break;
+      
+   case 2 :
+      {
+      if( stricmp(argv[1], "-XX") == 0 )
+         {
+         ncRunning();
+         break;
+         }
+      if( strnicmp(argv[1], "-NI", 3) == 0 )
+         {
+         if( strlen(argv[1]) > 7 && strnicmp(argv[1]+(strlen(argv[1])-4), ".INI", 4) == 0 )    
+            {
+            strcpy(INIFILE, argv[1]+3);
+            }
+         break;
+         }
+      if( stricmp(argv[1], "-L") == 0 )
+         {
+         argL = TRUE;
+         break;
+         }
+      if( stricmp(argv[1], "-M") == 0 )
+         {
+         argM = TRUE;
+         break;
+         }
+      if( stricmp(argv[1], "-MC") == 0 )
+         {
+         argMC = TRUE;
+         break;
+         }
+      if( stricmp(argv[1], "-LXX") == 0 )
+         {
+         ncRunning();
+         argL = TRUE;
+         break;
+         }
+      if( stricmp(argv[1], "-MXX") == 0 )
+         {
+         ncRunning();
+         argM = TRUE;
+         break;
+         }
+      if( stricmp(argv[1], "-MCXX") == 0 )
+         {
+         ncRunning();
+         argMC = TRUE;
+         break;
+         }
+      }   
+      break;
+      
+   case 3 :
+      {
+      if( stricmp(argv[1], argv[2]) == 0 )
+         break;
+      if( strnicmp(argv[1], "-NI", 3) == 0 )
+         {
+         if( strlen(argv[1]) > 7 && strnicmp(argv[1]+(strlen(argv[1])-4), ".INI", 4) == 0 )    
+            {
+            strcpy(INIFILE, argv[1]+3);
+            }
+         break;
+         }
+      if( stricmp(argv[1], "-L") == 0 )
+         {
+         argL = TRUE;
+         }
+      if( stricmp(argv[1], "-M") == 0 )
+         {
+         argM = TRUE;
+         }
+      if( stricmp(argv[1], "-MC") == 0 )
+         {
+         argMC = TRUE;
+         }
+      if( stricmp(argv[1], "-LXX") == 0 )
+         {
+         ncRunning();
+         argL = TRUE;
+         }
+      if( stricmp(argv[1], "-MXX") == 0 )
+         {
+         ncRunning();
+         argM = TRUE;
+         }
+      if( stricmp(argv[1], "-MCXX") == 0 )
+         {
+         ncRunning();
+         argMC = TRUE;
+         }
+      if( strnicmp(argv[2], "-NI", 3) == 0 )
+         {
+         if( strlen(argv[2]) > 7 && strnicmp(argv[2]+(strlen(argv[2])-4), ".INI", 4) == 0 )    
+            {
+            strcpy(INIFILE, argv[2]+3);
+            }
+         break;
+         }
+      if( stricmp(argv[2], "-L") == 0 )
+         {
+         argL = TRUE;
+         }
+      if( stricmp(argv[2], "-M") == 0 )
+         {
+         argM = TRUE;
+         }
+      if( stricmp(argv[2], "-MC") == 0 )
+         {
+         argMC = TRUE;
+         }
+      }   
+      break;
+      
+   case 4 :
+      {
+      if( stricmp(argv[1], argv[2]) == 0 )
+         break;
+      if( stricmp(argv[1], argv[3]) == 0 )
+         break;
+      if( stricmp(argv[2], argv[3]) == 0 )
+         break;
+      if( strnicmp(argv[1], "-NI", 3) == 0 )
+         {
+         if( strlen(argv[1]) > 7 && strnicmp(argv[1]+(strlen(argv[1])-4), ".INI", 4) == 0 )    
+            {
+            strcpy(INIFILE, argv[1]+3);
+            }
+         break;
+         }
+      if( stricmp(argv[1], "-L") == 0 )
+         {
+         argL = TRUE;
+         }
+      if( stricmp(argv[1], "-M") == 0 )
+         {
+         argM = TRUE;
+         }
+      if( stricmp(argv[1], "-MC") == 0 )
+         {
+         argMC = TRUE;
+         }
+      if( stricmp(argv[1], "-LXX") == 0 )
+         {
+         ncRunning();
+         argL = TRUE;
+         }
+      if( stricmp(argv[1], "-MXX") == 0 )
+         {
+         ncRunning();
+         argM = TRUE;
+         }
+      if( stricmp(argv[1], "-MCXX") == 0 )
+         {
+         ncRunning();
+         argMC = TRUE;
+         }
+      if( strnicmp(argv[2], "-NI", 3) == 0 )
+         {
+         if( strlen(argv[2]) > 7 && strnicmp(argv[2]+(strlen(argv[2])-4), ".INI", 4) == 0 )    
+            {
+            strcpy(INIFILE, argv[2]+3);
+            }
+         break;
+         }
+      if( stricmp(argv[2], "-L") == 0 )
+         {
+         argL = TRUE;
+         }
+      if( stricmp(argv[2], "-M") == 0 )
+         {
+         argM = TRUE;
+         }
+      if( stricmp(argv[2], "-MC") == 0 )
+         {
+         argMC = TRUE;
+         }
+      if( strnicmp(argv[3], "-NI", 3) == 0 )
+         {
+         if( strlen(argv[3]) > 7 && strnicmp(argv[3]+(strlen(argv[3])-4), ".INI", 4) == 0 )    
+            {
+            strcpy(INIFILE, argv[3]+3);
+            }
+         break;
+         }
+      if( stricmp(argv[3], "-L") == 0 )
+         {
+         argL = TRUE;
+         }
+      if( stricmp(argv[3], "-M") == 0 )
+         {
+         argM = TRUE;
+         }
+      if( stricmp(argv[3], "-MC") == 0 )
+         {
+         argMC = TRUE;
+         }
+      }   
+      break;
+      
+   default :
+      break;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

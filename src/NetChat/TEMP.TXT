@@ -1,0 +1,18 @@
+Return-Path: <lucier@bossie.cow-net.com>
+Received: from cow-net.com ([207.107.185.1]) by crossroad.coax.net
+          (post.office MTA v1.9.3b ID# 0-11463) with SMTP id AAA214
+          for <grobin@coax.net>; Wed, 30 Apr 1997 20:17:35 -0400
+Received: from bossie.cow-net.com by cow-net.com (SMI-8.6/SMI-SVR4)
+	id RAA06372; Wed, 30 Apr 1997 17:18:28 -0700
+Date: Wed, 30 Apr 1997 17:18:28 -0700
+From: lucier@bossie.cow-net.com (Lucier)
+Message-Id: <199705010018.RAA06372@cow-net.com>
+Subject: &&$~NETCHATMSG~$&&207.107.185.26
+Apparently-To: <grobin@coax.net>
+
+&&$~NETCHATMSG~$&&207.107.185.26=lucier@bossie.cow-net.com (Lucier)=Wed, 30 Apr 1997 17:18:28 -0700
+
+207.107.185.26=lucier@bossie.cow-net.com_(Lucier)=Wed,_30_Apr_1997_17:18:28_-0700
+207.107.185.26=lucier@bossie.cow-net.com°(Lucier)=Wed,°30°Apr°1997°17:18:28°-0700
+
+

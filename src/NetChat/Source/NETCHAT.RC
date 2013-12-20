@@ -1,0 +1,52 @@
+#include <os2.h>
+
+/* The following imported from the file F:\NCHATTCP\NETCHAT\RESOURCE.VPC.*/
+
+#include "NETCHAT.RCH"
+POINTER ID_POINTER1 "..\\NETCHAT.PTR"
+ 
+RCINCLUDE  F:\NCHATTCP\NETCHAT\SUBPROCS\XTRARC.RC
+ 
+/* The preceeding imported from the file F:\NCHATTCP\NETCHAT\RESOURCE.VPC.*/
+
+rcinclude ABOUT.RC
+rcinclude ADDPHR.RC
+rcinclude CONINFO.RC
+rcinclude CPC.RC
+rcinclude EDITPHR.RC
+rcinclude EDITREC.RC
+rcinclude FPROMPT.RC
+rcinclude HAILLIST.RC
+rcinclude HAILNOTE.RC
+rcinclude LOGNOTE.RC
+rcinclude Main.RC
+rcinclude MCONNECT.RC
+rcinclude MISCSET.RC
+rcinclude NEWREC.RC
+rcinclude PHRLIST.RC
+rcinclude REG.RC
+rcinclude SETTINGS.RC
+rcinclude SPORTS.RC
+rcinclude STATS.RC
+HELPTABLE  1
+  BEGIN
+    HELPITEM  257, 257, 0
+    HELPITEM  265, 265, 0
+    HELPITEM  268, 268, 0
+    HELPITEM  270, 270, 0
+    HELPITEM  565, 565, 0
+    HELPITEM  759, 759, 0
+    HELPITEM  266, 266, 0
+    HELPITEM  258, 258, 0
+    HELPITEM  260, 260, 0
+    HELPITEM  580, 580, 0
+    HELPITEM  256, 256, 0
+    HELPITEM  261, 261, 0
+    HELPITEM  263, 263, 0
+    HELPITEM  259, 259, 0
+    HELPITEM  264, 264, 0
+    HELPITEM  267, 267, 0
+    HELPITEM  557, 557, 0
+    HELPITEM  262, 262, 0
+    HELPITEM  269, 269, 0
+  END

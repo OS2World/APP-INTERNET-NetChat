@@ -1,0 +1,4 @@
+/* Event Clicked/selected - ~Send  1000 */
+
+SENDPASTE = 1;
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

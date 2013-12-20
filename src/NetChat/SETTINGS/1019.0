@@ -1,0 +1,21 @@
+/* Event Clicked/selected - ~OK  1019 */
+
+
+WinQueryDlgItemText(hwndDlg, 1004, CCHMAXPATH, mailServer);
+WinQueryDlgItemText(hwndDlg, 1005, CCHMAXPATH, userName);
+WinQueryDlgItemText(hwndDlg, 1006, CCHMAXPATH, passWord);
+WinQueryDlgItemText(hwndDlg, 1012, CCHMAXPATH, mailServer2);
+WinQueryDlgItemText(hwndDlg, 1013, CCHMAXPATH, userName2);
+WinQueryDlgItemText(hwndDlg, 1016, CCHMAXPATH, passWord2);
+WinQueryDlgItemText(hwndDlg, 1007, CCHMAXPATH, nickName);
+WinQueryDlgItemText(hwndDlg, 1017, CCHMAXPATH, rtema);
+WinQueryDlgItemText(hwndDlg, 1018, CCHMAXPATH, rtname);
+if( WinQueryButtonCheckstate(hwndDlg,1024) )
+   pgmData[38] = 1;
+else   
+   pgmData[38] = 0;
+// bugem(hwndDlg);
+saveNCSet();
+makeTBar();
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);
+

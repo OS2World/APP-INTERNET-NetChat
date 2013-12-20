@@ -1,0 +1,11 @@
+/* Menu events - ~Edit */
+
+if( (ULONG)WinSendDlgItemMsg(hwndDlg, 1000, MLM_QUERYWRAP, 0, 0) )
+   WinCheckMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_WORDWRAPR, TRUE);
+else   
+   WinCheckMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_WORDWRAPR, FALSE);
+
+if( (ULONG)WinSendDlgItemMsg(hwndDlg, 1001, MLM_QUERYWRAP, 0, 0) )
+   WinCheckMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_WORDWRAPL, TRUE);
+else   
+   WinCheckMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_WORDWRAPL, FALSE);

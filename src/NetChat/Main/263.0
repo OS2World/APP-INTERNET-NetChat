@@ -1,0 +1,9 @@
+/* Menu events - ~Manual connect */
+
+USHORT usReturn;
+HWND hNewFrame;
+
+hNewFrame = OpenMCONNECT(hwndDlg, 0);
+usReturn = (USHORT) WinProcessDlg(hNewFrame);
+
+

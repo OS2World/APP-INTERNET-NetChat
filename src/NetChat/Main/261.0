@@ -1,0 +1,18 @@
+/* Menu events - ~Copy     Ctrl+C */
+
+ULONG ulLines, rSize;
+
+ulLines = (ULONG)WinSendMsg(WinWindowFromID(hwndDlg, 1000), MLM_QUERYLINECOUNT,
+                                 MPFROMLONG( 0L), MPFROMLONG( 0L)) ;
+rSize = (ULONG)WinSendMsg(WinWindowFromID(hwndDlg, 1000), MLM_QUERYTEXTLENGTH,
+                                       MPFROMLONG( 0L), MPFROMLONG( 0L)) ;
+rSize += ulLines - 1 ;
+
+WinSendMsg(WinWindowFromID(hwndDlg, 1000),
+           MLM_SETSEL,
+           MPFROMP(0),
+           MPFROMP(rSize));
+           
+WinSendMsg(WinWindowFromID(hwndDlg, 1000), MLM_COPY, NULL, NULL);
+
+

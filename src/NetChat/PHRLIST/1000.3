@@ -1,0 +1,22 @@
+/* Event List Box  1000, Mouse button 1 double click */
+
+LONG sel;
+INT index;
+LONG curpos;
+
+
+sel = (LONG)WinSendDlgItemMsg(hwndDlg, 1000,
+                              LM_QUERYSELECTION,
+                              MPFROMLONG(LIT_FIRST),
+                              MPFROMLONG(0));
+
+index = (ULONG)WinSendDlgItemMsg(hwndDlg, 1000,
+                                 LM_QUERYITEMHANDLE,
+                                 MPFROMLONG(sel), 0);
+
+MLEInsertText(hwndMainDlg, 1001, -1, PHR[index].phrase);
+
+WinSetFocus(HWND_DESKTOP,WinWindowFromID(hwndMainDlg, 1001));
+
+_beginthread(pressOK, NULL, BSTACK, NULL);
+

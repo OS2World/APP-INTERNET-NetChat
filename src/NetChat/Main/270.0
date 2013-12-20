@@ -1,0 +1,5 @@
+/* Menu events - ~Exit */
+
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);
+
+

@@ -1,0 +1,14 @@
+/* Menu events - ~Send file */
+
+CHAR vtxt[20];
+
+WinQueryDlgItemText(hwndDlg, 1002, sizeof(vtxt), vtxt);
+if( strcmp(vtxt, "Connected!") == 0 )
+   {
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 275, FALSE);
+   // FTPINPROGRESS = TRUE;
+   sendFile(hwndDlg, "*");
+   }
+
+
+

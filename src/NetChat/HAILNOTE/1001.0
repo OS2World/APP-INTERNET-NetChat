@@ -1,0 +1,165 @@
+/* Event Clicked/selected - ~Connect  1001 */
+
+CHAR bstatus[20];
+CHAR gp[40];
+INT sel, k, h;
+INT ret;
+BOOL TOBU;
+
+
+
+if( !registered(ncpw) )
+   {
+   USHORT usReturn;
+   HWND hNewFrame;
+   
+   
+   hNewFrame = OpenABOUT(hwndDlg, 0);
+   usReturn = (USHORT) WinProcessDlg(hNewFrame);
+   }
+      
+if( WinQueryButtonCheckstate(hwndDlg,1007) == 1 )
+   {
+   ret = 1;
+   }
+else
+   {   
+   ret = 0;
+   }
+
+WinQueryDlgItemText(hwndMainDlg, 1002, sizeof(bstatus), bstatus);
+
+if( pgmData[31] )
+   {
+   WinSetWindowPos(hwndMainF, HWND_TOP, 0, 0, 0, 0, SWP_ACTIVATE | SWP_SHOW | SWP_RESTORE);
+   }                
+                
+strcpy(guestIP, hnipaddr); 
+
+sel = (LONG)WinSendDlgItemMsg(hwndDlg, 1000,
+                              LM_QUERYSELECTION,
+                              MPFROMLONG(LIT_FIRST),
+                              MPFROMLONG(0));
+
+if( strcmp(pvdat[sel].INPORTS, "Unknown") != 0 && ret == 1 ) 
+   {
+   strcpy(gp, pvdat[sel].INPORTS);
+   k = 2;
+   h = 0;
+   do
+      {
+      grport[h] = gp[k];
+      h++;
+      }
+   while( gp[k++] != ' ' && h < 5 );    
+   grport[h-1] = '\0';
+         
+
+   k += 2;
+   h = 0;
+   do
+      {
+      gsport[h] = gp[k];
+      h++;
+      }
+   while( gp[k++] != ' ' && h < 5 );    
+   gsport[h-1] = '\0';
+   
+   
+   k += 2;
+   h = 0;
+   do
+      {
+      gfport[h] = gp[k];
+      h++;
+      }
+   while( gp[k++] != ' ' && h < 5 );    
+   gfport[h-1] = '\0';
+
+   
+   if( atoi(grport) != atoi(gsport) )
+      {
+      if( pgmData[4] != atoi(gsport) ||
+          pgmData[5] != atoi(grport) ||
+          pgmData[8] != atoi(gfport) )
+         TOBU = TRUE;    
+      else
+         TOBU = FALSE;
+      }
+   else
+      {
+      if( pgmData[4] != atoi(grport) ||
+         pgmData[5] != atoi(gsport) || 
+         pgmData[8] != atoi(gfport) )
+         TOBU = TRUE;
+      else
+         TOBU = FALSE;   
+      }      
+
+   // if( pgmData[4] != atoi(grport) ||
+   //     pgmData[5] != atoi(gsport) || 
+   //    pgmData[8] != atoi(gfport) )
+   
+   if( TOBU )
+      {
+      if( strcmp(bstatus, "Listen ON") == 0 )
+         {
+         WinSendMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(1002,2345), 0);
+   
+         if( atoi(grport) == atoi(gsport) )
+            {
+            pgmData[4] = atoi(grport);
+            pgmData[5] = atoi(gsport);
+            pgmData[8] = atoi(gfport);
+            }
+         else   
+            {
+            pgmData[5] = atoi(grport);
+            pgmData[4] = atoi(gsport);
+            pgmData[8] = atoi(gfport);
+            }
+         saveNCSet();
+         makeTBar();
+         WinSetWindowText(WinWindowFromID(hwndMainF, FID_TITLEBAR), tbarmsg); 
+         WinSendMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(1002,2345), 0);
+         }
+      else
+         {
+         if( atoi(grport) == atoi(gsport) )
+            {
+            pgmData[4] = atoi(grport);
+            pgmData[5] = atoi(gsport);            
+            pgmData[8] = atoi(gfport);
+            }
+         else   
+            {
+            pgmData[5] = atoi(grport);
+            pgmData[4] = atoi(gsport);
+            pgmData[8] = atoi(gfport);
+            }
+         saveNCSet();
+         makeTBar();
+         WinSetWindowText(WinWindowFromID(hwndMainF, FID_TITLEBAR), tbarmsg); 
+         WinSendMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(1002,2345), 0);
+         }   
+      }
+   else
+      {
+      if( strcmp(bstatus, "Listen OFF") == 0 )
+         {
+         WinSendMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(1002,2345), 0);
+         }
+      }   
+   }
+else
+   {
+   if( strcmp(bstatus, "Listen OFF") == 0 )
+      {
+      WinSendMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(1002,2345), 0);
+      }
+   }
+
+_beginthread(attemptConnect, NULL, BSTACK, (PVOID)&hwndMainDlg);
+   
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);
+

@@ -1,0 +1,11 @@
+/* Menu events - ~Register */
+
+/* !place #include "REG.h" in the Extra Include Code Section! */
+/* Open the modal form F:\nchattcp\NetChat\REG */
+{
+   USHORT usReturn;
+   HWND hNewFrame;
+   hNewFrame = OpenREG(hwndDlg, 0);
+   usReturn = (USHORT) WinProcessDlg(hNewFrame);
+}
+

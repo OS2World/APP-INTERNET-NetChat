@@ -1,0 +1,25 @@
+/* Event Click/Selected - List Box  1000 */
+
+INT sel;
+// CHAR ipaddr[260];
+CHAR comboaddr[260];
+
+
+
+sel = (LONG)WinSendDlgItemMsg(hwndDlg, 1000,
+                              LM_QUERYSELECTION,
+                              MPFROMLONG(LIT_FIRST),
+                              MPFROMLONG(0));
+
+strcpy(hnipaddr, pvdat[sel].INSUBJECT+strlen(cphrase)); 
+strcpy(comboaddr, "IP : ");
+strcat(comboaddr, hnipaddr);
+strcat(comboaddr, "   Ports : ");
+strcat(comboaddr, pvdat[sel].INPORTS);
+WinSetDlgItemText(hwndDlg, 1003, comboaddr); 
+// WinSetDlgItemText(hwndDlg, 1003, ipaddr); 
+WinSetDlgItemText(hwndDlg, 1004, pvdat[sel].INDATE); 
+WinSetDlgItemText(hwndDlg, 1005, pvdat[sel].REPTO); 
+WinSetDlgItemText(hwndDlg, 1008, pvdat[sel].INNOTE); 
+
+

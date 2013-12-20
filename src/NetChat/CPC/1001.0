@@ -1,0 +1,4 @@
+/* Event Clicked/selected - ~Paste  1001 */
+
+SENDPASTE = 2;
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

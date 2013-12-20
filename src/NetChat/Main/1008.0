@@ -1,0 +1,16 @@
+/* Event Clicked/selected - ~Incoming file  1008 */
+
+   if( !registered(ncpw) )
+      {
+      USHORT usReturn;
+      HWND hNewFrame;
+   
+   
+      hNewFrame = OpenABOUT(hwndMainDlg, 0);
+      usReturn = (USHORT) WinProcessDlg(hNewFrame);
+      }
+
+FILENOTIFY = FALSE;
+_beginthread(handleXmtRequest, NULL, BSTACK, NULL);
+WinEnableControl(hwndDlg, 1008, FALSE);
+

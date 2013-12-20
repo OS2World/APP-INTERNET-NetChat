@@ -1,0 +1,14 @@
+/* Menu events - Phra~ses */
+
+HAB hab;
+
+if( WinIsWindow(hab, hNewPHRFrame) )
+   {
+   WinSetWindowPos(hNewPHRFrame, 0, 0, 0, 0, 0, SWP_ACTIVATE | SWP_SHOW | SWP_RESTORE);
+   }
+else
+   {
+   hNewPHRFrame = OpenPHRLIST(HWND_DESKTOP, 0);
+   }   
+
+

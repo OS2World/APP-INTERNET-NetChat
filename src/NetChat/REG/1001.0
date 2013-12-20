@@ -1,0 +1,21 @@
+/* Event Clicked/selected - ~OK  1001 */
+
+WinQueryDlgItemText(hwndDlg, 1000, sizeof(ncpw), ncpw);
+if( registered(ncpw) )
+   {
+   DosBeep(1100, 50);
+   DosBeep(1500, 50);
+   DosBeep(2000, 50);
+   DosBeep(1000, 50);
+   }
+else
+   {
+   DosBeep(50, 250);
+   DosBeep(300, 50);
+   DosBeep(100, 150);
+   }
+
+saveNCSet();
+makeTBar(); 
+WinSetDlgItemText(hwndMainF, FID_TITLEBAR, tbarmsg); 
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

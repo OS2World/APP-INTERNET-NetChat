@@ -1,0 +1,16 @@
+/* Event Clicked/selected - ~OK  1002 */
+
+INT k;
+
+
+if( !registered(ncpw) )
+   {
+   for(k=0;k<8;k++)
+      {
+      DosBeep(1100-(k*100), 100);
+      DosSleep(200);
+      }
+   }
+
+
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

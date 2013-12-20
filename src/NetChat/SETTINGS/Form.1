@@ -1,0 +1,38 @@
+/* Form events - Opened */
+
+
+{
+ULONG dtHeight, dtWidth, lHeight, lWidth;
+SWP swp;
+dtHeight = WinQuerySysValue(HWND_DESKTOP,SV_CYSCREEN);
+dtWidth = WinQuerySysValue(HWND_DESKTOP,SV_CXSCREEN);
+WinQueryWindowPos(hwndDlg, (PSWP) &swp);
+lWidth = (dtWidth/2) - (swp.cx/2); 
+lHeight = (dtHeight/2) - (swp.cy/2); 
+WinSetWindowPos(hwndDlg, HWND_TOP, lWidth, lHeight, 0, 0, SWP_MOVE | SWP_SHOW | SWP_ACTIVATE);
+}
+
+queryNCSet();
+
+if( pgmData[38] == 1 )
+   WinCheckButton(hwndDlg, 1024, 1);
+
+WinSetDlgItemText(hwndDlg, 1004, mailServer);
+WinSetDlgItemText(hwndDlg, 1005, userName);
+WinSetDlgItemText(hwndDlg, 1006, passWord);
+WinSetDlgItemText(hwndDlg, 1012, mailServer2);
+WinSetDlgItemText(hwndDlg, 1013, userName2);
+WinSetDlgItemText(hwndDlg, 1016, passWord2);
+WinSetDlgItemText(hwndDlg, 1007, nickName);
+WinSetDlgItemText(hwndDlg, 1017, rtema);
+WinSetDlgItemText(hwndDlg, 1018, rtname);
+
+
+
+
+
+
+
+
+
+

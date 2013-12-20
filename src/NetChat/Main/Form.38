@@ -1,0 +1,17 @@
+/* Code sections - User defined messages */
+
+case WM_MINMAXFRAME:
+   {
+   pswp = PVOIDFROMMP (mp1);
+   if (pswp->fl & SWP_MINIMIZE) 
+      {
+      WinSetWindowPos(hNewPHRFrame, 0, 0, 0, 0, 0, SWP_HIDE);
+      }
+   if (pswp->fl & SWP_RESTORE) 
+      {
+      WinSetWindowPos(hNewPHRFrame, 0, 0, 0, 0, 0, SWP_ACTIVATE | SWP_SHOW | SWP_RESTORE);
+      }
+   }
+   return(0);
+         
+

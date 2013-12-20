@@ -1,0 +1,4 @@
+/* Event Clicked/selected - Have to run ...  1004 */
+
+WinSetDlgItemText(hwndDlg, 1001, "I am busy right now but I will Hail you in about  minutes.");
+

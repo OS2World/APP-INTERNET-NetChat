@@ -1,0 +1,12 @@
+/* Menu events - Set ports */
+
+/* !place #include "SPORTS.h" in the Extra Include Code Section! */
+{
+USHORT usReturn;
+HWND hNewFrame;
+
+hNewFrame = OpenSPORTS(hwndDlg, 0);
+usReturn = (USHORT) WinProcessDlg(hNewFrame);
+}
+
+WinSetWindowText(WinWindowFromID(hwndFrame, FID_TITLEBAR), tbarmsg);

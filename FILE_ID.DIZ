@@ -1,0 +1,24 @@
+ NetChat for OS/2 ver. 1.36
+ Copyright (c) 1997 by Gary L. Robinson 
+
+     
+    NetChat for OS/2 is a small and fast personal communication 
+tool for OS/2.  It is designed to hook two people  up directly 
+(without using the IRC channels, servers, IP servers, etc.) for 
+a one-on-one  personal text mode chat.
+
+    Requires Warp 3.x or Warp 4.x with TCP/IP installed (or the Warp
+3.0 iak TCP/IP lite) and an internet connection with a mail account.
+    
+    NetChat for OS/2 utilizes a "Hailing feature" to accomplish this.  
+The hailing feature uses a built in seamless e-mail facility to send 
+your current IP address to another NetChat user in a specially 
+coded e-mail letter.  The other user (who is checked into the 
+net and has NetChat running in Monitor ON mode) will receive the 
+message and prompt him to connect or not connect.   
+
+    One button Hailing makes it a simple and painless way to connect.
+
+    No other servers, e-mail or support software are needed.
+    
+    

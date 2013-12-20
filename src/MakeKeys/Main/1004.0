@@ -1,0 +1,21 @@
+/* Event Clicked/selected - C~reate  1004 */
+
+CHAR name[41];
+CHAR code[14];
+INT h;
+
+
+for(  h=0;h<41;h++ )
+   name[h] = '\0';
+   
+WinQueryDlgItemText(hwndDlg, 1000, sizeof(name), name);
+WinQueryDlgItemText(hwndDlg, 1002, sizeof(code), code);
+
+if( createKeys(hwndDlg, name, code) == 0 )
+   return(0);
+   
+// WinQueryDlgItemText(hwndDlg, 1006, sizeof(custaddr), custaddr);
+
+saveToFile(hwndDlg);
+   
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

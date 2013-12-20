@@ -1,0 +1,8 @@
+/* Menu events - Hail ~list */
+
+USHORT usReturn;
+HWND hNewFrame;
+
+
+hNewFrame = OpenLOGNOTE(hwndDlg, 0);
+usReturn = (USHORT) WinProcessDlg(hNewFrame);

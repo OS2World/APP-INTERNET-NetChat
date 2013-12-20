@@ -1,0 +1,12 @@
+/* Menu events - ~Misc. settings */
+
+USHORT usReturn;
+HWND hNewFrame;
+
+
+hNewFrame = OpenMISCSET(hwndDlg, 0);
+usReturn = (USHORT) WinProcessDlg(hNewFrame);
+
+
+
+

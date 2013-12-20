@@ -1,0 +1,13 @@
+/* Form events - Activation changed */
+
+
+/*
+WinSetWindowPos(hwndFrame,
+                0, 
+                pgmData[10], 
+                pgmData[11],   
+                pgmData[12],  
+                pgmData[13],  
+                SWP_MOVE|SWP_SIZE);
+
+*/

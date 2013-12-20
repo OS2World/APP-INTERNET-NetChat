@@ -1,0 +1,3 @@
+/* Menu events - ~Paste    Ctrl+V */
+
+WinSendMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(ID_PASTECB, 0), 0);

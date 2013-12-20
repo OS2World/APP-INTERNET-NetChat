@@ -1,0 +1,12 @@
+/* Menu events - D~ownload directory */
+
+CHAR tmpdir[260];
+
+
+strcpy(tmpdir, DEFDLDIR);
+if( tmpdir[strlen(tmpdir)-1] == '\\' )
+   tmpdir[strlen(tmpdir)-1] = '\0';
+   
+openFolder(tmpdir);   
+
+

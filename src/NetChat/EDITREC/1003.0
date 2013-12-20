@@ -1,0 +1,20 @@
+/* Event Clicked/selected - ~Save  1003 */
+
+
+bugem(hwndDlg);
+
+if( WinQueryDlgItemTextLength(hwndDlg, 1000) <= 0 )
+   return(0);
+
+if( WinQueryDlgItemTextLength(hwndDlg, 1001) <= 0 )
+   return(0);
+
+WinQueryDlgItemText(hwndDlg, 1000, sizeof(ncData[ncTmpr.indx].ncName), ncData[ncTmpr.indx].ncName);
+WinQueryDlgItemText(hwndDlg, 1001, sizeof(ncData[ncTmpr.indx].ncURL), ncData[ncTmpr.indx].ncURL);
+WinQueryDlgItemText(hwndDlg, 1002, sizeof(ncData[ncTmpr.indx].ncNote), ncData[ncTmpr.indx].ncNote);
+
+saveNCData(ncDataFile);
+
+loadNCLBox(pEDITRECFormInfo->hwnd, ncDataFile);
+
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

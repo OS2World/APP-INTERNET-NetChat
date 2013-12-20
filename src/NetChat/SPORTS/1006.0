@@ -1,0 +1,15 @@
+/* Event Clicked/selected - Reset ports (6667, 6667, 21)  1006 */
+
+
+pgmData[4] = pgmData[35];
+pgmData[5] = pgmData[36];
+pgmData[8] = pgmData[37];
+
+WinSetDlgItemShort(hwndDlg, 1003, (SHORT)pgmData[4], FALSE);
+WinSetDlgItemShort(hwndDlg, 1002, (SHORT)pgmData[5], FALSE);
+WinSetDlgItemShort(hwndDlg, 1004, (SHORT)pgmData[8], FALSE);
+
+saveNCSet();
+makeTBar();
+WinSetWindowText(WinWindowFromID(hwndMainF, FID_TITLEBAR), tbarmsg);
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

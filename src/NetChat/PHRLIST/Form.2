@@ -1,0 +1,13 @@
+/* Form events - Closed */
+
+SWP  swp;
+
+WinQueryWindowPos(hwndFrame, &swp);
+pgmData[10] = swp.x ;
+pgmData[11] = swp.y ;
+pgmData[12] = swp.cx ;
+pgmData[13] = swp.cy ;
+
+saveNCSet();
+
+

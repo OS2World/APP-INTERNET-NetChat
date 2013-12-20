@@ -1,0 +1,60 @@
+/* Form events - Opened */
+
+CHAR cstatus[20];
+CHAR buttontxt[40];
+CHAR rtxt[6];
+CHAR ttxt[6];
+CHAR ftxt[6];
+
+
+{
+SWP swp, swpD;
+int dtWidth;
+int offX, offY;
+dtWidth = WinQuerySysValue(HWND_DESKTOP,SV_CXSCREEN);
+offX = 50;
+offY = 70;
+WinQueryWindowPos(WinQueryWindow(hwndDlg, QW_OWNER), (PSWP) &swp);
+WinQueryWindowPos(hwndDlg, (PSWP) &swpD);
+if( swp.x < 5 )
+   swp.x += ((-swp.x) + 1); 
+if( (swp.x+offX+swpD.cx) > (dtWidth-5) )
+   {
+   int over;
+   over = (swp.x+offX+swpD.cx) - (dtWidth-5);
+   offX = - (offX+over);   
+   }
+if( (swp.y-70) < 5 )
+   offY = - offY; 
+WinSetWindowPos(hwndDlg, HWND_TOP, 
+                swp.x+offX, swp.y-offY, 0, 0,
+		SWP_ACTIVATE | SWP_MOVE | SWP_SHOW );
+}
+
+
+itoa(pgmData[35], rtxt, 10);
+itoa(pgmData[36], ttxt, 10);
+itoa(pgmData[37], ftxt, 10);
+strcpy(buttontxt, "Reset ports to R:");
+strcat(buttontxt, rtxt);
+strcat(buttontxt, " T:");
+strcat(buttontxt, ttxt);
+strcat(buttontxt, " F:");
+strcat(buttontxt, ftxt);
+WinSetDlgItemText(hwndDlg, 1006, buttontxt);
+
+WinSetDlgItemShort(hwndDlg, 1003, (SHORT)pgmData[4], TRUE);
+WinSetDlgItemShort(hwndDlg, 1002, (SHORT)pgmData[5], TRUE);
+WinSetDlgItemShort(hwndDlg, 1004, (SHORT)pgmData[8], TRUE);
+
+WinQueryDlgItemText(hwndMainDlg, 1002, sizeof(cstatus), cstatus);
+
+if( strcmp(cstatus, "Listen ON") == 0 )
+   {
+   WASCONNECTED = TRUE;
+   WinPostMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(1002, 0), 0);
+   }
+else
+   WASCONNECTED = FALSE;   
+   
+   

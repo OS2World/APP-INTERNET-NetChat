@@ -1,0 +1,7 @@
+/* Menu events - ~Wake up */
+
+INT mn;
+
+mn = 10;
+_beginthread(sendOneMSG, NULL, BSTACK, (PVOID)mn);
+

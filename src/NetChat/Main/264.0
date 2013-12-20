@@ -1,0 +1,16 @@
+/* Menu events - ~WordWrap */
+
+if( (ULONG)WinSendDlgItemMsg(hwndDlg, 1001, MLM_QUERYWRAP, 0, 0) )
+   {
+   WinCheckMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_WORDWRAPL, FALSE);
+   WinSendDlgItemMsg(hwndDlg, 1001,
+                     MLM_SETWRAP,
+                     MPFROMLONG(FALSE), 0);
+   }
+else
+   {
+   WinCheckMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_WORDWRAPL, TRUE);
+   WinSendDlgItemMsg(hwndDlg, 1001,
+                     MLM_SETWRAP,
+                     MPFROMLONG(TRUE), 0);
+   }

@@ -1,0 +1,50 @@
+/* Event Clicked/selected - ~Accept file  1001 */
+
+CHAR tmp[MAXSTRING];
+INT k, x, strl;
+
+
+WinQueryDlgItemText(hwndDlg, 1000, sizeof(tmp), tmp);
+strl = strlen(tmp);
+if( strl < 4 )
+   return(0);
+
+strcpy(FQRFile, tmp);
+
+x = 0;
+for( k=0;k<strl;k++ )
+   {
+   if( tmp[k] == '\\' )
+      x = k;
+   }
+
+if( x < 2 )
+   {
+   strcpy(FQRFile, "");
+   msgBox(hwndDlg, "Attention!", "Path is NOT valid.");
+   return(0);
+   }
+   
+tmp[k+1] = '\0';
+if( !existPath(tmp) )
+   {
+   strcpy(FQRFile, "");
+   msgBox(hwndDlg, "Attention!", "Path is NOT valid.");
+   return(0);
+   }
+
+if( existFile(FQRFile) )
+   {
+   if(WinMessageBox(HWND_DESKTOP,
+                    hwndDlg,
+                    "File already exists!",
+                    "Replace file?",
+                    0,
+                    MB_ICONEXCLAMATION | MB_OKCANCEL) == MBID_CANCEL )
+      {
+      strcpy(FQRFile, "");
+      return(0);
+      }
+   }
+
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

@@ -1,0 +1,57 @@
+/* Menu events - ~File */
+
+CHAR bstatus[20];
+
+
+if( checkConnectionOnceNT() == 1 )
+   {
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 268, TRUE);
+   if( !FTPINPROGRESS ) 
+      {
+      if( STILLWAITING )
+         WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 275, FALSE);
+      else
+         {   
+         WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 275, TRUE);
+         WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 282, FALSE);
+         }
+      }
+   else
+      {
+      WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 275, FALSE);
+      if( FILENOTIFY )
+         WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 282, FALSE);
+      else   
+         WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 282, TRUE);
+      }
+   }
+else
+   {
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 268, FALSE);
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 275, FALSE);
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 282, FALSE);
+   }         
+
+
+WinQueryDlgItemText(hwndDlg, 1002, sizeof(bstatus), bstatus);
+if( strcmp(bstatus, "Listen OFF") == 0 )
+   {
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_CLOSECONNECTION, FALSE);
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_CONNECT, TRUE);
+   }
+else
+   {
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_CLOSECONNECTION, TRUE);
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_CONNECT, FALSE);
+   }   
+
+if( strcmp(bstatus, "Connected!") == 0 )
+   {
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_WINDOWSTYLE, FALSE);
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 279, TRUE);
+   }
+else
+   {
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), IDM_WINDOWSTYLE, TRUE);
+   WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 279, FALSE);
+   }   

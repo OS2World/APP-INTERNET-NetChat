@@ -1,0 +1,19 @@
+/* symbols for resource items */
+#define ID_MAINFORM  256
+#define ID_COPYCB 1004
+#define ID_PASTECB 1005
+#define IDM_FILE 256
+#define IDM_CONNECT 260
+#define IDM_WINDOWSTYLE 263
+#define IDM_INDEX 265
+#define IDM_EXITAPP 270
+#define IDM_CLOSECONNECTION 271
+#define IDM_EDIT 257
+#define IDM_WORDWRAPL 264
+#define IDM_WORDWRAPR 274
+#define IDM_COPY 261
+#define IDM_PASTE 262
+#define IDM_CONFIGURE 258
+#define IDM_USINGHELP 266
+#define IDM_HELP 259
+#define IDM_ABOUTNETCHAT 272

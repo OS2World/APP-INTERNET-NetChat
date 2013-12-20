@@ -1,0 +1,4 @@
+/* Event Clicked/selected - ~OK  1001 */
+
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);
+

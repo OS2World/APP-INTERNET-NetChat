@@ -1,0 +1,9 @@
+/* Menu events - ~Disconnect    Ctrl+Q */
+
+CHAR bstatus[20];
+
+WinQueryDlgItemText(hwndMainDlg, 1002, sizeof(bstatus), bstatus);
+if( strcmp(bstatus, "Listen ON") == 0 || strcmp(bstatus, "Connected!") == 0  )
+   WinSendMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(1002,2345), 0);
+WinEnableMenuItem(WinWindowFromID(hwndFrame, FID_MENU), 275, TRUE);
+   

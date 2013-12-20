@@ -1,0 +1,8 @@
+/* Event Clicked/selected - ~Copy ID_COPYCB */
+
+
+WinSendDlgItemMsg(hwndDlg, 1000,
+                  MLM_COPY ,
+                  0, 0);
+
+

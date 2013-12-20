@@ -1,0 +1,251 @@
+***** Junior Thompson (Main Key) has connected with you! *****
+<Gary> hello
+[Junior] what be a happining?
+<Gary> not be a lot ....
+<Gary> Jut be a reading ....
+<Gary> about CD-RW stuff
+<Gary> Anything egg-citing over there?
+[Junior] learnin' anything?
+<Gary> Learning a little but most of it I already knew
+[Junior] My brother got the CD today and we got him back to Warping
+<Gary> And some of it seems contradictory but ..... whatever
+<Gary> Alright!
+<Gary> Was it simple to accomplish
+[Junior] the only mistake we made was removing the networking support, it removed everything for networking including the selective install for networking
+[Junior] icon that is
+<Gary> Yep .... that's a BUMMER in the Uninstall.  I did that a while back and finally had to reinstall the networking straight OFF the CDRom
+[Junior] I had to figure out how to get it going from the CD
+<Gary> exactly!
+<Gary> They should leave the install icon and support for that ON the hard disk
+[Junior] what did you run to get it working? I finally had to copy the \ibminst directory from the CD to his boot drive and run npconfig.exe
+<Gary> I can't remember exactly but I found an executable on the CDRom that finally got the installation going 
+<Gary> But as usual, I don't remember where
+<Gary> it was a long time ago
+[Junior] I tried running one file and it wanted me to make a remote networking install disk
+<Gary> hee hee heee ... been there!
+<Gary> They don't always make it easy ....
+<Gary> I know it took me quite a while and a LOT of fooling around ....
+[Junior] also some of his networking folders and icons didn't get restored for some reasom or another. I could have him restore his desktop but don't know if he can get everything back like he had it so I didn't suggest that
+<Gary> Does he really need all the networking junk?
+[Junior] I looked around to see if there was some kind of make internet objects command but couldn't find one
+<Gary> It's called Drag the object to the desktop and make your own icon .... :-)
+<Gary> Though, perhaps if you re-installed MPTS that might initiate everything
+[Junior] He really doesn't need all that networking junk, I just thought it would be nice to get everything back the way it was. It would be nice if wpsbkup would let you restore selective pieces of the desktop archive.
+<Gary> It would still be difficult .....
+<Gary> Figuring out the nomenclature to reinstall what you wanted
+<Gary> Too many objects!
+[Junior] I should of had him make another backup before we started. Once we figured out what file to use to run the networking install it didn't take very long. The whole thing only took about 15min with the trouble we did have!
+<Gary> I think a few changes in the Warp 4 installation program AND the selective install program would be nice and keep from having rhe problem you had
+<Gary> I think the NetWork stuff should be in the REGULAR selective install program
+<Gary> With an option to just rebuild the Desktop objects for it
+<Gary> though .... wait a sec ...
+[Junior] I did a complete backup of my Warp 4 install drive today onto a Syquest drive using Object Backup(BA/2) from my Warp 3 installation
+<Gary> I did one using BA/2 and put it on a CD .....
+[Junior] I need to modify my Warp boot disks so that I can access my zip/syquest drives from the boot disks
+<Gary> sounds like a good idea.  Could come in very handy ....
+[Junior] did you put it on a CD-R or CD-RW disk?
+<Gary> CD-R
+<Gary> though I doubt if I ever use it ....
+<Gary> Things change to fast
+[Junior] that cd drive looks like it will come in handy for total system archives and as cheap as the CD's are it wouldn't hurt to do a complete backup once a month...
+[Junior] can you restore individual files off the cd?
+<Gary> That is exactly the way I feel.  Especially when I get a few bucks -- I'll order 40 CD-R disks for $80
+<Gary> I don't know about running the BA/2 files directly from them CD .... hang on a second and let me try it
+[Junior] should work
+[Junior] you may have to create a catalog file for the file on the cd drive first
+<Gary> I already had the catalog file -- i just had to cjange the "Device" and point it to the CD
+<Gary> It worked fine
+[Junior] well that is kinda nice in case you accidently erase a file or two
+<Gary> Ran a little slower, however
+<Gary> I use BA/2 for that ALL the time, though I hadn't tried it from the CD before
+[Junior] still faster than tape I am sure
+<Gary> I just restored 2 files from the MailRun109.dat file and it took just a few seconds
+<Gary> mrun109.dat
+<Gary> I put my Fix pack archives on the CD, too :-)
+[Junior] there are caching settings for the cd file system too that can improve cd performance
+<Gary> I didn't bother to Zip them, either.  Why bother
+[Junior] you are getting pretty cocky with that cd-writer
+<Gary> I am going to expand my I drive to 500mb and use it as a dump for everything (it is shared with Win95) and then when it gets full , I'll dump it on a CD
+<Gary> Hee hee heee
+<Gary> Why Zip anything ... EXCEPT to preserve EA's ....
+[Junior] well, wait until I get my drive, I will show you!
+<Gary> You will probably want to get the SCSI -- the SCSI might already be supported better on OS/2
+<Gary> But it costs more, too
+[Junior] Yes, I want a SCSI model, I still have 2 SCSI id's left and they are lonely...
+<Gary> I'm sure the SCSI would be somewhat faster, too.  I prefer the IDE, though.  My SCSI experiences leave a bit to be desired, so far
+[Junior] I want to be able to create backups directly to the CD Writer drive, wonder if thats feasable?
+<Gary> why not?  Once the OS/2 system is supported on the file system level with drivers.  If I had a BA/2 for Win95 it would do it.
+<Gary> Programs can write directly to the CD seamlessly
+[Junior] what about writing directly to a CD-R disk? Can you do that or do you have to use their cd burning software as an interface?
+<Gary> What you do is set the CD-R disc to use the Adaptec Direct CD file system (by selecting a checkbox).  Then use your program(s) to write to it.  OR drag and drop to it.  THEN when you go to eject the Disc -- tell it to make it readable by a REGULAR CD reader - ISO 99whatever it is
+<Gary> You actually use the CD-RW system on the CD-R disc
+[Junior] I see, said the blind man!
+<Gary> When you are done, it then writes junk to make it work on a regular CR Reader
+<Gary> Because there is NO mastering software for this CD writer yet ....
+<Gary> Maybe in a few monthe they will have some "regular" mastering stuff that supports it, though
+[Junior] I wish I already had a surestore drive, I will wait until there are OS/2 drivers and I have some money or a way to get the money...
+<Gary> It's probably worth waiting unless you are a CD-RW NUT like me.  Support for it is BOUND to be better in about 406 months
+<Gary> 4-6 months
+<Gary> 406 months is a long time :-)
+<Gary> Adaptec says they expect to see THEIR Adaptec Direct CD standared supported on ALL OS's soon
+<Gary> They did NOT say that they would do it THEMSELVES, though
+<Gary> However, the standard seems to be open
+[Junior] hopefully IBM will either help or at least give them some support
+<Gary> I wouldn't be real surprised if they DID do it themselves, though.  They have been pretty good with OS/2 support, overall
+<Gary> I even suspect that soon ALL new CD's will support it or part of it at the harware level
+[Junior] That drive has all kind of possibilities once you get the drivers for OS/2
+<Gary> What I don't understand is how DVD CDRoms relate to it ...
+<Gary> Soon EVERZYONE will be making CD's :-)
+<Gary> the CD-R discs may drop to 25 cents a piece
+[Junior] buy one, get two free!
+<Gary> That could almost make the CD-RW discs a hard choice to buy ...
+<Gary> Of course, once you get PILES of CD's on your desk -- you still won't be able to find anything :-)
+<Gary> Starting November, 32 Bits Online is going to be frequently updated.
+This move is taken because our readers have requested that we carry
+more new articles on a regular basis.  Whether it is through our
+reader mail or via our informal survey to our subscribing readers,
+you have expressed strong interest for us to become more than just a
+monthly publication.
+
+
+[Junior] that sounds familar, I see at Insight they have 25 CD-R's for 71.00
+[Junior] HP CD-R's
+<Gary> Not as good as the 19.95 for 10 you mentioned yesterday ....
+<Gary> but not bab ....
+<Gary> bad
+[Junior] i see some philips cdrw disks for 21.99
+<Gary> Well netChat is now on the www.windows95.com site (or is it the win95.com ... I always get htem mixed up)
+<Gary> I would definitely get the Phillips discs
+[Junior] I would say the cdrw drives will be more popular next year
+<Gary> I think they will really take off by mid 1998
+<Gary> Though I think they will have significant sales this X-mas season
+[Junior] that disc I sent to my brother worked flawlessly
+<Gary> Just as a Disc copier this thing is worth it :-)
+<Gary> I should make up 10 copies of Warp 4 and give it away free at each meeting (hee hee heee ) 
+[Junior] That is a nice feature for sure, but I wonder what the software industry thinks of cd mastering on the home pc?
+<Gary> And not claim that I know anything about it ....
+<Gary> I bet they are ROYALLY PISSED
+<Gary> Though copy protection will become the NORM on future Discs
+<Gary> I think that IF they had Copy Protection for CD's perfected LAST year that CD-RW drives like mine would be pushed MUCH harder
+<Gary> I bet the MUSIC CD people are really in a TIZ
+[Junior] As those drives become more popular I am sure they will come up with yet another copy protection scheme
+<Gary> I am sure, too
+<Gary> The MUSIC CD folks have a lot to lose
+[Junior] Well, hopefully not until they release Warp 5
+<Gary> Heee hee heee
+<Gary> I agree!
+[Junior] of course they will probably not be able to get Warp 5 on a 650mb disc
+<Gary> Especially since IF there is a Warp 5 it will MOST likely cost a lot more than Warp 4 or 3
+[Junior] warp 4 consumes 520mb
+<Gary> I suspect Warp 5 will cost $250 - $500 a license
+<Gary> Warp 5 will probably come on 3 CD's
+<Gary> Ultimail will take up 2 CD's by itself :-)
+[Junior] Do you think they will finally put Utimail to bed?
+<Gary> You won't see it in Warp 5 or EVER again
+<Gary> It is already history
+[Junior] did you get any padhd work done last night or just play around?
+<Gary> Gary Robinson announces Fix pack CD for only $10.00  (same as BMT Micro's)
+<Gary> Available now! (or as soon as I copy yours)
+[Junior] I see they just released an install from cd fixpacks version, you would think they would have told me about that when I ordered mine
+<Gary> PadHD still has a LONG way to go BUT I would like you to do a short test - IF you have time.  I want to see what you thingk of HOW searches (ACCUMULATED searches) are down now
+[Junior] go ahead and send it over
+<Gary> I'm sorry -- NOT an a accumulative searh -- the regular search
+<Gary> In the past the regular search would find a record and display it, then you press continue and it would shut the window down and go until it found another
+<Gary> Then open that window ...
+<Gary> NOW, it keeps the Window open and JUST chanhes the record when it finds another
+<Gary> Also ... when you VIEW a record (not EDIT) the VIEW dialog is now NOT modal.
+[Junior] which means you can select another window?
+<Gary> You can go back to the main screen and select OTHER records without closing the VIEW dialog
+<Gary> yes, that it what I want you to look at
+<Gary> And see what you think
+[Junior] is this version safe to use?
+<Gary> No, I just want you to look at the features i just described and give me your opinion
+<Gary> It is NOT ready for regular use
+<Gary> I just don't ant to spend weeks working on this and have you say "well I liked it the other way better" when I am FINISHED
+[Junior] I notice that when you select the main window when viewing a record that the munu picks are greyed out, is that what you want to happen?
+<Gary> Menu Picks?
+[Junior] yes
+<Gary> What is a menu pick?
+<Gary> The only thing I want accessable is the ability to view other records.  Not ALL functions from the main screen
+<Gary> I should un-grey the View button
+[Junior] Well, it seems to be working ok
+<Gary> And make it so that IF you have an Edit screen as the default double click on a record that it won't work
+<Gary> What I need to know is this ...
+<Gary> Do you like this way of looking at records --- where you can go back to the main screen and just navigate and select the records AS opposed to having to SHUT down the View screen and go back to select another one
+<Gary> That is what I need in terms of input
+<Gary> Note that the arrow keys are NOT greyed out, so you can go to other data files too
+[Junior] I notice that when scrolling through the records with the arrows that the main window flashes to the forground for just a milli-second
+<Gary> that is intended if you double click on a record for the main screen to come to the front
+[Junior] double click what?
+<Gary> Lets start over ....
+<Gary> What is the default action on your copy of PadHD when you select a record in the main screen list box and double click on it?
+[Junior] it opens the record
+<Gary> It should be, to bring up the View dialog with that record in it
+<Gary> in a VIEW dialog
+[Junior] you are correct
+<Gary> Every time you then go back (even while that dialog stays up - don't close it) and selcet and double click on new records THE MAIN screen will come to the foreground
+<Gary> Though you may not notice unless there is an overlap
+[Junior] Well, I think that "feature" is annoying.
+<Gary> What feature?
+<Gary> which part?
+[Junior] where the main window comes to the forground
+<Gary> OK
+[Junior] also after opening a record(viewing) the window controls quit working the close, minimize, etc.
+<Gary> That is NOT my concern right now.  What I would like to get from you is DO you think looking at records this way is better or worse than viewing rcords the way PadHD did before.  I already know there are bugs in it.
+<Gary> Is it worth it to keep the VIEW record non modal?
+<Gary> or does it make any difference to you?
+[Junior] What does it buy me other than being able to select another record while the view window is open
+<Gary> That's why I wanted you to look at it.  Is this worth keeping this way OR go back to the old way where it is modal?
+<Gary> Aslo, do a search (NOT an accumulate one) and watch what it does when you press continue until you run out of hits
+[Junior] I just looked at the old way, I think the new way has it's merits but I think the main window should stay in the background when selecting new records or when scrolling with thw arrows
+<Gary> That's not important now
+<Gary> I jsut want to know if it has merit
+<Gary> Whether it stays in the background or whatever will be user selectable if I keep it this way
+[Junior] the search works nice
+<Gary> I just don't want to spend oodles of time on something that later makes no sense
+<Gary> Now in the search dialog IT stays there and justr changes records
+<Gary> I still plan to add a dialog at the end saying No more Hits or whatever
+<Gary> And make it so you can Re-Scroll through the hits, perhaps
+[Junior] I really don't see any difference in the searches with the old way
+<Gary> The OLD way.  Every time you have a window come up with a hit the you press Continue.  Then the Window shuts down and opens again with the new hit -- NOT ACCUMULATIVE SEARCHES
+<Gary> Now the Window just stays up and the record changes
+[Junior] mine doesn't close down even with the old version
+<Gary> yes it does
+[Junior] not here
+<Gary> When you do a search do NOT check any boxes in the searh dialog
+[Junior] I an NOT checking anything
+<Gary> then when the Search dialog finds a hit and opens Press Continue.  The window will close
+<Gary> And come back up if it finds another hit
+[Junior] the search window is NOT closing here, i swear
+<Gary> IN THE OLD VERSION
+[Junior] yes the old version 2.1
+<Gary> that's the way IT works
+[Junior] Sorry bout that but it doesn't do that here
+<Gary> then you aren't running the old version 
+[Junior] maybe my system/video is so fast I can't see it happening
+[Junior] I KNOW what version I am running, even I am not that stupid!
+<Gary> Even still.  At the end of the search this NEW version has the Continue button greyed out and can't be used
+<Gary> and it beeps once
+<Gary> no dialog saying that there are no more records found
+<Gary> that is the NEW veresion I just sent
+<Gary> The old version does NOT do that
+[Junior] I am sorry Gary but the old version I have works like you just explained
+<Gary> Then you have something screwed up ther Junior.  The OLD version does NOT work that way
+<Gary> I am sorry but you may have copied the NEW one over top the old one or something
+[Junior] sorry, i just shredded the new version and the old version still works that way
+<Gary> I have NOT changed the version number
+<Gary> how many bytes on the executable
+[Junior] I can not resize the old version main window here
+<Gary> then it is NOT the OLD version
+<Gary> 219657 bytes
+[Junior] 226825
+<Gary> wrongo
+<Gary> this is the currently released version
+[Junior] I know I didn't over write my old version
+<Gary> maybe it's an OLD beta
+[Junior] but it works the way I told you
+<Gary> what is the file date?
+[Junior]  1-22-97  1:35a  A___ 226825   PADHD.EXE
+<Gary> must be an OLD beta cause it is NOT the current release
+[Junior] but it still works like i told you
+<Gary> running bogus versions :-)

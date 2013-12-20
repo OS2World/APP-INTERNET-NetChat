@@ -1,0 +1,6 @@
+/* Menu events - Cl~ear local entry area */
+
+
+/* Clear text 1000 Multi-Line Entry Field */
+WinSetDlgItemText(hwndDlg, 1001, "");
+

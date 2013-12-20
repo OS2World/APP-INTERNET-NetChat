@@ -1,0 +1,7 @@
+/* Menu events - Cle~ar remote entry area */
+
+
+
+/* Clear text 1001 Multi-Line Entry Field */
+WinSetDlgItemText(hwndDlg, 1000, "");
+

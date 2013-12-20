@@ -1,0 +1,26 @@
+00000025
+1997-05-21; 16:11:26; GARY L. ROBINSON; ADD; MAKEKEYS\Main-Form layout; ; <Main\Form>
+1997-05-21; 16:12:03; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Form layout; ; <Main\Form>
+1997-05-21; 16:19:20; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Form layout; ; <Main\Form>
+1997-05-21; 16:22:15; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Form layout; ; <Main\Form>
+1997-05-21; 16:25:43; GARY L. ROBINSON; ADD; MAKEKEYS\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-05-21; 16:34:39; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Form layout; ; <Main\Form>
+1997-05-21; 16:43:57; GARY L. ROBINSON; ADD; MAKEKEYS\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-21; 16:44:45; GARY L. ROBINSON; ADD; MAKEKEYS\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-05-21; 16:58:31; GARY L. ROBINSON; ADD; MAKEKEYS\Main-Event Clicked/selected - C~reate  1004; ; <Main\1004.0>
+1997-05-21; 17:04:56; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-05-21; 17:07:58; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Event Clicked/selected - C~reate  1004; ; <Main\1004.0>
+1997-05-21; 17:08:16; GARY L. ROBINSON; ADD; MAKEKEYS\Main-Event Clicked/selected - ~Cancel  1005; ; <Main\1005.0>
+1997-05-21; 21:15:50; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Event Clicked/selected - C~reate  1004; ; <Main\1004.0>
+1997-05-22; 00:02:47; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Event Clicked/selected - C~reate  1004; ; <Main\1004.0>
+1997-05-22; 00:02:49; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Form layout; ; <Main\Form>
+1997-05-22; 00:39:01; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Event Clicked/selected - C~reate  1004; ; <Main\1004.0>
+1997-05-22; 00:39:26; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Form layout; ; <Main\Form>
+1997-05-22; 00:45:21; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Event Clicked/selected - C~reate  1004; ; <Main\1004.0>
+1997-05-22; 02:12:13; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Form layout; ; <Main\Form>
+1997-05-22; 02:13:26; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Form layout; ; <Main\Form>
+1997-05-22; 02:16:32; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-05-22; 02:17:35; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-05-22; 02:23:01; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Event C~reate  1004, Clicked/selected; ; <Main\1004.0>
+1997-05-22; 02:29:21; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Event Clicked/selected - C~reate  1004; ; <Main\1004.0>
+1997-05-23; 00:54:23; GARY L. ROBINSON; CHG; MAKEKEYS\Main-Form layout; ; <Main\Form>

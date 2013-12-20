@@ -1,0 +1,11 @@
+/* Event Clicked/selected - ~Save  1001 */
+
+if( WinQueryDlgItemTextLength(hwndDlg, 1000) <= 0 )
+   return(0);
+
+WinQueryDlgItemText(hwndDlg, 1000, sizeof(PHRTMP.phrase), PHRTMP.phrase);
+PHRTMP.index = 1;
+
+bugem(hwndDlg);
+
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

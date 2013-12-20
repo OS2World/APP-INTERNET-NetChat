@@ -1,0 +1,59 @@
+/* Event Clicked/selected - ~Save  1000 */
+
+SHORT g;
+CHAR bstatus[20];
+
+
+// bugem(hwndDlg);
+
+WinQueryDlgItemText(hwndMainDlg, 1002, sizeof(bstatus), bstatus);
+
+if( strcmp(bstatus, "Connected!") == 0 )
+   {
+   if( !FTPINPROGRESS )
+      {
+      if( WinQueryDlgItemTextLength(hwndDlg, 1004) > 0 )
+         {
+         WinQueryDlgItemShort(hwndDlg, 1004, &g, TRUE);
+         pgmData[8] = g;
+
+         saveNCSet();
+         makeTBar();
+
+         msgBox(hwndDlg, "Notice :", "ONLY the current FTP port will be changed while connected.");
+         WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);
+         }
+      else
+         {
+         msgBox(hwndDlg, "Attention!", "You must enter a port number between 0-9999.");   
+         return(0);
+         }
+      }
+   else
+      msgBox(hwndDlg, "Attention!", "No Current ports will be changed while connected and transfering files.");
+   }
+else
+   {   
+   if( WinQueryDlgItemTextLength(hwndDlg, 1003) > 0 && 
+       WinQueryDlgItemTextLength(hwndDlg, 1002) > 0 && 
+       WinQueryDlgItemTextLength(hwndDlg, 1004) > 0 )
+      {
+      WinQueryDlgItemShort(hwndDlg, 1003, &g, TRUE);
+      pgmData[4] = g;
+
+      WinQueryDlgItemShort(hwndDlg, 1002, &g, TRUE);
+      pgmData[5] = g;
+
+      WinQueryDlgItemShort(hwndDlg, 1004, &g, TRUE);
+      pgmData[8] = g;
+      saveNCSet();
+      makeTBar();
+      WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);
+      }
+   else
+      {
+      msgBox(hwndDlg, "Attention!", "You must enter a port number between 0-9999 for every entry.");   
+      return(0);
+      }
+   }
+  

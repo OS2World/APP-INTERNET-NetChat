@@ -1,0 +1,3 @@
+/* Menu events - Remote party info ... */
+
+_beginthread(sendOneMSG, NULL, BSTACK, (PVOID)15);

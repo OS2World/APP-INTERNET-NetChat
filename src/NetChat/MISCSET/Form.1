@@ -1,0 +1,133 @@
+/* Event Form events, Opened */
+
+
+{
+ULONG dtHeight, dtWidth, lHeight, lWidth;
+SWP swp;
+dtHeight = WinQuerySysValue(HWND_DESKTOP,SV_CYSCREEN);
+dtWidth = WinQuerySysValue(HWND_DESKTOP,SV_CXSCREEN);
+WinQueryWindowPos(hwndDlg, (PSWP) &swp);
+lWidth = (dtWidth/2) - (swp.cx/2); 
+lHeight = (dtHeight/2) - (swp.cy/2); 
+WinSetWindowPos(hwndDlg, HWND_TOP, lWidth, lHeight, 0, 0, SWP_MOVE | SWP_SHOW | SWP_ACTIVATE);
+}
+
+WinSendDlgItemMsg(hwndDlg, 1000,
+                  SPBM_SETLIMITS,
+                  MPFROMLONG(3600),       
+                  MPFROMLONG(10));          
+
+WinSendDlgItemMsg(hwndDlg, 1000,
+                  SPBM_SETCURRENTVALUE,
+                  MPFROMLONG(pgmData[6]), 0);
+
+pgmData[7] = 2;
+
+/*
+switch( pgmData[7] )
+   {
+   case 1:
+      WinCheckButton(hwndDlg, 1003, 1);
+      break;
+      
+   case 2:
+      WinCheckButton(hwndDlg, 1005, 1);
+      break;
+      
+   case 3:
+      WinCheckButton(hwndDlg, 1004, 1);
+      break;
+   }
+*/
+
+WinSetDlgItemText(hwndDlg, 1008, DEFDLDIR);
+WinSetDlgItemText(hwndDlg, 1009, DEFULDIR);
+
+if( pgmData[33] == 1 )
+   WinCheckButton(hwndDlg, 1005, 1);
+
+if( pgmData[9] == 1 )
+   WinCheckButton(hwndDlg, 1012, 1);
+
+if( pgmData[14] == 1 )
+   WinCheckButton(hwndDlg, 1013, 1);
+
+
+
+if( pgmData[15] == 1 )
+   WinCheckButton(hwndDlg, 1014, 1);
+
+if( pgmData[16] == 1 )
+   WinCheckButton(hwndDlg, 1015, 1);
+
+if( pgmData[17] == 1 )
+   WinCheckButton(hwndDlg, 1016, 1);
+
+if( pgmData[18] == 1 )
+   WinCheckButton(hwndDlg, 1017, 1);
+
+if( pgmData[19] == 1 )
+   WinCheckButton(hwndDlg, 1018, 1);
+
+if( pgmData[20] == 1 )
+   WinCheckButton(hwndDlg, 1019, 1);
+
+if( pgmData[21] == 1 )
+   WinCheckButton(hwndDlg, 1020, 1);
+
+if( pgmData[22] == 1 )
+   WinCheckButton(hwndDlg, 1021, 1);
+
+if( pgmData[23] == 1 )
+   WinCheckButton(hwndDlg, 1022, 1);
+
+if( pgmData[24] == 1 )
+   WinCheckButton(hwndDlg, 1023, 1);
+
+if( pgmData[29] == 1 )
+   WinCheckButton(hwndDlg, 1024, 1);
+
+if( pgmData[30] == 1 )
+   WinCheckButton(hwndDlg, 1025, 1);
+
+if( pgmData[31] == 1 )
+   WinCheckButton(hwndDlg, 1002, 1);
+
+if( pgmData[32] == 1 )
+   WinCheckButton(hwndDlg, 1004, 1);
+
+if( pgmData[39] == 1 )
+   WinCheckButton(hwndDlg, 1033, 1);
+
+if( pgmData[40] == 1 )
+   WinCheckButton(hwndDlg, 1034, 1);
+
+if( pgmData[35] <= 0 )
+   {
+   WinSetDlgItemShort(hwndDlg, 1026, (SHORT)6667, FALSE);
+   }
+else
+   {
+   WinSetDlgItemShort(hwndDlg, 1026, (SHORT)pgmData[35], FALSE);
+   }
+   
+if( pgmData[36] <= 0 )
+   {
+   WinSetDlgItemShort(hwndDlg, 1027, (SHORT)6667, FALSE);
+   }
+else
+   {
+   WinSetDlgItemShort(hwndDlg, 1027, (SHORT)pgmData[36], FALSE);
+   }
+   
+if( pgmData[37] <= 0 )
+   {
+   WinSetDlgItemShort(hwndDlg, 1028, (SHORT)21, FALSE);
+   }
+else
+   {
+   WinSetDlgItemShort(hwndDlg, 1028, (SHORT)pgmData[37], FALSE);
+   }
+   
+
+   

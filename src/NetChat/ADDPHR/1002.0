@@ -1,0 +1,4 @@
+/* Event Clicked/selected - ~Cancel  1002 */
+
+
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

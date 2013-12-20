@@ -1,0 +1,8 @@
+/* Menu events - ~Connect                Ctrl+T */
+
+CHAR bstatus[20];
+
+WinQueryDlgItemText(hwndMainDlg, 1002, sizeof(bstatus), bstatus);
+if( strcmp(bstatus, "Listen OFF") == 0 )
+   WinSendMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(1002,2345), 0);
+

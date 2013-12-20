@@ -1,0 +1,17 @@
+/* Event Clicked/selected - ~Save  1003 */
+
+bugem(hwndDlg);
+
+if( WinQueryDlgItemTextLength(hwndDlg, 1000) <= 0 )
+   return(0);
+
+if( WinQueryDlgItemTextLength(hwndDlg, 1001) <= 0 )
+   return(0);
+
+WinQueryDlgItemText(hwndDlg, 1000, sizeof(ncTmpr.ncName), ncTmpr.ncName);
+WinQueryDlgItemText(hwndDlg, 1001, sizeof(ncTmpr.ncURL), ncTmpr.ncURL);
+WinQueryDlgItemText(hwndDlg, 1002, sizeof(ncTmpr.ncNote), ncTmpr.ncNote);
+ncTmpr.indx = 1;
+
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);
+

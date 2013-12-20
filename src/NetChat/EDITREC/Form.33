@@ -1,0 +1,3 @@
+/* Code sections - Window structure members */
+
+HWND hwnd;

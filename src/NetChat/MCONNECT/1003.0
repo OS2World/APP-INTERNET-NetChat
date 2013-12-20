@@ -1,0 +1,48 @@
+/* Event Clicked/selected - Co~nnect  1003 */
+
+CHAR bstatus[40];
+// INT kb;
+
+if( WinQueryDlgItemTextLength(hwndDlg, 1002) < 1 )
+   {
+   msgBox(hwndDlg, "Attention!", "You must enter a valid IP address for NetChat to work properly.");
+   return(0);
+   }
+
+WinQueryDlgItemText(hwndDlg, 1002, sizeof(guestIP), guestIP);
+
+
+// WinEnableControl(hwndDlg, 1003, FALSE);
+// WinEnableControl(hwndDlg, 1004, FALSE);
+// WinEnableWindow(hwndDlg, FALSE);
+// NOWLISTENING = FALSE;
+// kb = 0;
+// do
+//    {
+//   DosSleep(50);
+//   WinQueryDlgItemText(hwndMainDlg, 1002, sizeof(bstatus), bstatus);
+//   kb++;
+//   }
+// while( !NOWLISTENING && kb < 40 );   
+
+WinQueryDlgItemText(hwndMainDlg, 1002, sizeof(bstatus), bstatus);
+
+if( strcmp(bstatus, "Listen ON") == 0 )
+   {
+   if( (INT)guestIP[0] > 47 && (INT)guestIP[0] < 58 )  
+      _beginthread(attemptConnect, NULL, BSTACK, (PVOID)&hwndMainDlg);
+   else   
+      _beginthread(attemptConnect2, NULL, BSTACK, (PVOID)&hwndMainDlg);
+   }
+
+if( strcmp(bstatus, "Listen OFF") == 0 )
+   {
+   WinSendMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(1002,2345), 0);
+   if( (INT)guestIP[0] > 47 && (INT)guestIP[0] < 58 )  
+      _beginthread(attemptConnect, NULL, BSTACK, (PVOID)&hwndMainDlg);
+   else   
+      _beginthread(attemptConnect2, NULL, BSTACK, (PVOID)&hwndMainDlg);
+   }
+
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);
+

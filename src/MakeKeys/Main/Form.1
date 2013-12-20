@@ -1,0 +1,27 @@
+/* Form events - Opened */
+
+if ( (hini = PrfOpenProfile(WinQueryAnchorBlock(hwndDlg) , INIFILE)) != NULLHANDLE )
+   {
+   PrfQueryProfileSize(hini, "makekeys", "WINPOS", &rSize);
+   if ( rSize == (sizeof(pgmData)) )
+      {
+      PrfQueryProfileData(hini, "makekeys", "WINPOS", &pgmData, &rSize);
+      }
+   else
+      {
+      pgmData[0] = 50;
+      pgmData[1] = 50;
+      }
+   }   
+else
+   {
+   pgmData[0] = 50;
+   pgmData[1] = 50;
+   }
+WinSetWindowPos(hwndFrame, HWND_TOP, pgmData[0], pgmData[1], 0, 0, SWP_MOVE );
+
+
+WinSendDlgItemMsg(hwndDlg, 1006,
+                  MLM_SETTEXTLIMIT,
+                  MPFROMLONG(500), 0);
+

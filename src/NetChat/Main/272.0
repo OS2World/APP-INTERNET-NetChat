@@ -1,0 +1,11 @@
+/* Menu events - ~About NetChat ... */
+
+/* !place #include "ABOUT.h" in the Extra Include Code Section! */
+/* Open the modal form F:\nchattcp\NetChat\ABOUT */
+{
+   USHORT usReturn;
+   HWND hNewFrame;
+   hNewFrame = OpenABOUT(hwndDlg, 0);
+   usReturn = (USHORT) WinProcessDlg(hNewFrame);
+}
+

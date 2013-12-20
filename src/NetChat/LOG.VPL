@@ -1,0 +1,1903 @@
+00001902
+1997-01-12; 02:22:31; GARY L. ROBINSON; ADD; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 02:23:03; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 02:28:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 02:28:02; GARY L. ROBINSON; ADD; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-01-12; 02:29:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 02:31:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 02:44:19; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 02:47:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 02:58:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:12:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:12:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-01-12; 03:12:21; GARY L. ROBINSON; ADD; NETCHAT\Main-Form help info; ; <Main\Form.fin>
+1997-01-12; 03:12:21; GARY L. ROBINSON; ADD; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-01-12; 03:15:17; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:16:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:18:56; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:30:22; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Try again; ; <Main\260.0>
+1997-01-12; 03:30:45; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Close connection; ; <Main\261.0>
+1997-01-12; 03:30:55; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Exit; ; <Main\262.0>
+1997-01-12; 03:31:09; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Copy; ; <Main\263.0>
+1997-01-12; 03:31:17; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Paste; ; <Main\264.0>
+1997-01-12; 03:31:32; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Window style; ; <Main\265.0>
+1997-01-12; 03:31:41; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Word Wrap; ; <Main\266.0>
+1997-01-12; 03:31:50; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Index; ; <Main\267.0>
+1997-01-12; 03:31:59; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Using Help; ; <Main\268.0>
+1997-01-12; 03:32:11; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~About Net Chat ...; ; <Main\269.0>
+1997-01-12; 03:32:55; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-01-12; 03:36:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:38:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:39:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:40:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:41:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:42:27; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:45:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:46:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:48:36; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 03:50:24; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 04:09:00; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Try again; ; <Main\260.0>
+1997-01-12; 04:11:46; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Exit; ; <Main\262.0>
+1997-01-12; 04:12:39; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Close connection; ; <Main\261.0>
+1997-01-12; 04:13:54; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Copy; ; <Main\263.0>
+1997-01-12; 04:14:32; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Paste; ; <Main\264.0>
+1997-01-12; 04:15:43; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Window style; ; <Main\265.0>
+1997-01-12; 04:16:25; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Word Wrap; ; <Main\266.0>
+1997-01-12; 04:17:20; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Index; ; <Main\267.0>
+1997-01-12; 04:18:02; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Using Help; ; <Main\268.0>
+1997-01-12; 04:18:41; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~About Net Chat ...; ; <Main\269.0>
+1997-01-12; 04:19:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-01-12; 04:19:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Form help info; ; <Main\Form.fin>
+1997-01-12; 04:19:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-01-12; 04:21:13; GARY L. ROBINSON; ADD; NETCHAT\Main-Event Clicked/selected - C~lose  1003; ; <Main\1003.0>
+1997-01-12; 04:22:33; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Exit; ; <Main\270.0>
+1997-01-12; 04:27:32; GARY L. ROBINSON; ADD; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-01-12; 04:28:42; GARY L. ROBINSON; ADD; NETCHAT\Main-Form events - Closed; ; <Main\Form.2>
+1997-01-12; 04:29:28; GARY L. ROBINSON; ADD; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-01-12; 04:31:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-01-12; 04:33:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-01-12; 04:33:51; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Closed; ; <Main\Form.2>
+1997-01-12; 04:36:09; GARY L. ROBINSON; ADD; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-01-12; 04:37:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-01-12; 04:38:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-01-12; 04:41:49; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 04:43:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 04:47:29; GARY L. ROBINSON; ADD; NETCHAT\Main-Event Clicked/selected - ~Copy  1004; ; <Main\1004.0>
+1997-01-12; 04:51:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy  1004; ; <Main\1004.0>
+1997-01-12; 04:51:51; GARY L. ROBINSON; ADD; NETCHAT\Main-Event Clicked/selected - ~Paste  1005; ; <Main\1005.0>
+1997-01-12; 04:57:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy  1004; ; <Main\1004.0>
+1997-01-12; 04:58:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy  1004; ; <Main\1004.0>
+1997-01-12; 05:03:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-01-12; 05:03:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-01-12; 05:08:49; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-01-12; 05:08:49; GARY L. ROBINSON; ADD; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-01-12; 05:11:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-01-12; 05:11:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-01-12; 05:13:46; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-01-12; 05:13:46; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-01-12; 05:16:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-01-12; 05:16:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-01-12; 05:17:11; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-01-12; 05:17:11; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-01-12; 05:22:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-01-12; 05:22:30; GARY L. ROBINSON; ADD; NETCHAT\Main-Event ~Word Wrap  1006, Clicked/selected; ; <Main\1006.0>
+1997-01-12; 05:24:22; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Copy     Ctrl+C; ; <Main\261.0>
+1997-01-12; 05:24:36; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Paste    Ctrl+V; ; <Main\262.0>
+1997-01-12; 05:25:01; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~WordWrap; ; <Main\264.0>
+1997-01-12; 05:28:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Copy     Ctrl+C; ; <Main\261.0>
+1997-01-12; 05:28:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Paste    Ctrl+V; ; <Main\262.0>
+1997-01-12; 05:32:03; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Copy     Ctrl+C; ; <Main\261.0>
+1997-01-12; 05:32:13; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Paste    Ctrl+V; ; <Main\262.0>
+1997-01-12; 05:32:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-01-12; 05:35:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-01-12; 05:38:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~WordWrap; ; <Main\264.0>
+1997-01-12; 05:40:24; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~WordWrap; ; <Main\264.0>
+1997-01-12; 05:40:59; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Word Wrap  1006; ; <Main\1006.0>
+1997-01-12; 05:43:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~WordWrap; ; <Main\264.0>
+1997-01-12; 05:43:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Word Wrap  1006; ; <Main\1006.0>
+1997-01-12; 05:45:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Word Wrap  1006; ; <Main\1006.0>
+1997-01-12; 05:46:20; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~WordWrap; ; <Main\264.0>
+1997-01-12; 05:47:31; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Configure; ; <Main\258.0>
+1997-01-12; 05:49:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Word Wrap  1006; ; <Main\1006.0>
+1997-01-12; 05:50:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-01-12; 05:59:00; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-01-12; 06:00:29; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-01-12; 06:02:04; GARY L. ROBINSON; ADD; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-01-12; 06:02:49; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-01-12; 06:09:02; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-01-12; 06:09:02; GARY L. ROBINSON; ADD; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-01-12; 06:09:02; GARY L. ROBINSON; ADD; NETCHAT\ABOUT-Symbols; ; <ABOUT\Form.sym>
+1997-01-12; 06:11:14; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~About NetChat ...; ; <Main\272.0>
+1997-01-12; 06:12:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~About NetChat ...; ; <Main\272.0>
+1997-01-12; 06:13:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-01-12; 06:14:28; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-01-12; 06:16:13; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~About NetChat ...; ; <Main\272.0>
+1997-01-12; 06:16:34; GARY L. ROBINSON; ADD; NETCHAT\Main-Event Clicked/selected - ~Help  1007; ; <Main\1007.0>
+1997-01-12; 06:17:20; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-01-12; 06:17:20; GARY L. ROBINSON; DEL; NETCHAT\ABOUT-Symbols; ; <ABOUT\Form.sym>
+1997-01-12; 06:21:48; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-01-12; 06:21:48; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-01-12; 06:21:48; GARY L. ROBINSON; ADD; NETCHAT\ABOUT-Symbols; ; <ABOUT\Form.sym>
+1997-01-12; 06:35:34; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-01-12; 06:35:48; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-01-12; 06:35:58; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-01-12; 06:37:25; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-01-12; 06:38:28; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-01-12; 06:47:36; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-01-12; 06:47:36; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-01-12; 06:47:36; GARY L. ROBINSON; DEL; NETCHAT\ABOUT-Symbols; ; <ABOUT\Form.sym>
+1997-01-12; 06:51:44; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-01-12; 07:00:23; GARY L. ROBINSON; ADD; NETCHAT\ABOUT-Event Clicked/selected - ~OK  1002; ; <ABOUT\1002.0>
+1997-01-12; 07:00:46; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-01-12; 07:02:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Help  1007; ; <Main\1007.0>
+1997-01-12; 07:03:12; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~About NetChat ...; ; <Main\272.0>
+1997-01-12; 07:05:16; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-01-12; 07:07:34; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-01-12; 07:10:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Form help info; ; <Main\Form.fin>
+1997-01-12; 07:10:46; GARY L. ROBINSON; ADD; NETCHAT\ABOUT-Form help info; ; <ABOUT\Form.fin>
+1997-01-12; 07:34:42; GARY L. ROBINSON; ADD; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-01-12; 07:36:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-01-30; 16:26:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-01-30; 16:31:08; GARY L. ROBINSON; ADD; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-01-30; 16:32:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-01-30; 16:33:13; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-01-30; 16:33:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-01-30; 16:35:10; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-01-30; 16:35:27; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-01-30; 16:36:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-01-30; 17:27:52; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-01-30; 23:14:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-01-30; 23:19:12; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-01-30; 23:20:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-01-30; 23:21:00; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-02-17; 08:23:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-02-17; 08:25:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-02-17; 08:26:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-02-17; 08:27:56; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-02-17; 08:48:00; GARY L. ROBINSON; DEL; NETCHAT\Main-~Paste ID_PASTECB - Clicked/selected; ; <Main\1005.0>
+1997-02-17; 08:52:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-02-17; 08:52:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-02-17; 08:57:16; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-17; 09:06:32; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-17; 09:13:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-17; 09:14:16; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-17; 09:16:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-17; 09:23:17; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-17; 09:37:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-17; 09:53:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:09:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-17; 10:11:53; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-17; 10:13:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:14:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:19:37; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:20:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:21:43; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:24:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:26:01; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:26:43; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:29:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:35:08; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:37:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-17; 10:38:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:15:59; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:17:37; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:20:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:20:53; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:21:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:22:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:24:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:25:27; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:29:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:31:16; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:43:07; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:44:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 00:50:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 01:05:49; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 01:14:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-02-18; 01:14:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 01:14:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-02-18; 01:16:29; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-02-18; 01:17:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 01:30:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 01:32:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-02-18; 01:34:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 01:35:55; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 01:45:44; GARY L. ROBINSON; DEL; NETCHAT\Main-~Copy ID_COPYCB - Clicked/selected; ; <Main\1004.0>
+1997-02-18; 01:47:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-02-18; 01:47:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-02-18; 01:51:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 01:52:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 01:52:43; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 01:52:43; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-02-18; 02:00:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 02:03:10; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 02:04:53; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 02:17:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 02:18:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 02:19:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-02-18; 02:24:08; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-18; 02:25:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-18; 02:27:10; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-02-18; 02:31:49; GARY L. ROBINSON; ADD; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-02-18; 02:32:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-02-18; 02:32:39; GARY L. ROBINSON; ADD; NETCHAT\Main-Event Clicked/selected - ~Paste ID_PASTECB; ; <Main\1005.0>
+1997-02-18; 02:32:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-03-08; 03:41:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Hail  1007; ; <Main\1007.0>
+1997-03-08; 03:42:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Word Wrap  1006; ; <Main\1006.0>
+1997-03-08; 03:45:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-10; 03:13:07; GARY L. ROBINSON; ADD; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-03-10; 03:15:09; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-03-10; 03:15:09; GARY L. ROBINSON; ADD; NETCHAT\HAILLIST-Form help info; ; <HAILLIST\Form.fin>
+1997-03-10; 03:16:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Hail for connection  1007; ; <Main\1007.0>
+1997-03-10; 03:16:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-03-10; 03:16:43; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Hail for connection  1007; ; <Main\1007.0>
+1997-03-10; 03:24:03; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-03-10; 03:26:25; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-03-10; 03:28:14; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-03-11; 02:43:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-11; 02:45:49; GARY L. ROBINSON; ADD; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-11; 02:47:36; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-11; 04:29:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-11; 04:30:13; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-11; 04:32:10; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-11; 04:32:50; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-11; 04:33:17; GARY L. ROBINSON; ADD; NETCHAT\HAILLIST-Code sections - Extra include files; ; <HAILLIST\Form.34>
+1997-03-11; 04:37:05; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-03-11; 04:38:01; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-03-11; 04:46:23; GARY L. ROBINSON; ADD; NETCHAT\HAILLIST-Code sections - Top of window procedure; ; <HAILLIST\Form.37>
+1997-03-11; 04:47:27; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Code sections - Top of window procedure; ; <HAILLIST\Form.37>
+1997-03-11; 04:57:22; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-11; 05:26:11; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-11; 05:28:00; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Code sections - Extra include files; ; <HAILLIST\Form.34>
+1997-03-11; 05:47:23; GARY L. ROBINSON; ADD; NETCHAT\NEWREC-Form layout; ; <NEWREC\Form>
+1997-03-11; 05:53:00; GARY L. ROBINSON; ADD; NETCHAT\NEWREC-Event Clicked/selected - ~Save  1003; ; <NEWREC\1003.0>
+1997-03-11; 05:53:18; GARY L. ROBINSON; ADD; NETCHAT\NEWREC-Event Clicked/selected - ~Cancel  1004; ; <NEWREC\1004.0>
+1997-03-11; 05:53:28; GARY L. ROBINSON; CHG; NETCHAT\NEWREC-Form layout; ; <NEWREC\Form>
+1997-03-11; 05:53:28; GARY L. ROBINSON; ADD; NETCHAT\NEWREC-Form help info; ; <NEWREC\Form.fin>
+1997-03-11; 06:03:02; GARY L. ROBINSON; CHG; NETCHAT\NEWREC-Form layout; ; <NEWREC\Form>
+1997-03-11; 06:04:39; GARY L. ROBINSON; CHG; NETCHAT\NEWREC-Form layout; ; <NEWREC\Form>
+1997-03-11; 06:09:32; GARY L. ROBINSON; CHG; NETCHAT\NEWREC-Form layout; ; <NEWREC\Form>
+1997-03-11; 06:11:20; GARY L. ROBINSON; ADD; NETCHAT\NEWREC-Code sections - Extra include files; ; <NEWREC\Form.34>
+1997-03-11; 06:16:30; GARY L. ROBINSON; ADD; NETCHAT\NEWREC-Form events - Opened; ; <NEWREC\Form.1>
+1997-03-11; 06:22:21; GARY L. ROBINSON; CHG; NETCHAT\NEWREC-Event Clicked/selected - ~Save  1003; ; <NEWREC\1003.0>
+1997-03-11; 06:25:25; GARY L. ROBINSON; CHG; NETCHAT\NEWREC-Event Clicked/selected - ~Save  1003; ; <NEWREC\1003.0>
+1997-03-11; 06:43:20; GARY L. ROBINSON; CHG; NETCHAT\NEWREC-Event Clicked/selected - ~Save  1003; ; <NEWREC\1003.0>
+1997-03-11; 06:44:25; GARY L. ROBINSON; CHG; NETCHAT\NEWREC-Event Clicked/selected - ~Save  1003; ; <NEWREC\1003.0>
+1997-03-11; 07:34:39; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-11; 14:48:06; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Form layout; ; <EDITREC\Form>
+1997-03-12; 00:25:47; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Cancel  1004; ; <EDITREC\1004.0>
+1997-03-12; 00:30:51; GARY L. ROBINSON; ADD; NETCHAT\EDITREC-Form events - Closed; ; <EDITREC\Form.2>
+1997-03-12; 00:31:43; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Form layout; ; <EDITREC\Form>
+1997-03-12; 00:39:23; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Form events - Opened; ; <EDITREC\Form.1>
+1997-03-12; 00:43:04; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-12; 00:47:10; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Form events - Opened; ; <EDITREC\Form.1>
+1997-03-12; 00:50:34; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Cancel  1004; ; <EDITREC\1004.0>
+1997-03-12; 00:51:02; GARY L. ROBINSON; ADD; NETCHAT\EDITREC-Form events - Destroyed; ; <EDITREC\Form.3>
+1997-03-12; 00:52:59; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:20:13; GARY L. ROBINSON; ADD; NETCHAT\EDITREC-Code sections - Window structure members; ; <EDITREC\Form.33>
+1997-03-12; 01:23:26; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:27:56; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:33:11; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:38:23; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:38:48; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Form events - Closed; ; <EDITREC\Form.2>
+1997-03-12; 01:39:07; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Form events - Destroyed; ; <EDITREC\Form.3>
+1997-03-12; 01:39:50; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:43:10; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:45:48; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:47:49; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:49:32; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:52:05; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Code sections - Window structure members; ; <EDITREC\Form.33>
+1997-03-12; 01:52:38; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:55:06; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-03-12; 01:56:43; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Form events - Destroyed; ; <EDITREC\Form.3>
+1997-03-12; 02:07:38; GARY L. ROBINSON; ADD; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-12; 02:08:20; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-12; 02:33:00; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-12; 02:33:00; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form help info; ; <SETTINGS\Form.fin>
+1997-03-12; 02:34:13; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form events - Opened; ; <SETTINGS\Form.1>
+1997-03-12; 02:34:58; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Event Clicked/selected - ~Save settings  1019; ; <SETTINGS\1019.0>
+1997-03-12; 02:36:00; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Code sections - User defined messages; ; <SETTINGS\Form.38>
+1997-03-12; 02:44:33; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Internet acct. settings; ; <Main\267.0>
+1997-03-12; 02:44:53; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-03-12; 02:45:24; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Internet acct. settings; ; <Main\267.0>
+1997-03-12; 02:45:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-12; 02:45:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-12; 02:48:26; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Code sections - Extra include files; ; <SETTINGS\Form.34>
+1997-03-12; 02:52:25; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-12; 02:54:06; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-12; 02:55:35; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-12; 03:15:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-12; 03:15:27; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-12; 03:16:17; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-03-12; 03:16:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-03-12; 03:23:33; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Event ~Save settings  1019, Clicked/selected; ; <SETTINGS\1019.0>
+1997-03-12; 03:25:42; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form events - Opened; ; <SETTINGS\Form.1>
+1997-03-12; 04:35:22; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-12; 04:36:48; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-12; 04:39:25; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-12; 04:49:49; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-13; 00:37:35; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-13; 00:40:03; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-13; 04:10:10; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Hailing list; ; <Main\268.0>
+1997-03-13; 04:10:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-13; 04:10:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-13; 04:14:25; GARY L. ROBINSON; ADD; NETCHAT\HAILLIST-Code sections - Window structure members; ; <HAILLIST\Form.33>
+1997-03-13; 04:18:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Hailing list; ; <Main\268.0>
+1997-03-13; 04:23:28; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-13; 04:25:07; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-13; 04:25:59; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-13; 04:28:49; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-13; 04:31:28; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-13; 04:34:35; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-13; 04:40:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Hail   1007; ; <Main\1007.0>
+1997-03-13; 04:44:42; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-13; 04:45:01; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-13; 04:46:19; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-13; 04:48:48; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-13; 04:50:13; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-13; 05:27:10; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 05:30:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 05:31:01; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 05:32:32; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 05:36:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 05:38:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 05:39:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 05:39:10; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-13; 05:46:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 06:01:16; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 06:05:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 06:13:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 06:22:37; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 06:32:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-13; 06:36:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-13; 06:37:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-13; 06:38:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-13; 06:38:59; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 06:41:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 06:49:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-03-13; 07:16:11; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-03-13; 07:49:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-03-13; 07:52:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-13; 08:00:32; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-13; 08:13:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Paste ID_PASTECB; ; <Main\1005.0>
+1997-03-13; 08:14:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Paste ID_PASTECB; ; <Main\1005.0>
+1997-03-13; 08:14:07; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-14; 05:34:17; GARY L. ROBINSON; ADD; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-14; 05:39:55; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-14; 05:39:55; GARY L. ROBINSON; ADD; NETCHAT\HAILNOTE-Form help info; ; <HAILNOTE\Form.fin>
+1997-03-14; 05:43:45; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-14; 05:51:14; GARY L. ROBINSON; ADD; NETCHAT\HAILNOTE-Code sections - Window structure members; ; <HAILNOTE\Form.33>
+1997-03-14; 05:54:57; GARY L. ROBINSON; ADD; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-14; 05:57:14; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-14; 05:57:43; GARY L. ROBINSON; ADD; NETCHAT\HAILNOTE-Code sections - Extra include files; ; <HAILNOTE\Form.34>
+1997-03-14; 06:02:37; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-14; 06:02:39; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-14; 06:04:54; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Form events, Opened; ; <HAILNOTE\Form.1>
+1997-03-14; 06:06:07; GARY L. ROBINSON; ADD; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-03-14; 06:06:30; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-03-14; 06:06:51; GARY L. ROBINSON; ADD; NETCHAT\HAILNOTE-Event Clicked/selected - ~Don't connect  1002; ; <HAILNOTE\1002.0>
+1997-03-14; 06:30:37; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-15; 03:58:13; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-15; 04:16:56; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-15; 04:22:00; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-15; 04:23:11; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-15; 04:27:45; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Form events, Opened; ; <HAILNOTE\Form.1>
+1997-03-15; 04:33:51; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Form events, Opened; ; <HAILNOTE\Form.1>
+1997-03-15; 04:40:38; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-15; 04:43:55; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-15; 04:44:56; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-15; 04:49:30; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-15; 04:52:27; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-15; 04:56:24; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-15; 05:07:00; GARY L. ROBINSON; ADD; NETCHAT\HAILNOTE-Event Click/Selected - List Box  1000; ; <HAILNOTE\1000.0>
+1997-03-15; 05:07:10; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-15; 05:53:55; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-15; 05:55:04; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-15; 05:57:34; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-15; 06:28:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-16; 03:47:39; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-16; 03:50:46; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-03-16; 03:56:14; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-03-16; 03:56:16; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-03-16; 04:20:01; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-16; 04:24:04; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-16; 04:28:53; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-16; 04:32:28; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-16; 04:38:01; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-16; 04:39:20; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-16; 04:44:31; GARY L. ROBINSON; ADD; NETCHAT\HAILRES-Form layout; ; <HAILRES\Form>
+1997-03-16; 04:47:24; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Form layout; ; <HAILRES\Form>
+1997-03-16; 04:48:36; GARY L. ROBINSON; ADD; NETCHAT\HAILRES-Form events - Timer expired; ; <HAILRES\Form.13>
+1997-03-16; 04:48:48; GARY L. ROBINSON; ADD; NETCHAT\HAILRES-Timer duration; ; <HAILRES\Form.dur>
+1997-03-16; 04:48:55; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Timer duration; ; <HAILRES\Form.dur>
+1997-03-16; 04:49:00; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Timer duration; ; <HAILRES\Form.dur>
+1997-03-16; 04:49:01; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Timer duration; ; <HAILRES\Form.dur>
+1997-03-16; 04:49:19; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Timer duration; ; <HAILRES\Form.dur>
+1997-03-16; 05:03:42; GARY L. ROBINSON; ADD; NETCHAT\HAILRES-Form events - Opened; ; <HAILRES\Form.1>
+1997-03-16; 05:04:21; GARY L. ROBINSON; ADD; NETCHAT\HAILRES-Code sections - Window structure members; ; <HAILRES\Form.33>
+1997-03-16; 05:06:08; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Form events - Opened; ; <HAILRES\Form.1>
+1997-03-16; 05:06:55; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Form events - Opened; ; <HAILRES\Form.1>
+1997-03-16; 05:09:40; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Form events - Opened; ; <HAILRES\Form.1>
+1997-03-16; 05:10:26; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Form events - Opened; ; <HAILRES\Form.1>
+1997-03-16; 05:13:15; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Form events - Opened; ; <HAILRES\Form.1>
+1997-03-16; 05:19:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-03-16; 05:22:29; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Form events - Opened; ; <HAILRES\Form.1>
+1997-03-16; 05:24:02; GARY L. ROBINSON; CHG; NETCHAT\HAILRES-Form events - Opened; ; <HAILRES\Form.1>
+1997-03-16; 05:30:33; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-16; 05:30:56; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-16; 05:31:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-17; 03:28:57; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-03-17; 03:30:03; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-03-17; 03:34:32; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 03:35:21; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Click/Selected - List Box  1000; ; <LOGNOTE\1000.0>
+1997-03-17; 03:41:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-17; 03:41:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-17; 03:43:55; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - Hail log; ; <Main\273.0>
+1997-03-17; 03:44:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-03-17; 03:44:52; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - Hail log; ; <Main\273.0>
+1997-03-17; 03:46:28; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 03:48:11; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 03:49:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-17; 03:49:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-17; 03:52:36; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 04:11:49; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 04:13:35; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 04:16:09; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 04:45:33; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 06:30:50; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 06:31:54; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 07:04:48; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 07:06:55; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 07:08:28; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 07:20:44; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 07:34:29; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 07:41:34; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 07:44:31; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-17; 08:33:32; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-18; 04:31:02; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-03-18; 04:31:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-18; 04:31:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-18; 05:45:13; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-20; 03:09:28; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-20; 03:10:10; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Event Clicked/selected - ~Save settings  1019; ; <SETTINGS\1019.0>
+1997-03-20; 03:10:42; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form events - Opened; ; <SETTINGS\Form.1>
+1997-03-20; 03:20:57; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-20; 03:27:24; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-20; 03:30:43; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-20; 03:33:39; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-20; 03:36:13; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-20; 03:38:40; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-20; 03:39:38; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-20; 03:47:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-20; 05:06:36; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-20; 06:20:36; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-03-20; 06:21:41; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Form events, Opened; ; <Main\Form.1>
+1997-03-20; 06:55:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-03-20; 07:04:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Disconnect  1003; ; <Main\1003.0>
+1997-03-20; 07:05:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Disconnect  1003; ; <Main\1003.0>
+1997-03-20; 07:05:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-20; 08:41:05; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-03-20; 08:41:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Disconnect  1003; ; <Main\1003.0>
+1997-03-20; 09:02:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Disconnect  1003; ; <Main\1003.0>
+1997-03-20; 09:10:46; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-20; 09:11:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-03-20; 09:11:49; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Disconnect  1003; ; <Main\1003.0>
+1997-03-20; 09:14:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Disconnect  1003; ; <Main\1003.0>
+1997-03-20; 09:14:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect  1002; ; <Main\1002.0>
+1997-03-20; 09:17:12; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-20; 09:20:17; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Disconnect  1003; ; <Main\1003.0>
+1997-03-20; 16:39:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-20; 17:04:16; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-20; 17:04:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-21; 00:13:11; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-21; 00:14:53; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-21; 00:18:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-21; 00:19:33; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-03-21; 00:19:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-21; 00:24:27; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-21; 00:39:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-21; 00:58:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Disconnect  1003; ; <Main\1003.0>
+1997-03-21; 00:58:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-21; 01:01:59; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Don't Push!  1003; ; <Main\1003.0>
+1997-03-21; 01:05:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-21; 01:59:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-21; 03:47:06; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-03-21; 03:47:21; GARY L. ROBINSON; ADD; NETCHAT\HAILNOTE-Code sections - Top of window procedure; ; <HAILNOTE\Form.37>
+1997-03-21; 03:49:36; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-03-21; 03:59:17; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Code sections - Top of window procedure; ; <HAILNOTE\Form.37>
+1997-03-21; 04:01:43; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Code sections - Top of window procedure; ; <HAILNOTE\Form.37>
+1997-03-21; 04:02:01; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Code sections - Top of window procedure; ; <HAILNOTE\Form.37>
+1997-03-21; 04:02:38; GARY L. ROBINSON; ADD; NETCHAT\HAILNOTE-Code sections - Top of source file; ; <HAILNOTE\Form.41>
+1997-03-21; 04:03:14; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Code sections - Top of source file; ; <HAILNOTE\Form.41>
+1997-03-21; 04:03:48; GARY L. ROBINSON; ADD; NETCHAT\HAILNOTE-Code sections - Top of application procedure; ; <HAILNOTE\Form.40>
+1997-03-21; 04:04:32; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Code sections - Top of application procedure; ; <HAILNOTE\Form.40>
+1997-03-21; 04:21:58; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-03-21; 04:35:12; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-03-21; 04:41:55; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-03-21; 04:51:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-21; 04:52:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-21; 04:58:41; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-21; 05:00:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-21; 06:33:24; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-22; 02:56:00; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Hail   1007; ; <Main\1007.0>
+1997-03-22; 02:56:43; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Code sections - Window structure members; ; <HAILLIST\Form.33>
+1997-03-22; 02:59:55; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-22; 04:27:32; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-03-22; 04:50:58; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-03-22; 04:55:48; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-03-22; 05:05:01; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-22; 05:33:01; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-03-22; 05:50:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-22; 06:05:13; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-22; 06:28:47; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-03-22; 06:31:04; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-03-22; 06:32:41; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-03-22; 06:40:40; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-03-22; 06:47:10; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-22; 06:48:35; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-03-22; 07:47:14; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Connect                Ctrl+T; ; <Main\260.0>
+1997-03-22; 07:47:50; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Disconnect    Ctrl+Q; ; <Main\271.0>
+1997-03-22; 07:47:52; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-22; 07:47:52; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-22; 07:49:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-22; 07:49:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-22; 08:05:32; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-22; 08:05:32; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-22; 08:14:27; GARY L. ROBINSON; ADD; NETCHAT\LOGNOTE-Event Mouse button 1 double click - List Box  1000; ; <LOGNOTE\1000.3>
+1997-03-22; 08:16:01; GARY L. ROBINSON; ADD; NETCHAT\LOGNOTE-Event Enter - List Box  1000; ; <LOGNOTE\1000.1>
+1997-03-22; 08:17:03; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Enter - List Box  1000; ; <LOGNOTE\1000.1>
+1997-03-22; 08:17:21; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Mouse button 1 double click - List Box  1000; ; <LOGNOTE\1000.3>
+1997-03-22; 08:20:09; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Enter - List Box  1000; ; <LOGNOTE\1000.1>
+1997-03-22; 08:21:21; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Mouse button 1 double click - List Box  1000; ; <LOGNOTE\1000.3>
+1997-03-22; 08:22:48; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Mouse button 1 double click - List Box  1000; ; <LOGNOTE\1000.3>
+1997-03-23; 05:35:47; GARY L. ROBINSON; ADD; NETCHAT\MCONNECT-Form layout; ; <MCONNECT\Form>
+1997-03-23; 05:46:31; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form layout; ; <MCONNECT\Form>
+1997-03-23; 05:46:31; GARY L. ROBINSON; ADD; NETCHAT\MCONNECT-Form help info; ; <MCONNECT\Form.fin>
+1997-03-23; 05:48:52; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Manual connect; ; <Main\263.0>
+1997-03-23; 05:48:55; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-23; 05:48:55; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-23; 05:52:33; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form layout; ; <MCONNECT\Form>
+1997-03-23; 05:53:05; GARY L. ROBINSON; ADD; NETCHAT\MCONNECT-Event Clicked/selected - ~Cancel  1004; ; <MCONNECT\1004.0>
+1997-03-23; 05:56:23; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form layout; ; <MCONNECT\Form>
+1997-03-23; 05:58:17; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form layout; ; <MCONNECT\Form>
+1997-03-23; 05:59:48; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form layout; ; <MCONNECT\Form>
+1997-03-23; 06:04:52; GARY L. ROBINSON; ADD; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-03-23; 06:05:46; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-03-23; 06:06:52; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-03-23; 06:07:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-03-23; 06:09:01; GARY L. ROBINSON; ADD; NETCHAT\MCONNECT-Code sections - Extra include files; ; <MCONNECT\Form.34>
+1997-03-23; 06:13:49; GARY L. ROBINSON; ADD; NETCHAT\MCONNECT-Form events - Opened; ; <MCONNECT\Form.1>
+1997-03-23; 06:17:49; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-23; 06:54:55; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form events - Opened; ; <MCONNECT\Form.1>
+1997-03-23; 15:16:10; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-23; 15:16:10; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-23; 15:18:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-23; 15:18:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-23; 15:33:40; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-23; 17:18:10; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-23; 17:18:10; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-23; 17:18:43; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-23; 17:18:43; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-23; 17:21:47; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-03-23; 17:23:08; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-03-23; 17:27:33; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-23; 17:27:50; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Event Clicked/selected - ~Cancel  1001; ; <SPORTS\1001.0>
+1997-03-23; 17:27:56; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-03-23; 17:27:56; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Form help info; ; <SPORTS\Form.fin>
+1997-03-23; 17:29:38; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-03-23; 17:30:01; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-03-23; 17:32:05; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - Set ports; ; <Main\266.0>
+1997-03-23; 17:32:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-03-23; 17:34:47; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-03-23; 17:36:18; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-03-23; 17:40:05; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Form events, Opened; ; <SPORTS\Form.1>
+1997-03-23; 17:49:11; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-03-23; 17:49:43; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-23; 17:50:45; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Code sections - Extra include files; ; <SPORTS\Form.34>
+1997-03-23; 17:53:06; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Code sections - Extra include files; ; <SPORTS\Form.34>
+1997-03-23; 17:53:31; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-23; 17:54:46; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-23; 17:55:37; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-23; 17:56:22; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-23; 17:57:58; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-23; 17:58:31; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-23; 22:10:45; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-03-23; 22:11:20; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-24; 02:57:15; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form layout; ; <MCONNECT\Form>
+1997-03-24; 02:59:05; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form layout; ; <MCONNECT\Form>
+1997-03-24; 03:03:30; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-03-24; 03:08:24; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-03-24; 03:08:37; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-03-24; 03:09:15; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form layout; ; <MCONNECT\Form>
+1997-03-24; 03:13:03; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-24; 03:13:19; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-03-24; 03:13:54; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-24; 03:14:26; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-03-24; 03:14:52; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-03-24; 03:15:20; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Form layout; ; <EDITREC\Form>
+1997-03-24; 03:15:47; GARY L. ROBINSON; CHG; NETCHAT\NEWREC-Form layout; ; <NEWREC\Form>
+1997-03-24; 03:16:10; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-03-24; 03:17:57; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-24; 03:19:19; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-03-24; 03:30:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-24; 03:34:24; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-24; 07:05:35; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-24; 20:34:04; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-24; 20:34:33; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-25; 00:49:49; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-25; 00:50:01; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-25; 00:50:45; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Event Clicked/selected - ~Save settings  1019; ; <SETTINGS\1019.0>
+1997-03-25; 00:52:45; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Internet acct. settings; ; <Main\267.0>
+1997-03-25; 00:53:03; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - Set ports; ; <Main\266.0>
+1997-03-25; 00:53:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-25; 00:54:33; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-03-25; 01:00:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-03-25; 01:01:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Internet acct. settings; ; <Main\267.0>
+1997-03-25; 01:01:49; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - Set ports; ; <Main\266.0>
+1997-03-25; 01:08:43; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-25; 04:37:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Don't Push!  1003; ; <Main\1003.0>
+1997-03-25; 04:38:07; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-25; 04:38:07; GARY L. ROBINSON; CHG; NETCHAT\Main-Form help info; ; <Main\Form.fin>
+1997-03-25; 04:43:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Echo  1003; ; <Main\1003.0>
+1997-03-25; 08:14:39; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-03-25; 08:15:44; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-03-25; 08:15:56; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-03-25; 08:16:26; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Code sections - Top of window procedure; ; <SPORTS\Form.37>
+1997-03-25; 08:18:05; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Form events - Destroyed; ; <SPORTS\Form.3>
+1997-03-25; 08:20:30; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-03-25; 08:26:02; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-03-25; 08:30:25; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Destroyed; ; <SPORTS\Form.3>
+1997-03-25; 08:32:37; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Destroyed; ; <SPORTS\Form.3>
+1997-03-25; 08:34:04; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Destroyed; ; <SPORTS\Form.3>
+1997-03-25; 08:34:20; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Code sections - Top of window procedure; ; <SPORTS\Form.37>
+1997-03-25; 08:34:44; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Code sections - Top of application procedure; ; <SPORTS\Form.40>
+1997-03-25; 08:35:21; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Code sections - Top of application procedure; ; <SPORTS\Form.40>
+1997-03-25; 08:35:31; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Code sections - Top of source file; ; <SPORTS\Form.41>
+1997-03-25; 08:36:17; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Code sections - Top of source file; ; <SPORTS\Form.41>
+1997-03-25; 08:38:21; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-26; 00:47:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-26; 00:48:53; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-26; 00:59:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-26; 01:04:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-03-26; 01:15:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - WordWrap ~local  CTRL+L; ; <Main\264.0>
+1997-03-26; 01:16:32; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - WordWrap ~remote  CTRL+R; ; <Main\274.0>
+1997-03-26; 01:16:45; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - WordWrap ~local  CTRL+L; ; <Main\264.0>
+1997-03-26; 01:16:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-26; 01:16:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-26; 01:19:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-26; 01:19:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-26; 01:24:01; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-26; 01:24:01; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-26; 01:24:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-26; 01:24:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-26; 01:25:43; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - WordWrap ~local     Ctrl+L; ; <Main\264.0>
+1997-03-26; 01:31:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - WordWrap ~local     Ctrl+L; ; <Main\264.0>
+1997-03-26; 01:32:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - WordWrap ~remote  Ctrl+R; ; <Main\274.0>
+1997-03-26; 01:33:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-03-26; 01:34:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-26; 01:34:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-26; 01:35:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-26; 01:35:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-26; 01:41:45; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Configure; ; <Main\258.0>
+1997-03-26; 01:42:50; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Edit; ; <Main\257.0>
+1997-03-26; 01:42:53; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-03-26; 01:44:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Edit; ; <Main\257.0>
+1997-03-26; 01:54:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-03-26; 01:55:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-03-26; 02:00:07; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Copy remote          Ctrl+C; ; <Main\261.0>
+1997-03-26; 02:10:53; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-03-26; 02:25:08; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-26; 02:25:08; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-26; 06:31:28; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-27; 02:46:04; GARY L. ROBINSON; ADD; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-03-27; 02:56:13; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-03-27; 02:56:13; GARY L. ROBINSON; ADD; NETCHAT\MISCSET-Form help info; ; <MISCSET\Form.fin>
+1997-03-27; 02:59:33; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Misc. settings; ; <Main\278.0>
+1997-03-27; 03:00:05; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-03-27; 03:00:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-03-27; 03:00:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-03-27; 03:01:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Misc. settings; ; <Main\278.0>
+1997-03-27; 03:17:35; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-03-27; 03:19:21; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-03-27; 03:25:16; GARY L. ROBINSON; ADD; NETCHAT\MISCSET-Event Form events, Opened; ; <MISCSET\Form.1>
+1997-03-27; 03:26:30; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Form events, Opened; ; <MISCSET\Form.1>
+1997-03-27; 03:27:30; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Form events, Opened; ; <MISCSET\Form.1>
+1997-03-27; 03:29:14; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-03-27; 03:31:38; GARY L. ROBINSON; ADD; NETCHAT\MISCSET-Event ~Save  1006, Clicked/selected; ; <MISCSET\1006.0>
+1997-03-27; 03:32:22; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event ~Save  1006, Clicked/selected; ; <MISCSET\1006.0>
+1997-03-27; 03:33:13; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Form events, Opened; ; <MISCSET\Form.1>
+1997-03-27; 03:34:27; GARY L. ROBINSON; ADD; NETCHAT\MISCSET-Code sections - Extra include files; ; <MISCSET\Form.34>
+1997-03-27; 03:35:23; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-03-27; 03:36:29; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Code sections - Extra include files; ; <MISCSET\Form.34>
+1997-03-27; 03:38:11; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-03-27; 03:38:19; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-03-27; 03:38:30; GARY L. ROBINSON; ADD; NETCHAT\MISCSET-Event Clicked/selected - ~Cancel  1007; ; <MISCSET\1007.0>
+1997-03-27; 03:45:18; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-03-27; 03:49:21; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-03-27; 03:50:13; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-03-27; 03:51:36; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-03-27; 04:01:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-27; 04:03:37; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-27; 04:06:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-03-27; 04:10:41; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-03-27; 05:33:54; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-27; 06:22:04; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-27; 06:54:47; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-03-30; 02:53:10; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-01; 04:19:59; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-01; 09:11:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-02; 01:36:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-02; 01:38:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-02; 05:34:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-02; 05:37:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-02; 06:03:30; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-04-02; 06:04:16; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-04-02; 06:31:10; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-04-02; 06:35:35; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-04-02; 06:39:26; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-04-03; 02:40:07; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-03; 02:47:37; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-03; 03:29:52; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-03; 03:39:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-03; 04:59:45; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-04-03; 04:59:56; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-04-03; 05:03:19; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-04-03; 05:03:35; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-04-03; 05:04:28; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-04-03; 05:06:59; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-04-03; 06:45:51; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-04-03; 06:47:11; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-04-03; 06:47:24; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-03; 06:48:33; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-04; 05:58:59; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-04; 06:04:41; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-04; 06:10:24; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-04; 06:15:41; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-04; 06:22:20; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-04; 06:22:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-04; 06:29:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-04; 09:25:46; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-04; 10:00:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-04; 10:02:08; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-04-04; 10:36:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-04; 10:37:45; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-04; 10:59:20; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Connect OFF  1002; ; <Main\1002.0>
+1997-04-04; 10:59:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-04; 11:29:06; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-04; 11:31:52; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-04-05; 00:46:41; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-05; 01:10:30; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-04-05; 01:11:11; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-04-05; 01:48:13; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-05; 02:11:23; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Send file; ; <Main\275.0>
+1997-04-05; 04:58:10; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-05; 04:59:55; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-04-05; 05:04:25; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-04-05; 05:06:32; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-04-05; 05:07:02; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-04-05; 05:11:01; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-04-05; 05:19:36; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-05; 05:34:01; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-04-05; 05:42:38; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Disconnect           Ctrl+Q; ; <Main\271.0>
+1997-04-05; 05:42:56; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Connect               Ctrl+T; ; <Main\260.0>
+1997-04-05; 05:44:45; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-04-05; 05:48:43; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-04-05; 05:49:59; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-06; 06:02:52; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-06; 07:52:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-06; 07:52:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-06; 07:56:49; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Disconnect           Ctrl+Q; ; <Main\271.0>
+1997-04-06; 07:57:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-06; 07:57:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-06; 08:02:53; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-06; 08:02:53; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-06; 08:23:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-10; 04:49:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-10; 04:51:12; GARY L. ROBINSON; ADD; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-10; 04:55:04; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-10; 04:55:04; GARY L. ROBINSON; ADD; NETCHAT\PHRLIST-Form help info; ; <PHRLIST\Form.fin>
+1997-04-10; 04:55:52; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-10; 04:57:07; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Favorite phrases; ; <Main\277.0>
+1997-04-10; 04:57:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-04-10; 05:02:50; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-13; 07:38:04; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Code sections - Extra include files; ; <HAILLIST\Form.34>
+1997-04-15; 02:26:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-15; 02:26:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-15; 02:26:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Form help info; ; <Main\Form.fin>
+1997-04-15; 02:31:04; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Wake up; ; <Main\279.0>
+1997-04-15; 03:23:38; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-15; 03:23:38; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-17; 03:17:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Echo  1003; ; <Main\1003.0>
+1997-04-17; 03:19:11; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Wake up; ; <Main\279.0>
+1997-04-17; 03:20:11; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-04-17; 03:21:00; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-04-17; 03:21:36; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-04-17; 03:22:12; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-04-17; 04:24:47; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-17; 16:33:24; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-17; 16:35:54; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-18; 00:57:22; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-18; 01:01:32; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-04-18; 01:03:28; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-04-18; 01:03:28; GARY L. ROBINSON; DEL; NETCHAT\SPORTS-Symbols; ; <SPORTS\Form.sym>
+1997-04-18; 01:09:22; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-04-18; 01:09:22; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Form events, Opened; ; <SPORTS\Form.1>
+1997-04-18; 01:11:27; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event ~Save  1000, Clicked/selected; ; <SPORTS\1000.0>
+1997-04-18; 01:13:54; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-18; 01:17:08; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-04-18; 01:24:50; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-18; 01:26:40; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Form events, Opened; ; <MISCSET\Form.1>
+1997-04-18; 01:28:53; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event ~Save  1006, Clicked/selected; ; <MISCSET\1006.0>
+1997-04-18; 02:16:25; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-18; 05:52:52; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-18; 05:56:27; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-18; 19:12:07; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-04-18; 19:31:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-04-18; 19:36:56; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-04-18; 20:28:33; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-04-18; 22:47:34; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-19; 03:10:21; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-19; 03:12:09; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Form events, Opened; ; <MISCSET\Form.1>
+1997-04-19; 03:13:33; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event ~Save  1006, Clicked/selected; ; <MISCSET\1006.0>
+1997-04-19; 05:10:29; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-04-19; 05:13:50; GARY L. ROBINSON; ADD; NETCHAT\Main-Event Clicked/selected - ~Incoming file  1008; ; <Main\1008.0>
+1997-04-19; 05:34:05; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Incoming file  1008; ; <Main\1008.0>
+1997-04-19; 06:24:14; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-19; 08:06:30; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - Cl~ear local entry area; ; <Main\280.0>
+1997-04-19; 08:07:08; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - Cle~ar remote entry area; ; <Main\281.0>
+1997-04-19; 08:07:19; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-19; 08:07:19; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-19; 08:10:08; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - Cl~ear local entry area; ; <Main\280.0>
+1997-04-19; 08:10:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - Cle~ar remote entry area; ; <Main\281.0>
+1997-04-20; 17:44:33; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-21; 02:57:27; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Send file; ; <Main\275.0>
+1997-04-21; 04:17:20; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Wake up; ; <Main\279.0>
+1997-04-21; 04:24:16; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Wake up; ; <Main\279.0>
+1997-04-21; 04:37:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Wake up; ; <Main\279.0>
+1997-04-21; 04:55:25; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-21; 07:02:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-21; 07:08:52; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-21; 07:10:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-21; 07:17:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-21; 07:29:32; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-21; 19:15:11; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-21; 19:16:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Send file; ; <Main\275.0>
+1997-04-21; 19:18:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Send file; ; <Main\275.0>
+1997-04-21; 19:31:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-21; 19:32:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-21; 19:33:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-21; 19:34:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-22; 03:43:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-22; 03:52:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-22; 04:00:13; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Disconnect           Ctrl+Q; ; <Main\271.0>
+1997-04-22; 06:22:00; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-22; 08:08:32; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Paste local             Ctrl+V; ; <Main\262.0>
+1997-04-22; 16:42:02; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-22; 16:47:11; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-22; 17:15:49; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-04-22; 17:17:30; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-04-22; 17:23:06; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-04-22; 17:24:41; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Cancel  1002; ; <LOGNOTE\1002.0>
+1997-04-22; 17:28:43; GARY L. ROBINSON; ADD; NETCHAT\LOGNOTE-Code sections - Top of window procedure; ; <LOGNOTE\Form.37>
+1997-04-22; 17:32:24; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Cancel  1002; ; <LOGNOTE\1002.0>
+1997-04-22; 20:18:31; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-04-22; 20:21:47; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-04-22; 20:23:18; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Cancel  1002; ; <LOGNOTE\1002.0>
+1997-04-22; 20:26:38; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Code sections - Top of window procedure; ; <LOGNOTE\Form.37>
+1997-04-22; 20:27:27; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Code sections - Top of window procedure; ; <LOGNOTE\Form.37>
+1997-04-22; 20:28:33; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-04-22; 20:28:58; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Cancel  1002; ; <LOGNOTE\1002.0>
+1997-04-22; 20:33:25; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Code sections - Top of window procedure; ; <LOGNOTE\Form.37>
+1997-04-22; 20:33:44; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Code sections - Top of window procedure; ; <LOGNOTE\Form.37>
+1997-04-22; 20:37:23; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-04-22; 20:38:24; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Don't connect  1002; ; <HAILNOTE\1002.0>
+1997-04-22; 20:47:23; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-23; 00:26:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-04-23; 00:54:40; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-23; 00:56:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-23; 00:57:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-23; 00:57:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-23; 00:58:27; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-23; 00:58:27; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-23; 01:12:42; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Abort file transfer; ; <Main\282.0>
+1997-04-23; 01:13:33; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Abort file transfer; ; <Main\282.0>
+1997-04-23; 01:14:33; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Abort file transfer; ; <Main\282.0>
+1997-04-23; 01:29:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Abort file transfer; ; <Main\282.0>
+1997-04-23; 01:58:36; GARY L. ROBINSON; ADD; NETCHAT\ADDPHR-Form layout; ; <ADDPHR\Form>
+1997-04-23; 01:59:34; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Form layout; ; <ADDPHR\Form>
+1997-04-23; 01:59:34; GARY L. ROBINSON; ADD; NETCHAT\ADDPHR-Form help info; ; <ADDPHR\Form.fin>
+1997-04-23; 02:03:18; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Form layout; ; <ADDPHR\Form>
+1997-04-23; 02:10:44; GARY L. ROBINSON; ADD; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-23; 02:13:49; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-23; 02:18:57; GARY L. ROBINSON; ADD; NETCHAT\PHRLIST-Code sections - Extra include files; ; <PHRLIST\Form.34>
+1997-04-23; 02:30:10; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-23; 04:28:56; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-23; 04:30:20; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-23; 04:32:43; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-23; 04:34:48; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-23; 04:43:19; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-23; 04:45:21; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-23; 04:58:21; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Form layout; ; <ADDPHR\Form>
+1997-04-23; 04:59:33; GARY L. ROBINSON; ADD; NETCHAT\ADDPHR-Event Clicked/selected - ~Cancel  1002; ; <ADDPHR\1002.0>
+1997-04-23; 04:59:49; GARY L. ROBINSON; ADD; NETCHAT\ADDPHR-Event Clicked/selected - ~Save  1001; ; <ADDPHR\1001.0>
+1997-04-23; 05:01:46; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Form layout; ; <ADDPHR\Form>
+1997-04-23; 05:06:02; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Form layout; ; <ADDPHR\Form>
+1997-04-23; 05:07:05; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Form layout; ; <ADDPHR\Form>
+1997-04-23; 05:10:27; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Form layout; ; <ADDPHR\Form>
+1997-04-23; 05:10:58; GARY L. ROBINSON; ADD; NETCHAT\ADDPHR-Event Form events, Opened; ; <ADDPHR\Form.1>
+1997-04-23; 05:12:16; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Event Form events, Opened; ; <ADDPHR\Form.1>
+1997-04-23; 05:14:43; GARY L. ROBINSON; ADD; NETCHAT\ADDPHR-Code sections - Extra include files; ; <ADDPHR\Form.34>
+1997-04-23; 05:25:54; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-23; 05:28:55; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-23; 05:48:34; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-23; 06:08:41; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-23; 06:13:55; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Form events - Opened; ; <ADDPHR\Form.1>
+1997-04-23; 06:16:46; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Event Clicked/selected - ~Save  1001; ; <ADDPHR\1001.0>
+1997-04-23; 06:29:43; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-23; 06:33:33; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-23; 07:27:32; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Form events - Opened; ; <ADDPHR\Form.1>
+1997-04-23; 07:38:19; GARY L. ROBINSON; CHG; NETCHAT\EDITPHR-Form layout; ; <EDITPHR\Form>
+1997-04-23; 07:38:58; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Form layout; ; <ADDPHR\Form>
+1997-04-23; 07:39:21; GARY L. ROBINSON; CHG; NETCHAT\EDITPHR-Form layout; ; <EDITPHR\Form>
+1997-04-23; 08:02:07; GARY L. ROBINSON; CHG; NETCHAT\EDITPHR-Form events - Opened; ; <EDITPHR\Form.1>
+1997-04-23; 08:08:02; GARY L. ROBINSON; CHG; NETCHAT\EDITPHR-Event Clicked/selected - ~Save  1001; ; <EDITPHR\1001.0>
+1997-04-23; 08:08:41; GARY L. ROBINSON; ADD; NETCHAT\EDITPHR-Code sections - Window structure members; ; <EDITPHR\Form.33>
+1997-04-23; 08:09:40; GARY L. ROBINSON; ADD; NETCHAT\EDITPHR-Form events - Destroyed; ; <EDITPHR\Form.3>
+1997-04-23; 08:13:46; GARY L. ROBINSON; CHG; NETCHAT\EDITPHR-Event Clicked/selected - ~Save  1001; ; <EDITPHR\1001.0>
+1997-04-23; 10:46:54; GARY L. ROBINSON; ADD; NETCHAT\PHRLIST-Event List Box  1000, Mouse button 1 double click; ; <PHRLIST\1000.3>
+1997-04-23; 10:53:22; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Event List Box  1000, Mouse button 1 double click; ; <PHRLIST\1000.3>
+1997-04-23; 10:58:28; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Event Mouse button 1 double click - List Box  1000; ; <PHRLIST\1000.3>
+1997-04-23; 11:01:47; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Event Mouse button 1 double click - List Box  1000; ; <PHRLIST\1000.3>
+1997-04-23; 11:07:37; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Event Mouse button 1 double click - List Box  1000; ; <PHRLIST\1000.3>
+1997-04-23; 11:59:37; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Event Mouse button 1 double click - List Box  1000; ; <PHRLIST\1000.3>
+1997-04-23; 12:13:53; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-23; 12:15:11; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-23; 12:17:22; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Event Mouse button 1 double click - List Box  1000; ; <PHRLIST\1000.3>
+1997-04-23; 12:17:41; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Event Mouse button 1 double click - List Box  1000; ; <PHRLIST\1000.3>
+1997-04-23; 12:19:37; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Event Mouse button 1 double click - List Box  1000; ; <PHRLIST\1000.3>
+1997-04-23; 12:21:48; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Event Mouse button 1 double click - List Box  1000; ; <PHRLIST\1000.3>
+1997-04-23; 12:24:41; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Event Mouse button 1 double click - List Box  1000; ; <PHRLIST\1000.3>
+1997-04-23; 12:40:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Hail log ...; ; <Main\273.0>
+1997-04-23; 12:41:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Hail log ...; ; <Main\273.0>
+1997-04-23; 12:44:11; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Hail log ...; ; <Main\273.0>
+1997-04-23; 12:46:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Favorite phrases; ; <Main\277.0>
+1997-04-23; 12:47:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Favorite phrases; ; <Main\277.0>
+1997-04-23; 12:49:07; GARY L. ROBINSON; ADD; NETCHAT\PHRLIST-Form events - Destroyed; ; <PHRLIST\Form.3>
+1997-04-23; 12:54:04; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Event Mouse button 1 double click - List Box  1000; ; <PHRLIST\1000.3>
+1997-04-23; 12:56:50; GARY L. ROBINSON; ADD; NETCHAT\PHRLIST-Form events - Activation changed; ; <PHRLIST\Form.10>
+1997-04-23; 12:59:43; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Activation changed; ; <PHRLIST\Form.10>
+1997-04-23; 13:01:50; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Activation changed; ; <PHRLIST\Form.10>
+1997-04-23; 13:07:06; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Activation changed; ; <PHRLIST\Form.10>
+1997-04-23; 13:09:17; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Destroyed; ; <PHRLIST\Form.3>
+1997-04-23; 13:09:54; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Destroyed; ; <PHRLIST\Form.3>
+1997-04-23; 13:18:14; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Destroyed; ; <PHRLIST\Form.3>
+1997-04-23; 13:21:06; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Activation changed; ; <PHRLIST\Form.10>
+1997-04-23; 13:22:26; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Destroyed; ; <PHRLIST\Form.3>
+1997-04-23; 13:25:33; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Destroyed; ; <PHRLIST\Form.3>
+1997-04-23; 13:25:48; GARY L. ROBINSON; ADD; NETCHAT\PHRLIST-Form events - Closed; ; <PHRLIST\Form.2>
+1997-04-23; 13:33:10; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-24; 00:06:36; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Activation changed; ; <PHRLIST\Form.10>
+1997-04-24; 00:11:59; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Activation changed; ; <PHRLIST\Form.10>
+1997-04-24; 00:12:09; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Activation changed; ; <PHRLIST\Form.10>
+1997-04-24; 00:12:25; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-24; 00:12:44; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Activation changed; ; <PHRLIST\Form.10>
+1997-04-24; 00:14:49; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Activation changed; ; <PHRLIST\Form.10>
+1997-04-24; 00:19:18; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-24; 00:25:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-24; 00:25:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-24; 00:29:07; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Favorite phrases; ; <Main\277.0>
+1997-04-24; 00:29:20; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Favorite phrases; ; <Main\277.0>
+1997-04-24; 00:29:51; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-24; 00:31:10; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Destroyed; ; <PHRLIST\Form.3>
+1997-04-24; 00:31:39; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-24; 00:35:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Favorite phrases; ; <Main\277.0>
+1997-04-24; 00:41:05; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Favorite phrases; ; <Main\277.0>
+1997-04-24; 00:43:52; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Favorite phrases; ; <Main\277.0>
+1997-04-24; 00:50:07; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Favorite phrases; ; <Main\277.0>
+1997-04-24; 00:54:57; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Destroyed; ; <PHRLIST\Form.3>
+1997-04-24; 00:55:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-24; 00:55:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-24; 07:02:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-24; 07:03:49; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-24; 07:07:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-24; 07:11:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-24; 07:14:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-24; 07:56:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-24; 07:58:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-24; 07:59:55; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-24; 08:02:24; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-24; 08:04:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-24; 08:08:08; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-24; 15:13:36; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-24; 15:17:43; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-24; 15:17:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Closed; ; <Main\Form.2>
+1997-04-24; 15:19:29; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Closed; ; <Main\Form.2>
+1997-04-24; 15:20:07; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Closed; ; <Main\Form.2>
+1997-04-24; 15:20:52; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-24; 15:24:44; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-24; 15:37:29; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-24; 16:25:42; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-24; 16:29:55; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-24; 16:31:41; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Form events, Opened; ; <MISCSET\Form.1>
+1997-04-24; 16:33:05; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event ~Save  1006, Clicked/selected; ; <MISCSET\1006.0>
+1997-04-24; 16:34:45; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-25; 05:30:59; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form events - Opened; ; <MCONNECT\Form.1>
+1997-04-25; 05:32:07; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - ~Cancel  1004; ; <MCONNECT\1004.0>
+1997-04-25; 05:43:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-25; 07:13:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Event ~Echo  1003, Clicked/selected; ; <Main\1003.0>
+1997-04-25; 09:16:39; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-25; 09:19:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Echo  1003; ; <Main\1003.0>
+1997-04-26; 00:07:51; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-26; 00:13:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-26; 00:20:20; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - User defined messages; ; <Main\Form.38>
+1997-04-26; 00:26:29; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 00:29:47; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 00:35:53; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 00:43:44; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 00:45:15; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 00:48:20; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 00:49:44; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 00:59:03; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 01:34:12; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 01:39:05; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 01:41:06; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 01:41:37; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 01:44:17; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 01:44:39; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-26; 01:44:39; GARY L. ROBINSON; ADD; NETCHAT\PHRLIST-Menubar; ; <PHRLIST\Menu>
+1997-04-26; 01:45:27; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-26; 01:47:12; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-26; 01:49:03; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 01:49:55; GARY L. ROBINSON; ADD; NETCHAT\PHRLIST-Form events - Popup menu; ; <PHRLIST\Form.12>
+1997-04-26; 01:50:47; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Popup menu; ; <PHRLIST\Form.12>
+1997-04-26; 01:53:29; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 02:01:01; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 02:03:09; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Popup menu; ; <PHRLIST\Form.12>
+1997-04-26; 02:04:47; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 02:06:02; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Popup menu; ; <PHRLIST\Form.12>
+1997-04-26; 02:07:10; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-04-26; 02:07:15; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-04-26; 02:07:15; GARY L. ROBINSON; DEL; NETCHAT\PHRLIST-Menubar; ; <PHRLIST\Menu>
+1997-04-26; 08:52:34; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-26; 16:38:05; GARY L. ROBINSON; ADD; NETCHAT\FPROMPT-Form layout; ; <FPROMPT\Form>
+1997-04-26; 16:45:21; GARY L. ROBINSON; ADD; NETCHAT\FPROMPT-Event Clicked/selected - ~Accept file  1001; ; <FPROMPT\1001.0>
+1997-04-26; 16:45:47; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event Clicked/selected - ~Accept file  1001; ; <FPROMPT\1001.0>
+1997-04-26; 16:46:02; GARY L. ROBINSON; ADD; NETCHAT\FPROMPT-Event Clicked/selected - ~Reject file  1002; ; <FPROMPT\1002.0>
+1997-04-26; 16:46:47; GARY L. ROBINSON; ADD; NETCHAT\FPROMPT-Form events - Opened; ; <FPROMPT\Form.1>
+1997-04-26; 16:46:53; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Form layout; ; <FPROMPT\Form>
+1997-04-26; 16:46:53; GARY L. ROBINSON; ADD; NETCHAT\FPROMPT-Form help info; ; <FPROMPT\Form.fin>
+1997-04-27; 00:52:31; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Form layout; ; <FPROMPT\Form>
+1997-04-27; 00:53:32; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Form events - Opened; ; <FPROMPT\Form.1>
+1997-04-27; 00:53:58; GARY L. ROBINSON; ADD; NETCHAT\FPROMPT-Code sections - Extra include files; ; <FPROMPT\Form.34>
+1997-04-27; 01:00:20; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Form events - Opened; ; <FPROMPT\Form.1>
+1997-04-27; 01:01:48; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Form events - Opened; ; <FPROMPT\Form.1>
+1997-04-27; 01:06:29; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Form events - Opened; ; <FPROMPT\Form.1>
+1997-04-27; 01:07:49; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Form events - Opened; ; <FPROMPT\Form.1>
+1997-04-27; 01:14:11; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Form events - Opened; ; <FPROMPT\Form.1>
+1997-04-27; 01:15:43; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event ~Accept file  1001, Clicked/selected; ; <FPROMPT\1001.0>
+1997-04-27; 01:31:33; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event ~Accept file  1001, Clicked/selected; ; <FPROMPT\1001.0>
+1997-04-27; 01:36:54; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event ~Accept file  1001, Clicked/selected; ; <FPROMPT\1001.0>
+1997-04-27; 01:38:43; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event ~Accept file  1001, Clicked/selected; ; <FPROMPT\1001.0>
+1997-04-27; 01:39:09; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event Form events, Opened; ; <FPROMPT\Form.1>
+1997-04-27; 01:40:21; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event ~Accept file  1001, Clicked/selected; ; <FPROMPT\1001.0>
+1997-04-27; 01:42:17; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event ~Accept file  1001, Clicked/selected; ; <FPROMPT\1001.0>
+1997-04-27; 01:42:58; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event ~Accept file  1001, Clicked/selected; ; <FPROMPT\1001.0>
+1997-04-27; 01:45:20; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event ~Accept file  1001, Clicked/selected; ; <FPROMPT\1001.0>
+1997-04-27; 01:47:49; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event ~Accept file  1001, Clicked/selected; ; <FPROMPT\1001.0>
+1997-04-27; 01:49:59; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Code sections - Extra include files; ; <FPROMPT\Form.34>
+1997-04-27; 01:53:04; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Form events - Opened; ; <FPROMPT\Form.1>
+1997-04-27; 03:59:21; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event Form events, Opened; ; <FPROMPT\Form.1>
+1997-04-27; 04:02:29; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event Form events, Opened; ; <FPROMPT\Form.1>
+1997-04-27; 04:06:54; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event Form events, Opened; ; <FPROMPT\Form.1>
+1997-04-27; 04:10:53; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event Form events, Opened; ; <FPROMPT\Form.1>
+1997-04-27; 05:59:47; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Form events - Opened; ; <FPROMPT\Form.1>
+1997-04-27; 06:01:21; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Form events - Opened; ; <FPROMPT\Form.1>
+1997-04-27; 06:05:26; GARY L. ROBINSON; CHG; NETCHAT\FPROMPT-Event Clicked/selected - ~Accept file  1001; ; <FPROMPT\1001.0>
+1997-04-27; 12:41:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-27; 12:41:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-27; 12:48:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-27; 12:51:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-27; 12:58:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-27; 13:04:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-27; 13:07:19; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 02:31:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 02:32:12; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 02:39:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Send file; ; <Main\275.0>
+1997-04-28; 02:45:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Abort file transfer; ; <Main\282.0>
+1997-04-28; 02:50:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 03:00:56; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Send file; ; <Main\275.0>
+1997-04-28; 03:08:33; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 03:23:56; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 03:28:01; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 03:33:19; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 03:35:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 03:39:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 03:45:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 03:46:19; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-04-28; 04:42:03; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-28; 04:44:00; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-28; 04:49:59; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-28; 04:56:25; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-28; 08:17:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-28; 08:17:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-28; 08:19:11; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - D~ownload directory; ; <Main\265.0>
+1997-04-28; 08:19:32; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Upload directory; ; <Main\284.0>
+1997-04-28; 08:28:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - D~ownload directory; ; <Main\265.0>
+1997-04-28; 08:29:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Upload directory; ; <Main\284.0>
+1997-04-28; 08:32:05; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - D~ownload directory; ; <Main\265.0>
+1997-04-28; 08:36:41; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - D~ownload directory; ; <Main\265.0>
+1997-04-28; 08:37:05; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Upload directory; ; <Main\284.0>
+1997-04-28; 08:39:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Upload directory; ; <Main\284.0>
+1997-04-28; 08:39:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - D~ownload directory; ; <Main\265.0>
+1997-04-28; 09:00:25; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-28; 09:04:04; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-28; 09:45:41; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-04-28; 09:46:21; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-04-28; 09:54:50; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-04-28; 09:58:50; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-04-28; 10:01:22; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-04-28; 10:03:26; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-04-28; 10:23:50; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-04-28; 10:23:50; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Event ~Save settings  1019, Clicked/selected; ; <SETTINGS\1019.0>
+1997-04-28; 10:24:22; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Event Form events, Opened; ; <SETTINGS\Form.1>
+1997-04-28; 10:32:57; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-28; 18:46:07; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-28; 19:01:29; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-28; 20:03:47; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-04-28; 20:13:28; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-04-28; 20:14:08; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-28; 20:17:41; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-28; 20:24:10; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-28; 21:04:27; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-29; 00:03:04; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-29; 00:03:04; GARY L. ROBINSON; DEL; NETCHAT\MISCSET-Symbols; ; <MISCSET\Form.sym>
+1997-04-29; 00:05:54; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-04-29; 00:08:59; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-04-29; 00:09:49; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-04-29; 00:13:51; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-29; 00:41:01; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-04-29; 00:57:03; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-29; 00:57:30; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-29; 01:16:49; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-29; 01:46:37; GARY L. ROBINSON; ADD; NETCHAT\COLFON-Form layout; ; <COLFON\Form>
+1997-04-29; 01:58:27; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Form layout; ; <COLFON\Form>
+1997-04-29; 01:58:53; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Form layout; ; <COLFON\Form>
+1997-04-29; 02:01:13; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Fonts/Colors; ; <Main\285.0>
+1997-04-29; 02:01:51; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-04-29; 02:02:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Fonts/Colors; ; <Main\285.0>
+1997-04-29; 02:02:36; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-29; 02:02:36; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-29; 02:07:01; GARY L. ROBINSON; ADD; NETCHAT\COLFON-Form events - Opened; ; <COLFON\Form.1>
+1997-04-29; 02:07:28; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Form events - Opened; ; <COLFON\Form.1>
+1997-04-29; 02:07:57; GARY L. ROBINSON; ADD; NETCHAT\COLFON-Event Clicked/selected - ~Save  1002; ; <COLFON\1002.0>
+1997-04-29; 02:08:10; GARY L. ROBINSON; ADD; NETCHAT\COLFON-Event Clicked/selected - ~Cancel  1003; ; <COLFON\1003.0>
+1997-04-29; 02:08:14; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Form layout; ; <COLFON\Form>
+1997-04-29; 02:08:14; GARY L. ROBINSON; ADD; NETCHAT\COLFON-Form help info; ; <COLFON\Form.fin>
+1997-04-29; 02:42:56; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Event Form events, Opened; ; <COLFON\Form.1>
+1997-04-29; 02:44:09; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Event Form events, Opened; ; <COLFON\Form.1>
+1997-04-29; 02:45:58; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Event ~Save  1002, Clicked/selected; ; <COLFON\1002.0>
+1997-04-29; 02:47:51; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Event ~Save  1002, Clicked/selected; ; <COLFON\1002.0>
+1997-04-29; 02:53:10; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Event ~Save  1002, Clicked/selected; ; <COLFON\1002.0>
+1997-04-29; 02:54:05; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Event ~Save  1002, Clicked/selected; ; <COLFON\1002.0>
+1997-04-29; 02:56:07; GARY L. ROBINSON; ADD; NETCHAT\COLFON-Code sections - Extra include files; ; <COLFON\Form.34>
+1997-04-29; 02:56:38; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Event Clicked/selected - ~Save  1002; ; <COLFON\1002.0>
+1997-04-29; 03:01:34; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Form events - Opened; ; <COLFON\Form.1>
+1997-04-29; 03:04:48; GARY L. ROBINSON; CHG; NETCHAT\COLFON-Event Clicked/selected - ~Save  1002; ; <COLFON\1002.0>
+1997-04-29; 03:15:12; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 03:17:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-29; 03:19:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 03:24:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-04-29; 03:26:42; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Fonts/Colors; ; <Main\285.0>
+1997-04-29; 03:26:46; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-04-29; 03:26:46; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-04-29; 03:35:37; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 03:38:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-29; 04:24:38; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-29; 04:24:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Closed; ; <Main\Form.2>
+1997-04-29; 04:26:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Closed; ; <Main\Form.2>
+1997-04-29; 04:27:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-29; 04:27:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 04:33:03; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-29; 04:33:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 05:53:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 05:59:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-04-29; 06:01:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-04-29; 06:03:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 06:07:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 06:08:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 06:18:12; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-29; 06:39:29; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-29; 06:41:44; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-04-29; 06:44:12; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-04-29; 06:57:06; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-29; 06:59:44; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-29; 07:05:08; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-04-29; 07:06:19; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-04-29; 07:20:24; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-04-29; 07:51:18; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-04-29; 14:52:24; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 14:54:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 14:55:20; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 15:05:00; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 15:09:38; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 15:10:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 15:13:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 15:15:03; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 15:37:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 15:39:20; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 15:43:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 15:49:00; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 15:53:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 16:00:51; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 16:01:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Copy ID_COPYCB; ; <Main\1004.0>
+1997-04-29; 16:05:46; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-29; 16:14:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-04-29; 16:16:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-04-29; 16:20:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-04-29; 16:22:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Form layout; ; <Main\Form>
+1997-04-29; 17:17:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-29; 17:44:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 17:45:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 17:58:45; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 20:04:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 20:05:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-04-29; 20:24:18; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-29; 20:54:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 20:57:55; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-29; 20:58:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-04-30; 15:19:14; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-04-30; 15:21:32; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-04-30; 15:24:33; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-04-30; 15:29:17; GARY L. ROBINSON; ADD; NETCHAT\HAILLIST-Form events - Activation changed; ; <HAILLIST\Form.10>
+1997-04-30; 15:29:34; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-04-30; 15:37:06; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Activation changed; ; <HAILLIST\Form.10>
+1997-04-30; 15:56:56; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-30; 15:57:28; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-04-30; 15:58:37; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-04-30; 15:58:45; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-30; 15:58:45; GARY L. ROBINSON; DEL; NETCHAT\MISCSET-Symbols; ; <MISCSET\Form.sym>
+1997-04-30; 15:59:42; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-04-30; 16:13:28; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-30; 16:13:28; GARY L. ROBINSON; DEL; NETCHAT\MISCSET-Symbols; ; <MISCSET\Form.sym>
+1997-04-30; 16:13:52; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-04-30; 16:14:41; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-04-30; 16:19:00; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-30; 16:23:05; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-04-30; 16:37:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-30; 16:45:16; GARY L. ROBINSON; ADD; NETCHAT\Main-Code sections - Window structure members; ; <Main\Form.33>
+1997-04-30; 16:46:24; GARY L. ROBINSON; ADD; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-04-30; 16:50:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-04-30; 16:51:11; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-30; 16:54:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-04-30; 17:05:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-04-30; 17:09:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-04-30; 17:17:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-30; 17:21:16; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-30; 17:22:59; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-30; 17:25:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-04-30; 21:06:38; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-05-01; 00:36:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Window structure members; ; <Main\Form.33>
+1997-05-01; 00:38:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-01; 00:38:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-01; 00:39:32; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-01; 01:11:13; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-01; 01:18:24; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-01; 01:18:45; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-01; 01:20:11; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-01; 01:22:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-01; 01:22:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-01; 01:42:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-01; 01:43:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-01; 01:52:36; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-01; 01:53:17; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-01; 01:59:52; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-02; 06:43:05; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-02; 06:53:56; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-02; 06:57:52; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-05-02; 07:00:58; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-05-02; 07:02:38; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-02; 07:10:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-02; 07:10:56; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-02; 07:14:38; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-02; 07:14:55; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-02; 09:41:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-05-02; 09:50:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-05-03; 03:03:54; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-05-03; 03:05:20; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-03; 03:08:12; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-03; 03:11:05; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-03; 03:24:41; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-03; 03:34:03; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-03; 03:34:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-03; 03:37:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-03; 03:38:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-03; 03:39:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-03; 03:43:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-03; 04:04:15; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-03; 04:19:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-03; 04:23:43; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-05-03; 04:26:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-05-03; 04:26:36; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-05-03; 07:34:26; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form events - Opened; ; <MCONNECT\Form.1>
+1997-05-03; 07:38:00; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form events - Opened; ; <MCONNECT\Form.1>
+1997-05-03; 07:48:38; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-05-03; 08:00:27; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-05-03; 08:05:55; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-05-03; 08:07:40; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-05-03; 08:17:44; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-05-03; 09:02:07; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-03; 16:49:45; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-03; 23:58:04; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 00:15:20; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 00:24:14; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 00:33:24; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 00:35:23; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 00:40:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-05-04; 00:40:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-05-04; 00:42:44; GARY L. ROBINSON; ADD; NETCHAT\REG-Form layout; ; <REG\Form>
+1997-05-04; 00:47:02; GARY L. ROBINSON; CHG; NETCHAT\REG-Form layout; ; <REG\Form>
+1997-05-04; 00:47:02; GARY L. ROBINSON; ADD; NETCHAT\REG-Form help info; ; <REG\Form.fin>
+1997-05-04; 00:48:04; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Register; ; <Main\285.0>
+1997-05-04; 00:48:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-05-04; 00:52:45; GARY L. ROBINSON; CHG; NETCHAT\REG-Form layout; ; <REG\Form>
+1997-05-04; 01:03:06; GARY L. ROBINSON; CHG; NETCHAT\REG-Form layout; ; <REG\Form>
+1997-05-04; 01:04:05; GARY L. ROBINSON; ADD; NETCHAT\REG-Form events - Opened; ; <REG\Form.1>
+1997-05-04; 01:06:11; GARY L. ROBINSON; ADD; NETCHAT\REG-Event Clicked/selected - ~OK  1001; ; <REG\1001.0>
+1997-05-04; 02:04:29; GARY L. ROBINSON; CHG; NETCHAT\REG-Form events - Opened; ; <REG\Form.1>
+1997-05-04; 02:10:53; GARY L. ROBINSON; ADD; NETCHAT\REG-Code sections - Extra include files; ; <REG\Form.34>
+1997-05-04; 02:18:51; GARY L. ROBINSON; CHG; NETCHAT\REG-Event Clicked/selected - ~Save  1001; ; <REG\1001.0>
+1997-05-04; 02:18:55; GARY L. ROBINSON; CHG; NETCHAT\REG-Form layout; ; <REG\Form>
+1997-05-04; 02:19:25; GARY L. ROBINSON; CHG; NETCHAT\REG-Form layout; ; <REG\Form>
+1997-05-04; 02:26:11; GARY L. ROBINSON; CHG; NETCHAT\REG-Event Clicked/selected - ~Save  1001; ; <REG\1001.0>
+1997-05-04; 02:29:04; GARY L. ROBINSON; CHG; NETCHAT\REG-Form events - Opened; ; <REG\Form.1>
+1997-05-04; 02:31:17; GARY L. ROBINSON; CHG; NETCHAT\REG-Event Clicked/selected - ~Save  1001; ; <REG\1001.0>
+1997-05-04; 02:37:20; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-05-04; 02:40:44; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Event Clicked/selected - ~OK  1002; ; <ABOUT\1002.0>
+1997-05-04; 02:41:09; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Event Clicked/selected - ~OK  1002; ; <ABOUT\1002.0>
+1997-05-04; 02:41:24; GARY L. ROBINSON; ADD; NETCHAT\ABOUT-Form events - Destroyed; ; <ABOUT\Form.3>
+1997-05-04; 02:43:13; GARY L. ROBINSON; ADD; NETCHAT\ABOUT-Code sections - Extra include files; ; <ABOUT\Form.34>
+1997-05-04; 02:43:32; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Destroyed; ; <ABOUT\Form.3>
+1997-05-04; 02:46:35; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Destroyed; ; <ABOUT\Form.3>
+1997-05-04; 02:46:49; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Event Clicked/selected - ~OK  1002; ; <ABOUT\1002.0>
+1997-05-04; 02:48:22; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Event Clicked/selected - ~OK  1002; ; <ABOUT\1002.0>
+1997-05-04; 02:49:15; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-05-04; 02:49:43; GARY L. ROBINSON; ADD; NETCHAT\ABOUT-Code sections - Top of window procedure; ; <ABOUT\Form.37>
+1997-05-04; 02:50:14; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Destroyed; ; <ABOUT\Form.3>
+1997-05-04; 02:50:25; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Destroyed; ; <ABOUT\Form.3>
+1997-05-04; 02:54:31; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Destroyed; ; <ABOUT\Form.3>
+1997-05-04; 02:57:24; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-05-04; 02:59:12; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 03:01:28; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-05-04; 03:01:46; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Destroyed; ; <ABOUT\Form.3>
+1997-05-04; 03:01:59; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Code sections - Top of window procedure; ; <ABOUT\Form.37>
+1997-05-04; 03:02:13; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-05-04; 03:03:29; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Event Clicked/selected - ~OK  1002; ; <ABOUT\1002.0>
+1997-05-04; 03:04:05; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-05-04; 03:08:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-05-04; 03:20:00; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~About NetChat ...; ; <Main\272.0>
+1997-05-04; 03:23:33; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-05-04; 03:24:46; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-05-04; 03:34:55; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-05-04; 03:41:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~About NetChat ...; ; <Main\272.0>
+1997-05-04; 03:42:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~About NetChat ...; ; <Main\272.0>
+1997-05-04; 03:53:55; GARY L. ROBINSON; CHG; NETCHAT\REG-Event Clicked/selected - ~Save  1001; ; <REG\1001.0>
+1997-05-04; 03:56:24; GARY L. ROBINSON; CHG; NETCHAT\REG-Event Clicked/selected - ~Save  1001; ; <REG\1001.0>
+1997-05-04; 04:08:41; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-05-04; 04:15:14; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Event Clicked/selected - ~Save settings  1019; ; <SETTINGS\1019.0>
+1997-05-04; 04:16:26; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-05-04; 04:26:20; GARY L. ROBINSON; CHG; NETCHAT\ADDPHR-Event Clicked/selected - ~Save  1001; ; <ADDPHR\1001.0>
+1997-05-04; 04:27:35; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Event Clicked/selected - ~Save  1003; ; <EDITREC\1003.0>
+1997-05-04; 04:28:16; GARY L. ROBINSON; CHG; NETCHAT\EDITPHR-Event Clicked/selected - ~Save  1001; ; <EDITPHR\1001.0>
+1997-05-04; 04:32:55; GARY L. ROBINSON; CHG; NETCHAT\NEWREC-Event Clicked/selected - ~Save  1003; ; <NEWREC\1003.0>
+1997-05-04; 04:57:31; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 16:59:45; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-05-04; 16:59:45; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-05-04; 17:06:39; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 17:07:12; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 17:14:31; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 17:16:18; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 17:16:55; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-04; 20:22:44; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-05; 02:32:53; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-05; 02:50:32; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-05; 02:59:02; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-05; 02:59:57; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:13:13; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:19:26; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:21:12; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:26:41; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:28:55; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:30:30; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:32:43; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:33:52; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:34:59; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:36:15; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:37:29; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:44:03; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:45:38; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:47:11; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-06; 16:49:47; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-07; 22:13:54; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-09; 02:57:37; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-09; 03:05:36; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-09; 03:06:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-09; 03:18:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-09; 03:21:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-05-09; 03:24:11; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-09; 03:38:43; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-05-09; 03:40:40; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-05-10; 15:58:35; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-12; 06:18:59; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-05-12; 06:23:39; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-05-12; 06:31:56; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-05-12; 06:33:42; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Event ~Save settings  1019, Clicked/selected; ; <SETTINGS\1019.0>
+1997-05-12; 06:34:37; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Event Form events, Opened; ; <SETTINGS\Form.1>
+1997-05-12; 13:37:50; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-05-12; 20:12:49; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-05-12; 20:13:41; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Click/Selected - List Box  1000; ; <HAILNOTE\1000.0>
+1997-05-12; 20:18:05; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-05-12; 20:21:01; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-05-12; 20:25:50; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-05-12; 20:26:50; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-05-12; 20:27:16; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Click/Selected - List Box  1000; ; <LOGNOTE\1000.0>
+1997-05-12; 22:34:58; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-12; 22:35:48; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-13; 07:18:01; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - H~ailing; ; <Main\283.0>
+1997-05-13; 07:18:15; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Hailing list ...; ; <Main\268.0>
+1997-05-13; 07:18:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Hail log ...; ; <Main\273.0>
+1997-05-13; 07:19:05; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - ~Log; ; <Main\269.0>
+1997-05-13; 07:19:15; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Hail log ...; ; <Main\273.0>
+1997-05-13; 07:19:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Favorite phrases ...; ; <Main\277.0>
+1997-05-13; 07:19:58; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - Phra~ses; ; <Main\276.0>
+1997-05-13; 07:20:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - Phra~ses; ; <Main\276.0>
+1997-05-13; 07:20:13; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - ~Favorite phrases ...; ; <Main\277.0>
+1997-05-13; 07:20:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-05-13; 07:20:30; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-05-13; 07:21:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-05-13; 07:21:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-05-13; 07:22:03; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-05-13; 07:22:03; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-05-13; 07:30:22; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-16; 00:19:46; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-16; 00:19:46; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form help info; ; <ABOUT\Form.fin>
+1997-05-16; 00:22:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Send file; ; <Main\275.0>
+1997-05-16; 00:23:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Send file; ; <Main\275.0>
+1997-05-16; 00:31:45; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-05-16; 00:42:37; GARY L. ROBINSON; CHG; NETCHAT\Main-Form help info; ; <Main\Form.fin>
+1997-05-16; 00:48:10; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form help info; ; <ABOUT\Form.fin>
+1997-05-16; 00:48:59; GARY L. ROBINSON; CHG; NETCHAT\EDITREC-Form help info; ; <EDITREC\Form.fin>
+1997-05-16; 00:49:32; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form help info; ; <HAILLIST\Form.fin>
+1997-05-16; 00:49:50; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form help info; ; <HAILNOTE\Form.fin>
+1997-05-16; 00:50:09; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form help info; ; <LOGNOTE\Form.fin>
+1997-05-16; 00:50:41; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Form help info; ; <MCONNECT\Form.fin>
+1997-05-16; 00:51:04; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form help info; ; <MISCSET\Form.fin>
+1997-05-16; 00:51:27; GARY L. ROBINSON; CHG; NETCHAT\NEWREC-Form help info; ; <NEWREC\Form.fin>
+1997-05-16; 00:52:23; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form help info; ; <SETTINGS\Form.fin>
+1997-05-16; 00:52:41; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form help info; ; <SPORTS\Form.fin>
+1997-05-16; 01:11:00; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-05-16; 01:18:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-05-16; 01:25:23; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-05-16; 01:39:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-05-16; 02:19:57; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Abort file transfer; ; <Main\282.0>
+1997-05-16; 02:20:38; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Abort file transfer; ; <Main\282.0>
+1997-05-16; 02:22:04; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Abort file transfer; ; <Main\282.0>
+1997-05-16; 03:44:45; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Abort file transfer; ; <Main\282.0>
+1997-05-16; 04:14:29; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Abort file transfer; ; <Main\282.0>
+1997-05-16; 05:40:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-05-16; 06:15:38; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-05-16; 06:26:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-05-16; 06:39:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-05-16; 06:55:52; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-05-17; 15:16:30; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-18; 00:41:56; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-05-18; 00:44:06; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-05-18; 00:46:33; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-20; 06:30:26; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-20; 06:38:46; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-05-20; 06:43:07; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-05-20; 06:45:14; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-05-20; 06:51:11; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-05-20; 06:51:28; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-05-21; 07:06:07; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-22; 01:30:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-22; 03:02:02; GARY L. ROBINSON; CHG; NETCHAT\REG-Form layout; ; <REG\Form>
+1997-05-22; 03:12:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-23; 01:00:55; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-24; 05:43:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-24; 06:17:19; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-05-24; 06:18:55; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-05-24; 07:35:05; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-25; 04:52:23; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-25; 05:00:52; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-25; 05:13:45; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-25; 06:18:12; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-25; 07:56:05; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-26; 02:27:19; GARY L. ROBINSON; ADD; NETCHAT\CONINFO-Form layout; ; <CONINFO\Form>
+1997-05-26; 02:35:28; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Form layout; ; <CONINFO\Form>
+1997-05-26; 02:35:28; GARY L. ROBINSON; ADD; NETCHAT\CONINFO-Form help info; ; <CONINFO\Form.fin>
+1997-05-26; 02:39:51; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Form layout; ; <CONINFO\Form>
+1997-05-26; 03:50:56; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Form layout; ; <CONINFO\Form>
+1997-05-26; 03:51:50; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Form layout; ; <CONINFO\Form>
+1997-05-26; 03:52:57; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Form layout; ; <CONINFO\Form>
+1997-05-26; 03:54:02; GARY L. ROBINSON; ADD; NETCHAT\CONINFO-Event Clicked/selected - ~OK  1001; ; <CONINFO\1001.0>
+1997-05-26; 03:55:15; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Form layout; ; <CONINFO\Form>
+1997-05-26; 03:58:17; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - Remote party info ...; ; <Main\268.0>
+1997-05-26; 03:58:38; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-05-26; 03:59:01; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-05-26; 03:59:01; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-05-26; 04:00:29; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Form layout; ; <CONINFO\Form>
+1997-05-26; 04:01:30; GARY L. ROBINSON; ADD; NETCHAT\CONINFO-Form events - Opened; ; <CONINFO\Form.1>
+1997-05-26; 04:02:52; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - Remote party info ...; ; <Main\268.0>
+1997-05-26; 04:03:12; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-05-26; 04:03:12; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-05-26; 04:08:46; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Form layout; ; <CONINFO\Form>
+1997-05-26; 04:09:23; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Form layout; ; <CONINFO\Form>
+1997-05-26; 04:10:11; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-26; 04:55:33; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Form events - Opened; ; <CONINFO\Form.1>
+1997-05-26; 05:05:49; GARY L. ROBINSON; ADD; NETCHAT\CONINFO-Code sections - Extra include files; ; <CONINFO\Form.34>
+1997-05-26; 05:23:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Remote party info ...; ; <Main\268.0>
+1997-05-26; 05:24:17; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Form events - Opened; ; <CONINFO\Form.1>
+1997-05-26; 05:24:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Remote party info ...; ; <Main\268.0>
+1997-05-26; 05:51:46; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-05-26; 05:54:50; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-05-26; 05:59:25; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-05-26; 06:01:15; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form events - Opened; ; <ABOUT\Form.1>
+1997-05-26; 06:25:35; GARY L. ROBINSON; CHG; NETCHAT\CONINFO-Event Form events, Opened; ; <CONINFO\Form.1>
+1997-05-26; 06:43:19; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~File; ; <Main\256.0>
+1997-05-27; 02:52:56; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-05-27; 02:54:39; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-05-27; 02:59:54; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-05-27; 03:01:24; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-05-27; 03:03:34; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-05-27; 03:04:41; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-05-27; 03:10:08; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-27; 03:22:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-27; 03:31:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-05-27; 03:38:17; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form events - Opened; ; <PHRLIST\Form.1>
+1997-05-29; 00:44:20; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-06-04; 23:23:04; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-06-06; 01:04:45; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-06-07; 00:28:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-06-09; 02:40:20; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-06-09; 02:53:15; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-06-09; 03:00:19; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-06-11; 02:22:03; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-06-11; 02:23:35; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Click/Selected - List Box  1000; ; <HAILNOTE\1000.0>
+1997-06-11; 02:25:20; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-06-11; 02:25:58; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Click/Selected - List Box  1000; ; <HAILNOTE\1000.0>
+1997-06-11; 02:30:48; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-06-11; 02:31:07; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-06-11; 02:32:01; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Click/Selected - List Box  1000; ; <HAILNOTE\1000.0>
+1997-06-11; 02:58:34; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-06-11; 02:58:54; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Click/Selected - List Box  1000; ; <HAILNOTE\1000.0>
+1997-06-11; 03:15:17; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-06-11; 03:15:32; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-06-11; 03:18:10; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Click/Selected - List Box  1000; ; <LOGNOTE\1000.0>
+1997-06-11; 03:18:20; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Click/Selected - List Box  1000; ; <LOGNOTE\1000.0>
+1997-06-11; 03:18:40; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-06-11; 03:37:06; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-06-11; 03:37:54; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Click/Selected - List Box  1000; ; <LOGNOTE\1000.0>
+1997-06-11; 03:38:34; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 03:54:13; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:03:58; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:06:49; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:13:35; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:19:05; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:25:05; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:27:00; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:33:47; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:36:04; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:38:12; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:40:53; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:42:10; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:46:10; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:47:07; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:48:15; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:50:47; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:53:00; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:53:44; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 04:56:03; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:01:48; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:03:15; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:05:04; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:08:56; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:11:18; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:16:45; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:18:03; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:22:31; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:24:48; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:31:00; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:34:21; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:37:50; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 05:52:04; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 06:03:55; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 06:14:27; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 06:18:49; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 06:19:08; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 06:44:12; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-06-11; 06:47:03; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-06-11; 06:47:58; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-06-11; 06:53:17; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 06:53:56; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 06:59:16; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 07:00:06; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 07:00:18; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 07:02:24; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 07:03:03; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 07:16:02; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 07:16:59; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 19:26:30; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-06-11; 19:29:08; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 19:29:22; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-11; 19:31:49; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 19:32:02; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-11; 19:34:04; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-06-11; 19:35:16; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 19:35:25; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-06-11; 19:35:52; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-06-11; 19:40:01; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-11; 19:40:27; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-11; 19:40:52; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-06-11; 19:42:37; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-11; 19:43:14; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-06-11; 19:45:28; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-11; 19:46:56; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-06-11; 19:47:22; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-11; 19:48:47; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-11; 19:49:14; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-06-11; 19:54:33; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 19:54:54; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 19:57:49; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 19:58:37; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-11; 20:09:00; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 20:09:57; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 20:15:17; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 20:20:28; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 20:20:30; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-11; 20:20:30; GARY L. ROBINSON; DEL; NETCHAT\HAILNOTE-Symbols; ; <HAILNOTE\Form.sym>
+1997-06-11; 20:25:26; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 20:25:30; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-11; 20:25:30; GARY L. ROBINSON; DEL; NETCHAT\HAILNOTE-Symbols; ; <HAILNOTE\Form.sym>
+1997-06-11; 20:31:45; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-11; 20:32:48; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-12; 00:08:47; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-06-12; 00:09:16; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-06-12; 00:09:27; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-06-12; 00:13:37; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-12; 00:14:36; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-12; 00:15:07; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-12; 00:20:07; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-06-12; 00:20:39; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-06-12; 00:45:43; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-12; 02:00:26; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-12; 02:01:02; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-12; 02:01:36; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-12; 02:02:28; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-12; 02:03:41; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-12; 02:07:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-12; 02:08:29; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-12; 02:09:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-12; 02:15:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-12; 02:24:01; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-12; 02:25:15; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-12; 02:26:47; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-12; 02:44:04; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-06-12; 02:45:38; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-12; 02:46:40; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-12; 02:52:01; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-12; 02:52:13; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-12; 03:04:38; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-12; 03:19:16; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-06-12; 03:21:32; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-06-12; 03:22:57; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-06-12; 03:26:48; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-06-12; 03:43:19; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-06-12; 03:44:33; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>
+1997-06-12; 03:47:08; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-12; 03:50:11; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-06-12; 03:50:31; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-06-12; 03:50:47; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-06-12; 04:11:44; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-06-12; 05:24:05; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Event Clicked/selected - Reset to standard ports (6667, 6  1006; ; <SPORTS\1006.0>
+1997-06-12; 05:25:25; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-06-12; 05:26:10; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-06-12; 05:28:37; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - Reset ports (6667, 6667, 21)  1006; ; <SPORTS\1006.0>
+1997-06-12; 05:28:42; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-06-12; 05:31:24; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - Reset ports (6667, 6667, 21)  1006; ; <SPORTS\1006.0>
+1997-06-12; 05:33:08; GARY L. ROBINSON; DEL; NETCHAT\SPORTS-Reset ports (6667, 6667, 21)  1006 - Clicked/selected; ; <SPORTS\1006.0>
+1997-06-12; 05:35:36; GARY L. ROBINSON; ADD; NETCHAT\SPORTS-Event Clicked/selected - Reset ports (6667, 6667, 21)  1006; ; <SPORTS\1006.0>
+1997-06-12; 05:35:38; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-06-12; 05:36:52; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-06-12; 05:37:13; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - Reset ports (6667, 6667, 21)  1006; ; <SPORTS\1006.0>
+1997-06-12; 05:44:50; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-06-12; 05:46:21; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-06-12; 06:14:03; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-12; 06:15:04; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-06-12; 06:15:38; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Click/Selected - List Box  1000; ; <HAILNOTE\1000.0>
+1997-06-12; 06:16:08; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-12; 07:07:15; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-06-12; 07:17:07; GARY L. ROBINSON; ADD; NETCHAT\HAILLIST-Event Clicked/selected - ~Busy now ...  1002; ; <HAILLIST\1002.0>
+1997-06-12; 07:18:54; GARY L. ROBINSON; ADD; NETCHAT\HAILLIST-Event Clicked/selected - Hail me on ports ...  1005; ; <HAILLIST\1005.0>
+1997-06-12; 07:19:04; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Clicked/selected - Hail me on ports ...  1005; ; <HAILLIST\1005.0>
+1997-06-12; 07:20:06; GARY L. ROBINSON; ADD; NETCHAT\HAILLIST-Event Clicked/selected - Have to run ...  1004; ; <HAILLIST\1004.0>
+1997-06-12; 07:23:00; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Mouse button 1 double click - List Box  1000; ; <HAILLIST\1000.3>
+1997-06-12; 07:23:06; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-06-12; 07:25:16; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-06-12; 07:46:00; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-06-12; 07:50:33; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-06-12; 07:55:37; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Form events, Opened; ; <HAILLIST\Form.1>
+1997-06-12; 08:09:59; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-06-12; 08:09:59; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Form events, Opened; ; <HAILLIST\Form.1>
+1997-06-12; 08:15:38; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Form events, Opened; ; <HAILLIST\Form.1>
+1997-06-12; 08:18:09; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Form events, Opened; ; <HAILLIST\Form.1>
+1997-06-12; 08:19:15; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Form events, Opened; ; <HAILLIST\Form.1>
+1997-06-12; 08:21:26; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event List Box  1000, Mouse button 1 double click; ; <HAILLIST\1000.3>
+1997-06-12; 08:38:47; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event List Box  1000, Mouse button 1 double click; ; <HAILLIST\1000.3>
+1997-06-12; 08:55:53; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-06-12; 09:01:43; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-06-12; 09:05:04; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-06-12; 09:09:15; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-06-12; 09:11:51; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-06-12; 09:14:59; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-12; 09:17:39; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-12; 09:20:48; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-06-12; 09:21:56; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-06-12; 09:22:30; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Click/Selected - List Box  1000; ; <LOGNOTE\1000.0>
+1997-06-12; 09:26:57; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-06-12; 10:13:56; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-06-12; 10:16:12; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-06-12; 10:16:52; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-06-12; 11:00:51; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Clicked/selected - Have to run ...  1004; ; <HAILLIST\1004.0>
+1997-06-12; 11:01:50; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Clicked/selected - ~Busy now ...  1002; ; <HAILLIST\1002.0>
+1997-06-12; 11:02:46; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-06-12; 11:04:41; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Clicked/selected - I will ~listen for ...  1005; ; <HAILLIST\1005.0>
+1997-06-12; 11:04:52; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form layout; ; <HAILLIST\Form>
+1997-06-12; 11:34:20; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form layout; ; <HAILNOTE\Form>
+1997-06-12; 11:34:52; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form layout; ; <LOGNOTE\Form>
+1997-06-12; 11:35:52; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Event Clicked/selected - ~Busy now ...  1002; ; <HAILLIST\1002.0>
+1997-06-14; 06:25:14; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - Reset ports to R:6667 T:6667 F:2  1006; ; <SPORTS\1006.0>
+1997-06-14; 06:27:22; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - Reset ports to R:6667 T:6667 F:2  1006; ; <SPORTS\1006.0>
+1997-06-14; 06:28:08; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - Reset ports to R:6667 T:6667 F:2  1006; ; <SPORTS\1006.0>
+1997-06-14; 06:36:54; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-06-14; 06:40:51; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-06-14; 06:42:16; GARY L. ROBINSON; CHG; NETCHAT\HAILLIST-Form events - Opened; ; <HAILLIST\Form.1>
+1997-06-16; 00:38:51; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 00:40:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 00:44:31; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 00:50:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 01:00:56; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 01:04:06; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 01:06:02; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 01:10:22; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 01:14:35; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 01:16:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 02:27:46; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-06-16; 02:34:12; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-06-16; 02:39:12; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-06-16; 02:42:16; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event ~Save  1006, Clicked/selected; ; <MISCSET\1006.0>
+1997-06-16; 02:43:22; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Form events, Opened; ; <MISCSET\Form.1>
+1997-06-16; 02:45:10; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event ~Save  1006, Clicked/selected; ; <MISCSET\1006.0>
+1997-06-16; 02:48:44; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event ~Save  1006, Clicked/selected; ; <MISCSET\1006.0>
+1997-06-16; 02:56:37; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-06-16; 03:01:29; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - Reset ports to R:6667 T:6667 F:2  1006; ; <SPORTS\1006.0>
+1997-06-16; 03:03:36; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - Reset ports to R:6667 T:6667 F:2  1006; ; <SPORTS\1006.0>
+1997-06-16; 03:10:00; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-06-16; 03:10:15; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form layout; ; <SPORTS\Form>
+1997-06-16; 03:14:37; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-06-16; 03:18:21; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Form events - Opened; ; <SPORTS\Form.1>
+1997-06-16; 03:28:44; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 03:29:17; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Application initialization; ; <Main\Form.35>
+1997-06-16; 16:51:27; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected -   1006; ; <SPORTS\1006.0>
+1997-06-16; 16:54:40; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-06-16; 16:57:24; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-06-20; 02:30:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-06-20; 02:30:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-06-20; 04:04:08; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-06-20; 04:04:08; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-06-20; 07:45:21; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - D~ownload directory; ; <Main\265.0>
+1997-06-20; 07:45:34; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Upload directory; ; <Main\284.0>
+1997-06-20; 07:48:32; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - D~ownload directory; ; <Main\265.0>
+1997-06-20; 07:48:46; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Upload directory; ; <Main\284.0>
+1997-06-21; 01:47:19; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - D~ownload directory; ; <Main\265.0>
+1997-06-21; 01:47:38; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~Upload directory; ; <Main\284.0>
+1997-06-21; 06:17:32; GARY L. ROBINSON; ADD; NETCHAT\BUGME2-Form layout; ; <BUGME2\Form>
+1997-06-21; 06:37:28; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-21; 06:43:09; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Monitor OFF  1006; ; <Main\1006.0>
+1997-06-21; 06:51:14; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Incoming file  1008; ; <Main\1008.0>
+1997-06-21; 06:52:13; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Event Clicked/selected - ~OK  1002; ; <ABOUT\1002.0>
+1997-06-21; 07:02:40; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-06-21; 07:06:54; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-21; 07:07:39; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-21; 07:09:20; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-06-21; 07:09:56; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Code sections - Extra include files; ; <LOGNOTE\Form.34>
+1997-06-21; 07:10:30; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-21; 07:10:47; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Code sections - Extra include files; ; <HAILNOTE\Form.34>
+1997-06-21; 07:19:35; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-06-22; 05:39:41; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-06-27; 17:16:20; GARY L. ROBINSON; ADD; NETCHAT\stats-Form layout; ; <stats\Form>
+1997-06-27; 17:19:13; GARY L. ROBINSON; ADD; NETCHAT\stats-Event Clicked/selected - ~OK  1001; ; <stats\1001.0>
+1997-06-27; 17:21:17; GARY L. ROBINSON; ADD; NETCHAT\stats-Form events - Opened; ; <stats\Form.1>
+1997-06-27; 17:23:29; GARY L. ROBINSON; CHG; NETCHAT\stats-Form events - Opened; ; <stats\Form.1>
+1997-06-27; 17:24:00; GARY L. ROBINSON; CHG; NETCHAT\stats-Form layout; ; <stats\Form>
+1997-06-27; 17:24:01; GARY L. ROBINSON; ADD; NETCHAT\stats-Form help info; ; <stats\Form.fin>
+1997-06-27; 17:25:51; GARY L. ROBINSON; ADD; NETCHAT\STATS-Code sections - Extra include files; ; <STATS\Form.34>
+1997-06-27; 17:36:50; GARY L. ROBINSON; CHG; NETCHAT\STATS-Form layout; ; <STATS\Form>
+1997-06-28; 00:27:01; GARY L. ROBINSON; CHG; NETCHAT\STATS-Form layout; ; <STATS\Form>
+1997-06-28; 00:30:24; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - Current I~P address; ; <Main\273.0>
+1997-06-28; 00:30:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-06-28; 00:30:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-06-30; 05:56:41; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Code sections - Extra include files; ; <HAILNOTE\Form.34>
+1997-06-30; 05:57:00; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Code sections - Extra include files; ; <LOGNOTE\Form.34>
+1997-06-30; 05:58:39; GARY L. ROBINSON; CHG; NETCHAT\Main-Code sections - Extra include files; ; <Main\Form.34>
+1997-06-30; 06:19:57; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-06-30; 06:27:01; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Event Clicked/selected - ~Connect  1001; ; <LOGNOTE\1001.0>
+1997-07-24; 04:37:52; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-07-24; 05:37:16; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-07-24; 05:42:13; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form events - Opened; ; <SETTINGS\Form.1>
+1997-07-24; 05:42:58; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Event Clicked/selected - ~Save settings  1019; ; <SETTINGS\1019.0>
+1997-07-24; 05:46:04; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-07-24; 06:04:00; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Form layout; ; <SETTINGS\Form>
+1997-07-25; 04:51:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-07-25; 04:58:42; GARY L. ROBINSON; CHG; NETCHAT\Main-Event Clicked/selected - ~Listen OFF  1002; ; <Main\1002.0>
+1997-07-25; 17:18:17; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Form events - Opened; ; <HAILNOTE\Form.1>
+1997-07-25; 17:20:15; GARY L. ROBINSON; CHG; NETCHAT\LOGNOTE-Form events - Opened; ; <LOGNOTE\Form.1>
+1997-07-25; 17:26:59; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-07-25; 17:30:30; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Clicked/selected - ~Connect  1001; ; <HAILNOTE\1001.0>
+1997-07-29; 02:49:14; GARY L. ROBINSON; CHG; NETCHAT\HAILNOTE-Event Click/Selected - List Box  1000; ; <HAILNOTE\1000.0>
+1997-08-28; 17:44:03; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - H~ailing list; ; <Main\283.0>
+1997-08-28; 17:44:19; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - menu item; ; <Main\286.0>
+1997-08-28; 17:46:19; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - Hail ~log; ; <Main\269.0>
+1997-08-28; 17:47:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - H~ailing list; ; <Main\286.0>
+1997-08-28; 17:48:17; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - H~ailing list; ; <Main\283.0>
+1997-08-28; 17:51:21; GARY L. ROBINSON; DEL; NETCHAT\Main-Menu events - Phra~ses; ; <Main\276.0>
+1997-08-28; 17:51:48; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - Phra~ses; ; <Main\276.0>
+1997-08-28; 17:52:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-08-28; 17:52:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-08-28; 17:52:26; GARY L. ROBINSON; CHG; NETCHAT\Main-Symbols; ; <Main\Form.sym>
+1997-08-28; 17:53:37; GARY L. ROBINSON; ADD; NETCHAT\Main-Menu events - Hail ~list; ; <Main\269.0>
+1997-08-28; 17:53:49; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-08-28; 17:53:49; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-08-28; 17:57:48; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - Hail ~list; ; <Main\269.0>
+1997-08-28; 18:09:24; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-08-28; 18:09:24; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-08-28; 18:32:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-08-28; 18:32:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-08-28; 22:11:10; GARY L. ROBINSON; ADD; NETCHAT\CPC-Form layout; ; <CPC\Form>
+1997-08-28; 22:15:23; GARY L. ROBINSON; ADD; NETCHAT\CPC-Form events - Opened; ; <CPC\Form.1>
+1997-08-28; 22:15:50; GARY L. ROBINSON; ADD; NETCHAT\CPC-Event Clicked/selected - ~Cancel  1002; ; <CPC\1002.0>
+1997-08-28; 22:16:11; GARY L. ROBINSON; ADD; NETCHAT\CPC-Event Clicked/selected - ~Paste  1001; ; <CPC\1001.0>
+1997-08-28; 22:16:23; GARY L. ROBINSON; ADD; NETCHAT\CPC-Event Clicked/selected - ~Send  1000; ; <CPC\1000.0>
+1997-08-28; 22:16:34; GARY L. ROBINSON; CHG; NETCHAT\CPC-Form layout; ; <CPC\Form>
+1997-08-28; 22:16:34; GARY L. ROBINSON; ADD; NETCHAT\CPC-Form help info; ; <CPC\Form.fin>
+1997-08-28; 22:17:30; GARY L. ROBINSON; ADD; NETCHAT\CPC-Code sections - Extra include files; ; <CPC\Form.34>
+1997-08-29; 00:21:56; GARY L. ROBINSON; CHG; NETCHAT\CPC-Form layout; ; <CPC\Form>
+1997-08-29; 00:37:21; GARY L. ROBINSON; CHG; NETCHAT\CPC-Event Clicked/selected - ~Send  1000; ; <CPC\1000.0>
+1997-08-29; 00:37:38; GARY L. ROBINSON; CHG; NETCHAT\CPC-Event Clicked/selected - ~Paste  1001; ; <CPC\1001.0>
+1997-08-29; 00:39:10; GARY L. ROBINSON; CHG; NETCHAT\CPC-Form layout; ; <CPC\Form>
+1997-08-29; 01:10:36; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-08-29; 01:12:10; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-08-29; 01:12:14; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-08-29; 01:31:18; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Closed; ; <Main\Form.2>
+1997-08-29; 01:47:29; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-08-29; 01:47:56; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form events - Opened; ; <MISCSET\Form.1>
+1997-08-29; 01:48:00; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-08-29; 01:49:29; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Form layout; ; <MISCSET\Form>
+1997-08-30; 21:11:26; GARY L. ROBINSON; CHG; NETCHAT\PHRLIST-Form layout; ; <PHRLIST\Form>
+1997-09-11; 08:52:08; GARY L. ROBINSON; CHG; NETCHAT\STATS-Form events - Opened; ; <STATS\Form.1>
+1997-09-11; 09:32:45; GARY L. ROBINSON; CHG; NETCHAT\STATS-Form layout; ; <STATS\Form>
+1997-09-12; 04:15:25; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~NetChat Help; ; <Main\286.0>
+1997-09-12; 04:18:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Menubar; ; <Main\Menu>
+1997-09-12; 04:18:58; GARY L. ROBINSON; CHG; NETCHAT\Main-Accelerator keys; ; <Main\Form.acc>
+1997-09-12; 04:18:58; GARY L. ROBINSON; DEL; NETCHAT\Main-Control help ids; ; <Main\Form.hid>
+1997-09-12; 04:23:56; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-09-12; 04:34:49; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Opened; ; <Main\Form.1>
+1997-09-12; 04:37:50; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~NetChat Help; ; <Main\286.0>
+1997-09-12; 04:38:54; GARY L. ROBINSON; CHG; NETCHAT\Main-Form events - Destroyed; ; <Main\Form.3>
+1997-09-12; 04:41:33; GARY L. ROBINSON; CHG; NETCHAT\Main-Menu events - ~NetChat Help; ; <Main\286.0>
+1997-09-12; 08:10:46; GARY L. ROBINSON; CHG; NETCHAT\ABOUT-Form layout; ; <ABOUT\Form>
+1997-09-13; 10:50:44; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-09-13; 11:07:54; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-09-13; 11:10:37; GARY L. ROBINSON; CHG; NETCHAT\MCONNECT-Event Clicked/selected - Co~nnect  1003; ; <MCONNECT\1003.0>
+1997-10-24; 05:35:01; GARY L. ROBINSON; CHG; NETCHAT\MISCSET-Event Clicked/selected - ~Save  1006; ; <MISCSET\1006.0>
+1997-10-24; 05:35:53; GARY L. ROBINSON; CHG; NETCHAT\SETTINGS-Event Clicked/selected - ~Save settings  1019; ; <SETTINGS\1019.0>
+1997-10-24; 05:36:46; GARY L. ROBINSON; CHG; NETCHAT\SPORTS-Event Clicked/selected - ~Save  1000; ; <SPORTS\1000.0>

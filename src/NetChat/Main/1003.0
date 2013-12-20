@@ -1,0 +1,8 @@
+/* Event Clicked/selected - C~lose  1003 */
+
+
+
+mmm = 2;
+_beginthread(sendOneMSG, NULL, BSTACK, (PVOID)mmm);
+
+

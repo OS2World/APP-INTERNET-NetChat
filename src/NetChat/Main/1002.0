@@ -1,0 +1,80 @@
+/* Event Clicked/selected - ~Connect  1002 */
+
+// static CBD rcvdat;
+CHAR btext[30];
+ULONG fgndcolor;
+BOOL continueon;
+
+
+WinQueryDlgItemText(hwndDlg, 1002, sizeof(btext), btext);
+
+continueon = TRUE;
+if( strcmp(btext, "Connected!") == 0 )
+   {
+   if(WinMessageBox(HWND_DESKTOP,
+		    hwndDlg,
+		    "Press OK to disconnect or Cancel to abort the operation.",
+		    "Are you sure you want to disconnect?",
+		    0,
+		    MB_ICONEXCLAMATION | MB_OKCANCEL) == MBID_CANCEL )
+      {
+      continueon = FALSE;
+      }
+   else
+      {
+      continueon = TRUE;
+      }   
+   }
+
+
+if( continueon )
+   {
+   if( strcmp(btext, "Listen OFF") == 0 )
+      {
+      CHAR mo[30];
+   
+   
+      WinSetDlgItemText(hwndDlg, 1002, "Listen ON");
+      WinQueryDlgItemText(hwndDlg, 1006, sizeof(mo), mo);
+      WinSetDlgItemText(hwndDlg, 1000, "");
+      WinSetDlgItemText(hwndDlg, 1001, "");
+      WinSetDlgItemText(hwndDlg, 1002, "Listen ON");
+      // rcvdat.hwndDlg = hwndDlg;
+      rcvthread = _beginthread(msgServer, NULL, BSTACK, (PVOID)0);
+      }
+   else
+      {
+      _beginthread(sendOneMSG, NULL, BSTACK, (PVOID)7);
+      ABORTME = TRUE;
+      NOWLISTENING = FALSE;
+      NOWCONNECTED1 = FALSE;
+      NOWCONNECTED2 = FALSE;
+      FTPINPROGRESS = FALSE;
+      STILLWAITING = FALSE;
+      soclose(ftpsock);
+      soclose(ftpnsock);
+      FILENOTIFY = FALSE;
+      SERVERON = FALSE;
+      shutdown(globsock, 2);
+      so_cancel(globsock);
+      so_cancel(globnsock);
+      so_cancel(globsockt);
+      WinSetDlgItemText(hwndDlg, 1000, "");
+      WinSetDlgItemText(hwndDlg, 1001, "");
+      WinEnableWindow(WinWindowFromID(hwndDlg, 1002), TRUE);
+      fgndcolor = CLR_BLACK;   
+      WinSetPresParam(WinWindowFromID(hwndDlg, 1002), 
+                                PP_FOREGROUNDCOLORINDEX,
+                                sizeof(ULONG),     
+                                &fgndcolor);     
+      WinSetDlgItemText(hwndDlg, 1002, "Listen OFF");
+      soclose(globnsock);   
+      soclose(globsock);   
+      soclose(globsockt);   
+      DosKillThread(rcvthread);
+      DosKillThread(activen);
+      makeTBar(); 
+      WinSetDlgItemText(hwndMainF, FID_TITLEBAR, tbarmsg); 
+      }
+   }
+

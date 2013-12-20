@@ -1,0 +1,22 @@
+/* Form events - Opened */
+
+hwndMLPPopup = WinLoadMenu(WinWindowFromID(hwndDlg, 1000), 0, ID_PHRMAIN);
+
+poldWinProc = WinSubclassWindow(WinWindowFromID(hwndDlg, 1000), newPhrProc);
+WinSetWindowPtr(WinWindowFromID(hwndDlg, 1000), 0, (PVOID) poldWinProc);
+
+zeroPHRData();
+loadPHRData(PHRDATAFILE);
+loadPHRLBox(hwndDlg, PHRDATAFILE);
+
+if( STARTMIN )
+   {
+   WinSetWindowPos(hwndFrame, 0, pgmData[10], pgmData[11], pgmData[12], pgmData[13], SWP_MOVE | SWP_SIZE | SWP_MINIMIZE);
+   STARTMIN = 0;
+   }
+else   
+   {
+   WinSetWindowPos(hwndFrame, 0, pgmData[10], pgmData[11], pgmData[12], pgmData[13], SWP_MOVE|SWP_SIZE);
+   }
+
+

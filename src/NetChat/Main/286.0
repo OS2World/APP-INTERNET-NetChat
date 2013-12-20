@@ -1,0 +1,5 @@
+/* Menu events - menu item */
+
+if( hwndHelp )
+   WinSendMsg(hwndHelp, HM_HELP_CONTENTS, (MPARAM)0, (MPARAM)0);
+	     

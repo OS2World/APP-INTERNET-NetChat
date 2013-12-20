@@ -1,0 +1,72 @@
+/* Form events - Destroyed */
+
+SWP swp;
+HAB hb;
+ULONG attrf;
+
+
+if (hwndHelp)
+   {
+   WinAssociateHelpInstance (NULLHANDLE, hwndDlg);
+   WinDestroyHelpInstance( hwndHelp);
+   }
+     
+if( !(WinQueryWindowULong(hwndFrame, QWL_STYLE) & WS_MINIMIZED) )
+   {
+   WinQueryWindowPos(hwndFrame, (PSWP) &swp);
+   pgmData[0] = swp.x;
+   pgmData[1] = swp.y;
+   pgmData[2] = swp.cx;
+   pgmData[3] = swp.cy;
+   }
+
+if( WinIsWindow(hb, hNewPHRFrame) )
+   {
+   SWP swpphr;
+   
+   if( !(WinQueryWindowULong(hNewPHRFrame, QWL_STYLE) & WS_MINIMIZED) )
+      {
+      WinQueryWindowPos(hNewPHRFrame, (PSWP) &swpphr);
+      pgmData[10] = swpphr.x;
+      pgmData[11] = swpphr.y;
+      pgmData[12] = swpphr.cx;
+      pgmData[13] = swpphr.cy;
+      // saveNCSet();
+      }
+   }
+
+
+WinQueryPresParam(WinWindowFromID(hwndDlg, 1001), 
+                  PP_BACKGROUNDCOLOR, 0, 0,
+		  sizeof(pgmData[25]), &pgmData[25], QPF_NOINHERIT);
+
+WinQueryPresParam(WinWindowFromID(hwndDlg, 1001), 
+                  PP_FOREGROUNDCOLOR, 0, 0,
+		  sizeof(pgmData[26]), &pgmData[26], QPF_NOINHERIT);
+
+WinQueryPresParam(WinWindowFromID(hwndDlg, 1000), 
+                  PP_BACKGROUNDCOLOR, 0, 0,
+		  sizeof(pgmData[27]), &pgmData[27], QPF_NOINHERIT);
+
+WinQueryPresParam(WinWindowFromID(hwndDlg, 1000), 
+                  PP_FOREGROUNDCOLOR, 0, 0,
+		  sizeof(pgmData[28]), &pgmData[28], QPF_NOINHERIT);
+
+saveNCSet();
+
+STOPME = 1; 
+DosPostEventSem(hev);
+DosCloseEventSem(hev);
+WinEnableWindow(WinWindowFromID(hwndDlg, 1006), FALSE);
+
+
+if( !registered(ncpw) )
+   {
+   USHORT usReturn;
+   HWND hNewFrame;
+   
+   
+   hNewFrame = OpenABOUT(hwndDlg, 0);
+   usReturn = (USHORT) WinProcessDlg(hNewFrame);
+   }
+

@@ -1,0 +1,2 @@
+erase *.obj
+erase *.res

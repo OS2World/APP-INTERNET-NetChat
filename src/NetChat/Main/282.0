@@ -1,0 +1,12 @@
+/* Menu events - ~Abort file transfer */
+
+ABORTME = TRUE;
+FTPINPROGRESS = FALSE;
+STILLWAITING = FALSE;
+_beginthread(sendOneMSG, NULL, BSTACK, (PVOID)12);
+soclose(ftpnsock);
+if( soclose(ftpsock) == 0 )
+   {
+   makeTBar(); 
+   WinSetDlgItemText(hwndMainF, FID_TITLEBAR, tbarmsg); 
+   }

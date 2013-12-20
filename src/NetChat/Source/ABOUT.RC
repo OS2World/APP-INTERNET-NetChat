@@ -1,0 +1,81 @@
+#include "ABOUT.RCH"
+
+DLGTEMPLATE ID_ABOUTFORM PRELOAD MOVEABLE
+BEGIN
+  DIALOG    "About NetChat for OS/2", ID_ABOUTFORM,
+            0,0,253,164,
+            0,  FCF_NOBYTEALIGN | FCF_BORDER | FCF_TITLEBAR | FCF_SYSMENU | FCF_ICON 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0x0
+            PRESPARAMS PP_BACKGROUNDCOLOR,0xcccccc
+  BEGIN
+    CONTROL "", 1000,
+            0,144,248,16,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000501 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0xff
+            PRESPARAMS PP_FONTNAMESIZE,"24.Tms Rmn Bold Italic"
+    CONTROL "Copyright (c) 1997 by Gary L. Robinson", 1001,
+            0,134,248,10,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000501 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0x8000
+    CONTROL "~OK", 1002,
+            102,6,40,14,
+            WC_BUTTON, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | WS_TABSTOP | 0x00000800 
+    CONTROL "NetChat is a 32bit Shareware program for OS/2 Warp 3.x or 4.x.  Feel free to try it out before you register!  Only $25.00.  1 license includes NetChat (OS/2 and Win95 versions) and MailRun.", 1003,
+            128,70,118,58,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00006101 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0x0
+            PRESPARAMS PP_FONTNAMESIZE,"10.Helv"
+    CONTROL "Gary L. Robinson", 1004,
+            7,117,76,8,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000001 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0xff
+    CONTROL "P.O. Box 359", 1005,
+            7,109,76,8,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000001 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0xff
+    CONTROL "Christiansburg, OH 45389", 1006,
+            7,101,110,8,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000001 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0xff
+    CONTROL "grobin@iname.com  or  grobin@coax.net", 1007,
+            7,81,96,18,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00006001 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0xff
+    CONTROL "OS/2 utility page :", 1008,
+            8,64,78,8,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000001 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0x0
+    CONTROL "NetChat support :", 1009,
+            8,46,76,8,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000001 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0xff
+    CONTROL "http://cud.cow-net.com/badams/index.htm", 1010,
+            26,38,190,8,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000001 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0xff
+    CONTROL "http://www.coax.net/people/grobin", 1011,
+            26,56,190,8,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000001 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0x0
+    CONTROL "", 1012,
+            123,69,127,65,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000002 
+    CONTROL "", 1013,
+            3,76,118,58,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000002 
+    CONTROL "NOW at BMT Micro! --> http://www.bmtmicro.com", 1014,
+            6,26,242,8,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000501 
+            PRESPARAMS PP_FOREGROUNDCOLOR,0xffffff
+            PRESPARAMS PP_BACKGROUNDCOLOR,0xff
+    CONTROL "", 1015,
+            3,24,248,16,
+            WC_STATIC, WS_VISIBLE | WS_PARENTCLIP | WS_SYNCPAINT | 0x00000002 
+            PRESPARAMS PP_BACKGROUNDCOLOR,0xff
+  END
+END
+
+HELPSUBTABLE ID_ABOUTFORM
+BEGIN
+END
+ICON ID_ABOUTFORM "F:\\NCHATTCP\\NETCHAT\\netchat.ico"

@@ -1,0 +1,83 @@
+/* Form events - Opened */
+
+// CHAR ipaddr[260];
+CHAR comboaddr[260];
+INT vh;
+ULONG fgndcolor;
+CHAR bstatus[20];
+
+
+WinQueryDlgItemText(hwndMainDlg, 1002, sizeof(bstatus), bstatus);
+if( strcmp(bstatus, "Listen OFF") == 0 )
+   {
+   LISTENWASOFF = TRUE;
+   }
+else   
+   LISTENWASOFF = FALSE;
+   
+if( pgmData[33] == 1 )
+   WinCheckButton(hwndDlg, 1007, 1);
+   
+fgndcolor = CLR_DARKBLUE;   
+WinSetPresParam(WinWindowFromID(hwndDlg, 1003), 
+                PP_FOREGROUNDCOLORINDEX,
+                sizeof(ULONG),     
+                &fgndcolor);     
+
+WinSetPresParam(WinWindowFromID(hwndDlg, 1004), 
+                PP_FOREGROUNDCOLORINDEX,
+                sizeof(ULONG),     
+                &fgndcolor);     
+
+if( loadLogList(hwndDlg) == -1 )
+   {
+   msgBox(hwndDlg, "Attention!", "No log file found.");
+   WinSendMsg(hwndDlg, WM_CLOSE, 0, 0);
+   }
+else
+   {
+   INT slen, j;
+   
+   j = 0;
+   do
+      {
+      slen = strlen(logdat[j].INDATE);
+      if( slen > 0 )
+         j++;
+      }
+   while( slen > 0 );
+      
+   // debugMsgInt(j, "j");
+   
+   for( vh=0;vh<j;vh++ )
+      {
+      WinSendDlgItemMsg(hwndDlg, 1000,
+                        LM_INSERTITEM,
+                        MPFROMSHORT(LIT_END),
+                        MPFROMP(logdat[vh].INFROM));  
+
+      }
+
+   
+   WinSendDlgItemMsg(hwndDlg, 1000,
+                     LM_SELECTITEM,
+                     MPFROMLONG(0),   
+                     MPFROMLONG(TRUE));
+
+   strcpy(logpaddr, logdat[0].INSUBJECT+strlen(cphrase)); 
+   strcpy(comboaddr, "IP : ");
+   strcat(comboaddr, logpaddr);
+   strcat(comboaddr, "   Ports : ");
+   strcat(comboaddr, logdat[0].INPORTS);
+   WinSetDlgItemText(hwndDlg, 1003, comboaddr); 
+   // WinSetDlgItemText(hwndDlg, 1003, ipaddr); 
+   WinSetDlgItemText(hwndDlg, 1004, logdat[0].INDATE); 
+   // WinSetDlgItemText(hwndDlg, 1008, logdat[0].INNOTE); 
+
+   /* if( LISTENWASOFF )
+      {
+      WinSendMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(1002,2345), 0);
+      } */
+   }   
+
+

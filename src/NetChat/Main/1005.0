@@ -1,0 +1,8 @@
+/* Event Clicked/selected - ~Paste ID_PASTECB */
+
+WinSendDlgItemMsg(hwndDlg, 1001,
+                  MLM_PASTE ,
+                  0, 0);
+
+// WinSetFocus(HWND_DESKTOP,WinWindowFromID(hwndDlg, 1001));
+

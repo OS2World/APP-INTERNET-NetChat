@@ -1,0 +1,44 @@
+/* Form events - Opened */
+
+
+
+WinEnableWindow(hwndDlg, FALSE);
+
+zeroNCData();
+if( !loadNCLBox(hwndDlg, ncDataFile) )
+   zeroNCData();
+
+WinEnableWindow(hwndDlg, TRUE);
+
+/*
+WinSendDlgItemMsg(hwndDlg, 1001, MLM_FORMAT,
+		  MPFROMSHORT (MLFIE_WINFMT), (MPARAM) 0L);
+*/
+WinSendDlgItemMsg(hwndDlg, 1001,
+                  MLM_SETTEXTLIMIT,
+                  MPFROMLONG(350),  0);
+
+
+
+
+if( pHAILLISTFormInfo->mode == 0 )
+   {
+   WinSetWindowText(WinWindowFromID(hwndFrame, FID_TITLEBAR), "Double left click to send.  Right click for menu.");
+   }
+
+if( pHAILLISTFormInfo->mode == 1 )
+   {
+   WinSetWindowText(WinWindowFromID(hwndFrame, FID_TITLEBAR), "Double left click to edit.  Right click for menu.");
+   }
+
+hwndMLBPopup = WinLoadMenu(WinWindowFromID(hwndDlg, 1000),
+                           0, ID_NCMAIN);
+
+
+moldWinProc = WinSubclassWindow(WinWindowFromID(hwndDlg, 1000), NewListProc);
+WinSetWindowPtr(WinWindowFromID(hwndDlg, 1000), 0, (PVOID) moldWinProc);
+
+oldNoteProc = WinSubclassWindow(WinWindowFromID(hwndDlg, 1001), newNoteProc);
+WinSetWindowPtr(WinWindowFromID(hwndDlg, 1001), 0, (PVOID) oldNoteProc);
+
+

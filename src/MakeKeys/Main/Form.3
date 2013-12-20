@@ -1,0 +1,7 @@
+/* Form events - Destroyed */
+
+SWP swp;
+WinQueryWindowPos(hwndFrame, (PSWP) &swp);
+pgmData[0] = swp.x;
+pgmData[1] = swp.y;
+PrfWriteProfileData(hini, "makekeys", "WINPOS", &pgmData, sizeof(pgmData));

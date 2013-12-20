@@ -1,0 +1,195 @@
+/* Event ~Save  1006, Clicked/selected */
+
+
+WinSendDlgItemMsg(hwndDlg, 1000,
+                  SPBM_QUERYVALUE,
+                  MPFROMP(&pgmData[6]),  
+                  MPFROM2SHORT(0,SPBQ_ALWAYSUPDATE));
+
+
+pgmData[7] = 2;
+
+WinQueryDlgItemText(hwndDlg, 1008, sizeof(DEFDLDIR), DEFDLDIR);
+WinQueryDlgItemText(hwndDlg, 1009, sizeof(DEFULDIR), DEFULDIR);
+
+WinQueryDlgItemShort(hwndDlg, 1026, (SHORT *)&pgmData[35], FALSE);
+WinQueryDlgItemShort(hwndDlg, 1027, (SHORT *)&pgmData[36], FALSE);
+WinQueryDlgItemShort(hwndDlg, 1028, (SHORT *)&pgmData[37], FALSE);
+
+if( WinQueryButtonCheckstate(hwndDlg,1005) )
+   pgmData[33] = 1;
+else
+   pgmData[33] = 0;   
+
+if( WinQueryButtonCheckstate(hwndDlg,1012) )
+   pgmData[9] = 1;
+else
+   pgmData[9] = 0;   
+
+if( WinQueryButtonCheckstate(hwndDlg,1013) )
+   {
+   pgmData[14] = 1;
+   }
+else   
+   {
+   pgmData[14] = 0;
+   }
+
+if( WinQueryButtonCheckstate(hwndDlg,1014) )
+   {
+   pgmData[15] = 1;
+   }
+else   
+   {
+   pgmData[15] = 0;
+   }
+
+if( WinQueryButtonCheckstate(hwndDlg,1015) )
+   {
+   pgmData[16] = 1;
+   }
+else   
+   {
+   pgmData[16] = 0;
+   }
+
+if( WinQueryButtonCheckstate(hwndDlg,1016) )
+   {
+   pgmData[17] = 1;
+   }
+else   
+   {
+   pgmData[17] = 0;
+   }
+
+if( WinQueryButtonCheckstate(hwndDlg,1017) )
+   {
+   pgmData[18] = 1;
+   }
+else   
+   {
+   pgmData[18] = 0;
+   }
+
+if( WinQueryButtonCheckstate(hwndDlg,1018) )
+   {
+   pgmData[19] = 1;
+   }
+else   
+   {
+   pgmData[19] = 0;
+   }
+
+if( WinQueryButtonCheckstate(hwndDlg,1019) )
+   {
+   pgmData[20] = 1;
+   }
+else   
+   {
+   pgmData[20] = 0;
+   }
+
+if( WinQueryButtonCheckstate(hwndDlg,1020) )
+   {
+   pgmData[21] = 1;
+   }
+else   
+   {
+   pgmData[21] = 0;
+   }
+
+if( WinQueryButtonCheckstate(hwndDlg,1021) )
+   {
+   pgmData[22] = 1;
+   }
+else   
+   {
+   pgmData[22] = 0;
+   }
+
+if( WinQueryButtonCheckstate(hwndDlg,1022) )
+   {
+   pgmData[23] = 1;
+   }
+else   
+   {
+   pgmData[23] = 0;
+   }
+
+if( WinQueryButtonCheckstate(hwndDlg,1023) )
+   {
+   pgmData[24] = 1;
+   }
+else   
+   {
+   pgmData[24] = 0;
+   }
+
+
+if( WinQueryButtonCheckstate(hwndDlg,1024) )
+   {
+   pgmData[29] = 1;
+   }
+else   
+   {
+   pgmData[29] = 0;
+   }
+
+
+if( WinQueryButtonCheckstate(hwndDlg,1025) )
+   {
+   pgmData[30] = 1;
+   }
+else   
+   {
+   pgmData[30] = 0;
+   }
+
+
+if( WinQueryButtonCheckstate(hwndDlg,1002) )
+   {
+   pgmData[31] = 1;
+   }
+else   
+   {
+   pgmData[31] = 0;
+   }
+
+
+if( WinQueryButtonCheckstate(hwndDlg,1004) )
+   {
+   pgmData[32] = 1;
+   }
+else   
+   {
+   pgmData[32] = 0;
+   }
+
+
+if( WinQueryButtonCheckstate(hwndDlg,1033) )
+   {
+   pgmData[39] = 1;
+   }
+else   
+   {
+   pgmData[39] = 0;
+   }
+
+
+if( WinQueryButtonCheckstate(hwndDlg,1034) )
+   {
+   pgmData[40] = 1;
+   }
+else   
+   {
+   pgmData[40] = 0;
+   }
+
+
+saveNCSet();
+
+makeTBar();
+WinSetWindowText(WinWindowFromID(hwndMainF, FID_TITLEBAR), tbarmsg);
+// bugem(hwndDlg);
+
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

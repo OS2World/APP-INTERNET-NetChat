@@ -1,0 +1,69 @@
+/* Form events - Opened */
+
+CHAR comboaddr[260];
+INT vh;
+ULONG fgndcolor;
+CHAR bstatus[20];
+
+
+
+fgndcolor = CLR_DARKBLUE;   
+WinSetPresParam(WinWindowFromID(hwndDlg, 1003), 
+                PP_FOREGROUNDCOLORINDEX,
+                sizeof(ULONG),     
+                &fgndcolor);     
+
+WinSetPresParam(WinWindowFromID(hwndDlg, 1004), 
+                PP_FOREGROUNDCOLORINDEX,
+                sizeof(ULONG),     
+                &fgndcolor);     
+
+for( vh=0;vh<pHAILNOTEFormInfo->index;vh++ )
+   {
+   WinSendDlgItemMsg(hwndDlg, 1000,
+                     LM_INSERTITEM,
+                     // MPFROMSHORT(LIT_SORTASCENDING),
+                     MPFROMSHORT(LIT_END),
+                     MPFROMP(pvdat[vh].INFROM));  
+
+   }
+
+
+if( pgmData[33] == 1 )
+   WinCheckButton(hwndDlg, 1007, 1);
+   
+   
+WinSendDlgItemMsg(hwndDlg, 1000,
+                  LM_SELECTITEM,
+                  MPFROMLONG(0),   
+                  MPFROMLONG(TRUE));
+
+strcpy(hnipaddr, pvdat[0].INSUBJECT+strlen(cphrase)); 
+strcpy(comboaddr, "IP : ");
+strcat(comboaddr, hnipaddr);
+strcat(comboaddr, "   Ports : ");
+strcat(comboaddr, pvdat[0].INPORTS);
+WinSetDlgItemText(hwndDlg, 1003, comboaddr); 
+// WinSetDlgItemText(hwndDlg, 1003, hnipaddr); 
+WinSetDlgItemText(hwndDlg, 1004, pvdat[0].INDATE); 
+WinSetDlgItemText(hwndDlg, 1005, pvdat[0].REPTO); 
+WinSetDlgItemText(hwndDlg, 1008, pvdat[0].INNOTE); 
+
+WinQueryDlgItemText(hwndMainDlg, 1002, sizeof(bstatus), bstatus);
+if( strcmp(bstatus, "Listen OFF") == 0 )
+   {
+   LISTENWASOFF = TRUE;
+   // WinSendMsg(hwndMainF, WM_COMMAND, MPFROM2SHORT(1002,2345), 0);
+   }
+else   
+   LISTENWASOFF = FALSE;
+   
+if( pgmData[21] )
+   {
+   DosBeep(900, 50);
+   DosBeep(1200, 50);
+   DosBeep(1500, 50);
+   DosBeep(900, 50);
+   DosBeep(1200, 50);
+   DosBeep(1500, 50);
+   }

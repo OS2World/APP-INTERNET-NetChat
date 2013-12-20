@@ -1,0 +1,25 @@
+Stack Allocation = 32768 bytes
+
+ nchatreg.exe
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000950CH CODE32                 CODE 32-bit
+ 0001:0000950C 000000030H _MSGSEG32              CODE 32-bit
+ 0002:00000000 000000000H CONST32_RO             CONST 32-bit
+ 0002:00000000 0000007F0H DATA32                 DATA 32-bit
+ 0002:000007F0 000000000H CTOR_DTOR1             DATA 32-bit
+ 0002:000007F0 000000000H CTOR_DTOR2             DATA 32-bit
+ 0002:000007F0 000000000H CTOR_DTOR3             DATA 32-bit
+ 0002:000007F0 000000160H CONST32                CONST 32-bit
+ 0002:00000950 00000000CH EDC1                   EDC_CLASS 32-bit
+ 0002:0000095C 000000300H EDC2                   EDC_CLASS 32-bit
+ 0002:00000C5C 000000004H EDC3                   EDC_CLASS 32-bit
+ 0002:00000C60 000000000H BSS32                  BSS 32-bit
+ 0002:00000C60 000000208H c_common               BSS 32-bit
+ 0002:00000E70 000008000H STACK32                STACK 32-bit
+
+ Origin   Group
+ 0000:0   FLAT
+ 0002:0   DGROUP
+
+Program entry point at 0001:00002BBC

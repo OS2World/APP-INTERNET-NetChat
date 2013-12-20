@@ -1,0 +1,163 @@
+/* Form events - Opened */
+
+ULONG bkgndcolor;
+
+
+ATTEMPTINGCONNECT = FALSE;
+NOWCONNECTED1 = FALSE;
+NOWCONNECTED2 = FALSE;
+
+queryNCSet();
+
+hinit.cb = sizeof( HELPINIT);
+hinit.ulReturnCode = 0L;
+hinit.pszTutorialName = NULL;
+hinit.phtHelpTable = (PHELPTABLE)MAKELONG(NULLHANDLE, 0xFFFF);
+hinit.hmodHelpTableModule = (HMODULE) NULL;
+hinit.hmodAccelActionBarModule = (HMODULE)NULL;
+hinit.idAccelTable = 0;
+hinit.idActionBar = 0;
+hinit.pszHelpWindowTitle = "NetChat for OS/2";
+hinit.fShowPanelId = CMIC_HIDE_PANEL_ID;
+hinit.pszHelpLibraryName = "netchat.hlp";
+
+if( (hwndHelp = WinCreateHelpInstance(WinQueryAnchorBlock(hwndDlg), &hinit)) != NULLHANDLE)
+   {
+   if(hinit.ulReturnCode)
+      {
+      WinDestroyHelpInstance( hwndHelp);
+      }
+   }
+
+      
+if (hwndHelp)
+   WinAssociateHelpInstance (hwndHelp, hwndDlg);
+      
+      
+if( readKey() == 1 )
+   KEYISTHERE = TRUE;
+else
+   KEYISTHERE = FALSE;   
+
+makeTBar();
+
+pgmData[7] = 2;
+
+if( pgmData[32] )
+   WinSetWindowPos(hwndFrame, HWND_TOP, pgmData[0], pgmData[1], pgmData[2], pgmData[3], SWP_MOVE | SWP_SIZE | SWP_MINIMIZE);
+else
+   WinSetWindowPos(hwndFrame, HWND_TOP, pgmData[0], pgmData[1], pgmData[2], pgmData[3], SWP_MOVE | SWP_SIZE );
+
+STARTMIN = 0;
+
+if( pgmData[14] )
+   {
+   if( pgmData[32] )
+      {
+      STARTMIN = 1;
+      hNewPHRFrame = OpenPHRLIST(HWND_DESKTOP, 0);
+      }
+   else
+      {   
+      STARTMIN = 0;
+      hNewPHRFrame = OpenPHRLIST(HWND_DESKTOP, 0);
+      }
+   }
+
+WinSetPresParam(WinWindowFromID(hwndDlg, 1001),
+		PP_FONTNAMESIZE,
+		sizeof(PPAttrValue1)+1,
+		&PPAttrValue1);
+
+WinSetPresParam(WinWindowFromID(hwndDlg, 1000),
+		PP_FONTNAMESIZE,
+		sizeof(PPAttrValue2)+1,
+		&PPAttrValue2);
+
+if( pgmData[25] >= 0 )
+   {
+   WinSetPresParam(WinWindowFromID(hwndDlg, 1001),
+                   PP_BACKGROUNDCOLOR,
+                   sizeof(ULONG),     
+                   &pgmData[25]);
+   }
+else
+   {
+   bkgndcolor = CLR_WHITE;   
+   WinSetPresParam(WinWindowFromID(hwndDlg, 1001), 
+                   PP_BACKGROUNDCOLORINDEX,
+                   sizeof(ULONG),     
+                   &bkgndcolor);     
+   }   
+   
+if( pgmData[26] >= 0 )
+   {
+   WinSetPresParam(WinWindowFromID(hwndDlg, 1001),
+                   PP_FOREGROUNDCOLOR,
+                   sizeof(ULONG),     
+                   &pgmData[26]);
+   }
+   
+if( pgmData[27] >= 0 )
+   {
+   WinSetPresParam(WinWindowFromID(hwndDlg, 1000),
+                   PP_BACKGROUNDCOLOR,
+                   sizeof(ULONG),     
+                   &pgmData[27]);
+   }
+else
+   {
+   bkgndcolor = CLR_CYAN;   
+   WinSetPresParam(WinWindowFromID(hwndDlg, 1000), 
+                   PP_BACKGROUNDCOLORINDEX,
+                   sizeof(ULONG),     
+                   &bkgndcolor);     
+   }   
+   
+if( pgmData[28] >= 0 )
+   {
+   WinSetPresParam(WinWindowFromID(hwndDlg, 1000),
+                   PP_FOREGROUNDCOLOR,
+                   sizeof(ULONG),     
+                   &pgmData[28]);
+   }
+   
+WinSendDlgItemMsg(hwndDlg, 1000,
+                  MLM_SETTEXTLIMIT,
+                  MPFROMLONG(-1), 0);
+
+WinSendDlgItemMsg(hwndDlg, 1000,
+                  MLM_SETTEXTLIMIT,
+                  MPFROMLONG(MSGSIZE), 0);
+
+
+WinSendMsg(WinWindowFromID(hwndDlg, 1001), MLM_SETTEXTLIMIT, MPFROMLONG(MSGSIZE-96), (MPARAM) 0L);
+
+hwndMLENEW1Popup = WinLoadMenu(WinWindowFromID(hwndDlg, 1000),
+                               0, ID_MAIN1);
+                           
+hwndMLENEW2Popup = WinLoadMenu(WinWindowFromID(hwndDlg, 1001),
+                               0, ID_MAIN2);
+                           
+oldmle1WinProc = WinSubclassWindow(WinWindowFromID(hwndDlg, 1000), newMLE1Proc);
+WinSetWindowPtr(WinWindowFromID(hwndDlg, 1000), 0, (PVOID) oldmle1WinProc);
+
+oldmle2WinProc = WinSubclassWindow(WinWindowFromID(hwndDlg, 1001), newMLE2Proc);
+WinSetWindowPtr(WinWindowFromID(hwndDlg, 1001), 0, (PVOID) oldmle2WinProc);
+
+WinSetDlgItemText(hwndDlg, 1002, "Listen OFF");
+
+hwndMainF = hwndFrame;
+hwndMainDlg = hwndDlg;
+
+WinSetWindowText(WinWindowFromID(hwndFrame, FID_TITLEBAR), tbarmsg);
+
+if( argL )
+   WinSendMsg(hwndMainDlg, WM_COMMAND, MPFROM2SHORT(1002, 0), 0);
+
+if( argM )
+   WinSendMsg(hwndMainDlg, WM_COMMAND, MPFROM2SHORT(1006, 0), 0);
+
+if( argMC )
+   WinSendMsg(hwndMainDlg, WM_COMMAND, MPFROM2SHORT(263, 0), 0);
+   

@@ -1,0 +1,8 @@
+/* Menu events - Current I~P address */
+
+USHORT usReturn;
+HWND hNewFrame;
+
+      
+hNewFrame = OpenSTATS(hwndMainDlg, 0);
+usReturn = (USHORT) WinProcessDlg(hNewFrame);

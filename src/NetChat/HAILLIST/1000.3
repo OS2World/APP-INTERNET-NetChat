@@ -1,0 +1,49 @@
+/* Event Mouse button 1 double click - List Box  1000 */
+
+INT sel;
+INT handle;
+CHAR bstatus[20];
+
+
+WinQueryDlgItemText(hwndMainDlg, 1002, sizeof(bstatus), bstatus);
+WinQueryDlgItemText(hwndDlg, 1001, sizeof(NCHNote), NCHNote);
+
+sel = (LONG)WinSendDlgItemMsg(hwndDlg, 1000,
+                              LM_QUERYSELECTION,
+                              MPFROMLONG(LIT_FIRST),
+                              MPFROMLONG(0));
+
+handle = (LONG)WinSendMsg(WinWindowFromID(hwndDlg, 1000), LM_QUERYITEMHANDLE,
+                    MPFROMSHORT(sel), 0); 
+
+
+if( pHAILLISTFormInfo->mode == 0 )
+   {
+   haildat.hwndDlg = WinQueryWindow(hwndFrame, QW_OWNER);
+   haildat.interval = handle;
+   _beginthread(sendEMail, NULL, BSTACK, (PVOID)&haildat);
+   
+   if( strcmp(bstatus, "Listen OFF") == 0 )
+      {
+      if( pgmData[7] > 1 )
+         WinPostMsg(pHAILLISTFormInfo->hwnd, WM_COMMAND, MPFROM2SHORT(1002, 0), 0);
+      }
+         
+   WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);
+   }
+
+if( pHAILLISTFormInfo->mode == 1 )
+   {
+   // DosBeep(100, 100);
+   USHORT usReturn;
+   HWND hNewFrame;
+   // PEDITRECFORMINFO pEditrecFormInfo = malloc(sizeof(EDITRECFORMINFO));
+      
+   editRecord(ncDataFile, hwndDlg);
+   // pEditrecFormInfo->hwnd = hwndDlg;
+   // hNewFrame = OpenEDITREC(hwndDlg, pEditrecFormInfo);
+   hNewFrame = OpenEDITREC(hwndDlg, 0);
+   usReturn = (USHORT) WinProcessDlg(hNewFrame);
+   }      
+   
+

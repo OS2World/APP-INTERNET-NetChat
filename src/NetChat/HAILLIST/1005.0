@@ -1,0 +1,4 @@
+/* Event Clicked/selected - Hail me on ports ...  1005 */
+
+WinSetDlgItemText(hwndDlg, 1001, "I will listen for you to connect to this hail for about  minutes.");
+

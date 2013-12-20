@@ -1,0 +1,12 @@
+/* Event Clicked/selected - ~Help  1007 */
+
+USHORT usReturn;
+HWND hNewFrame;
+PHAILLISTFORMINFO pHaillistFormInfo = malloc(sizeof(HAILLISTFORMINFO));
+
+pHaillistFormInfo->hwnd = hwndDlg;
+pHaillistFormInfo->mode = 0;
+hNewFrame = OpenHAILLIST(hwndDlg, pHaillistFormInfo);
+usReturn = (USHORT) WinProcessDlg(hNewFrame);
+
+

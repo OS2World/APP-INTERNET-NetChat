@@ -1,0 +1,48 @@
+/* XTRARC.RC */
+
+#include "f:\nchattcp\netchat\subprocs\xtrarc.h"
+
+
+MENU ID_NCMAIN
+BEGIN
+    MENUITEM "~Add record", ID_NCADDREC
+    MENUITEM "~Edit record", ID_NCEDITREC
+    MENUITEM "~Delete record", ID_NCDELETEREC
+END
+
+
+MENU ID_PHRMAIN
+BEGIN
+    MENUITEM "~Add record", ID_PHRADDREC
+    MENUITEM "~Edit record", ID_PHREDITREC
+    MENUITEM "~Delete record", ID_PHRDELETEREC
+END
+
+
+MENU ID_MAIN1
+BEGIN
+    MENUITEM "Wo~rdwrap", ID_MAIN1WORDWRAP
+    MENUITEM "C~opy", ID_MAIN1COPY
+    MENUITEM "~Clear", ID_MAIN1CLEAR
+    MENUITEM "~Phrases", ID_MAIN1PHRASES
+END
+
+
+MENU ID_MAIN2
+BEGIN
+    MENUITEM "~Send file", ID_MAIN2SENDFILE
+    MENUITEM "~Abort file transfer", ID_MAIN2ABORTTRANSFER
+    MENUITEM "~Disconnect", ID_MAIN2DISCONNECT
+    MENUITEM "~Listen", ID_MAIN2LISTEN
+    MENUITEM "~Manual Connect", ID_MAIN2CONNECT
+    MENUITEM "~Wake up", ID_MAIN2WAKEUP
+    MENUITEM "~Remote party info ...", ID_RPINFO
+    MENUITEM "D~ownload dir", ID_MAIN2UPLOADDIR
+    MENUITEM "~Upload dir", ID_MAIN2DOWNLOADDIR
+    MENUITEM "Wo~rdwrap", ID_MAIN2WORDWRAP
+    MENUITEM "~Paste", ID_MAIN2PASTE
+    MENUITEM "~Clear", ID_MAIN2CLEAR
+    MENUITEM "Curent I~P address", ID_MAIN2GETCURIP
+END
+
+

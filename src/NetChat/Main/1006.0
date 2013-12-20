@@ -1,0 +1,58 @@
+/* Event ~Word Wrap  1006, Clicked/selected */
+
+CHAR btext[30];
+static CBD maildat;
+
+WinQueryDlgItemText(hwndDlg, 1006, sizeof(btext), btext);
+
+if( strcmp(btext, "Monitor OFF") == 0 )
+   {
+   DosCloseEventSem(hev);
+   maildat.hwndDlg = hwndDlg;
+   WinSetDlgItemText(hwndDlg, 1006, "Monitor ON");
+   _beginthread(chkForMail, NULL, BSTACK, (PVOID)&maildat);
+   }
+else
+   {
+   if( !registered(ncpw) )
+      {
+      USHORT usReturn;
+      HWND hNewFrame;
+   
+   
+      hNewFrame = OpenABOUT(hwndMainDlg, 0);
+      usReturn = (USHORT) WinProcessDlg(hNewFrame);
+      }
+   STOPME = 1; 
+   DosPostEventSem(hev);
+   DosCloseEventSem(hev);
+   WinEnableWindow(WinWindowFromID(hwndDlg, 1006), FALSE);
+   WinSetDlgItemText(hwndDlg, 1006, "Monitor OFF");
+   }
+
+
+
+
+/*
+if( (ULONG)WinSendDlgItemMsg(hwndDlg, 1000, MLM_QUERYWRAP, 0, 0) )
+   {
+   WinSendDlgItemMsg(hwndDlg, 1000,
+                     MLM_SETWRAP,
+                     MPFROMLONG(FALSE), 0);
+   WinSendDlgItemMsg(hwndDlg, 1001,
+                     MLM_SETWRAP,
+                     MPFROMLONG(FALSE), 0);
+   }
+else                        
+   {
+   WinSendDlgItemMsg(hwndDlg, 1000,
+                     MLM_SETWRAP,
+                     MPFROMLONG(TRUE), 0);
+   WinSendDlgItemMsg(hwndDlg, 1001,
+                     MLM_SETWRAP,
+                     MPFROMLONG(TRUE), 0);
+   }
+
+*/
+
+

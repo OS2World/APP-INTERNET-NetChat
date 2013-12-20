@@ -1,0 +1,14 @@
+/* Event Clicked/selected - ~Save  1001 */
+
+bugem(hwndDlg);
+
+if( WinQueryDlgItemTextLength(hwndDlg, 1000) <= 0 )
+   return(0);
+
+WinQueryDlgItemText(hwndDlg, 1000, sizeof(PHR[PHRTMP.index].phrase), PHR[PHRTMP.index].phrase);
+
+savePHRData(PHRDATAFILE);
+
+loadPHRLBox(pEDITPHRFormInfo->hwnd, PHRDATAFILE);
+
+WinPostMsg(hwndDlg, WM_CLOSE, 0, 0);

@@ -1,0 +1,9 @@
+/* Menu events - ~Upload directory */
+
+CHAR tmpdir[260];
+
+strcpy(tmpdir, DEFULDIR);
+if( tmpdir[strlen(tmpdir)-1] == '\\' )
+   tmpdir[strlen(tmpdir)-1] = '\0';
+   
+openFolder(tmpdir);   
